@@ -19,7 +19,7 @@
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-7.  П[ростенькая инъекция значений в пакетик счета игрушечки ](https://www.youtube.com/watch?v=o2vsjTyX2Qc)
+**7.  П**[ростенькая инъекция значений в пакетик счета игрушечки ](https://www.youtube.com/watch?v=o2vsjTyX2Qc)
 
 ```text
 var url = window.location.pathname,
@@ -48,7 +48,7 @@ var url = window.location.pathname,
         gameeUI.sendScoreData(sData)
 ```
 
-8. **Слушать сдрки** [**http://websdr.org/**](http://websdr.org/)\*\*\*\*
+**8. Слушать сдрки** [**http://websdr.org/**](http://websdr.org/)\*\*\*\*
 
  
 
