@@ -50,7 +50,13 @@ var url = window.location.pathname,
 
 **8. Слушать сдрки** [**http://websdr.org/**](http://websdr.org/)\*\*\*\*
 
- 
+**9.**[ **Minnesota Experimental City: the 1960s town based on a comic strip**](https://www.theguardian.com/cities/2018/nov/05/minnesota-experimental-city-the-1960s-town-based-on-a-comic-strip)\*\*\*\*
+
+\*\*\*\*[**10. Конвертер герберов**](http://www.bronzware.com/GerbMagic/index.htm)
+
+ **11.** 
+
+![&#x41E;&#x434;&#x438;&#x43D; &#x438;&#x437; &#x43F;&#x435;&#x440;&#x432;&#x44B;&#x445; &#x434;&#x440;&#x435;&#x432;&#x43D;&#x438;&#x445; &#x442;&#x435;&#x43B;&#x435;&#x444;&#x43E;&#x43D;&#x43E;&#x432;](../.gitbook/assets/image%20%2824%29.png)
 
 
 
