@@ -11,6 +11,7 @@
 * [2019](2019/README.md)
   * [Видео доклады](2019/video-2019.md)
   * [Статьи](2019/stati-2019/README.md)
+    * [Internet of Things and Embedded Systems](2019/stati-2019/internet-of-things-and-embedded-systems.md)
     * [DC7495 Wireless Quest](2019/stati-2019/dc7495-wireless-quest.md)
     * [Пошаговое руководство к поиску и эксплуатации Android-устройств](2019/stati-2019/poshagovoe-rukovodstvo-k-poisku-i-ekspluatacii-android-ustroistv-libo-otladochnykh-khostov-ispolzuyu.md)
     * [Социальная инженерия. Угрозы и защита: литературный обзор](2019/stati-2019/socialnaya-inzheneriya.-ugrozy-i-zashita-literaturnyi-obzor.md)
