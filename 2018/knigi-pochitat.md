@@ -12,4 +12,5 @@
 10. **TCP/IP Tutorial and Technical Overview** IBM
 11. Andrew "bunnie" Huang \| **The Hardware Hacker**
 12.  **СИСТЕМЫ СВЯЗИ С ПОДВИЖНЫМИ ОБЪЕКТАМИ** Под редакцией Г.В. Горелова
+13. \*\*\*\*[**Руководство новичка по цифровой обработке сигналов \(DSP\)** \| Ресурсы \| Аналоговые устройства](https://www.analog.com/ru/design-center/landing-pages/001/beginners-guide-to-dsp.html)
 
