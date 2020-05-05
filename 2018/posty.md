@@ -19,7 +19,36 @@
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
+7.  П[ростенькая инъекция значений в пакетик счета игрушечки ](https://www.youtube.com/watch?v=o2vsjTyX2Qc)
 
+```text
+var url = window.location.pathname,
+            username = gameeUI.user,
+            timestamp = (new Date).getTime(),
+            dataId = $("#dataId").data(),
+            hash = CryptoJS.AES.encrypt(JSON.stringify({
+                score: 7777788,
+                timestamp: timestamp
+            }), dataId.id, {
+                format: CryptoJSAesJson
+            }).toString(),
+            sData = {
+                score: 7777788,
+                url: url,
+                play_time: gameeUI.playTime,
+                hash: hash,
+                username: username,
+                anonymous_id: gameeUI.anonymous_id
+            };
+        if (!isTelegram() && !isKik() && (isFacebook() || FacebookUserData && FacebookUserData.isLoggedIn() && !isViber())) {
+            var fbUserData = FacebookUserData.getUserData();
+            sData["facebook_user_id"] = fbUserData.app_scoped_user_id;
+            sData["user_id"] = fbUserData.user_id
+        }
+        gameeUI.sendScoreData(sData)
+```
+
+8. **Слушать сдрки** [**http://websdr.org/**](http://websdr.org/)\*\*\*\*
 
  
 
