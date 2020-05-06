@@ -11,6 +11,8 @@
   * [Статьи для канала Inside](2020/stati-dlya-kanala-inside/README.md)
     * [Боевой OSINT s01e01 - OSINT & RDP](2020/stati-dlya-kanala-inside/boevoi-osint-s01e01-osint-and-rdp.md)
   * [Домашка по ИБ \(1 полугодие\)](2020/bumazhnaya-ib/README.md)
+    * [Управление информационной безопасностью объектов критической информационной инфраструктуры](2020/bumazhnaya-ib/upravlenie-informacionnoi-bezopasnostyu-obektov-kriticheskoi-informacionnoi-infrastruktury/README.md)
+      * [ГОСТ Р ИСО/МЭК 27008-2014](2020/bumazhnaya-ib/upravlenie-informacionnoi-bezopasnostyu-obektov-kriticheskoi-informacionnoi-infrastruktury/gost-r-iso-mek-27008-2014.md)
     * [Организационно-правовые механизмы обеспечения информационной безопасности](2020/bumazhnaya-ib/organizacionno-pravovye-mekhanizmy-obespecheniya-informacionnoi-bezopasnosti/README.md)
       * [Содержание и основные виды аналитических отчетов в области защиты информации на предприятии.](2020/bumazhnaya-ib/organizacionno-pravovye-mekhanizmy-obespecheniya-informacionnoi-bezopasnosti/soderzhanie-i-osnovnye-vidy-analiticheskikh-otchetov-v-oblasti-zashity-informacii-na-predpriyatii..md)
       * [Основные этапы аналитической работы.](2020/bumazhnaya-ib/organizacionno-pravovye-mekhanizmy-obespecheniya-informacionnoi-bezopasnosti/osnovnye-etapy-analiticheskoi-raboty..md)
