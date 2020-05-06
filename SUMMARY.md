@@ -3,6 +3,7 @@
 * [Добро пожаловать!](README.md)
 * [2020](2020/README.md)
   * [Бумажная ИБ](2020/bumazhnaya-ib/README.md)
+    * [Алгоритмы приближенных вычислений наличия в программах разрушающих программных средств](2020/bumazhnaya-ib/algoritmy-priblizhennykh-vychislenii-nalichiya-v-programmakh-razrushayushikh-programmnykh-sredstv.md)
     * [Классификация межсетевых экранов](2020/bumazhnaya-ib/untitled.md)
     * [Классификация защищенности средств антивирусной защиты информации](2020/bumazhnaya-ib/klassifikaciya-zashishennosti-sredstv-antivirusnoi-zashity-informacii.md)
     * [Политика управления обновлениями и уязвимостями программного обеспечения](2020/bumazhnaya-ib/politika-upravleniya-obnovleniyami-i-uyazvimostyami-programmnogo-obespecheniya.md)
