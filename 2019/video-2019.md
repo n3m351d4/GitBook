@@ -4,7 +4,7 @@
 
 {% embed url="https://www.youtube.com/watch?v=RD3zRxRUSoQ&list=PLCJ\_IxdpiV8NXsyi9IFEPgpcd-DS\_ilfQ&index=2&t=1s" %}
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 
 
