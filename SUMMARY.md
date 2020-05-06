@@ -2,7 +2,8 @@
 
 * [Добро пожаловать!](README.md)
 * [2020](2020/README.md)
-  * [Статьи \(мои\)](2020/stati-moi.md)
+  * [Статьи \(мои\)](2020/stati-moi/README.md)
+    * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](2020/stati-moi/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
   * [Переводы](2020/perevody.md)
   * [Видео доклады](2020/video-2020.md)
   * [Статьи DC7495](2020/stati-dc7495.md)
