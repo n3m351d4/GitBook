@@ -17,6 +17,7 @@
 15. **Traversable Acausal Retrograde Domains**, Ben Tippett, UBCO CCGRRA 201
 16. **Space, the Final Frontier for Cybersecurity?** David Livingstone and Patricia Lewis International Security Department \| September 2016
 17. **Использование космического пространства в военных целях: современное состояние и перспективы развития систем информационно-космического обеспечения и средств вооружения,** Макаренко С. И.
+18. А.А. Демидов **ПРОБЛЕМЫ КОНТРОЛЯ БЕЗОПАСНОСТИ ИНФОРМАЦИИ НА ОБЪЕКТАХ ТЕЛЕКОММУНИКАЦИОННЫХ СИСТЕМ ОРГАНОВ ГОСУДАРСТВЕННОГО УПРАВЛЕНИЯ**
 
 
 
