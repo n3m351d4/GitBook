@@ -12,6 +12,7 @@
     * [Боевой OSINT s01e01 - OSINT & RDP](2020/stati-dlya-kanala-inside/boevoi-osint-s01e01-osint-and-rdp.md)
   * [Домашка по ИБ \(1 полугодие\)](2020/bumazhnaya-ib/README.md)
     * [Организационно-правовые механизмы обеспечения информационной безопасности](2020/bumazhnaya-ib/organizacionno-pravovye-mekhanizmy-obespecheniya-informacionnoi-bezopasnosti/README.md)
+      * [Основные этапы аналитической работы.](2020/bumazhnaya-ib/organizacionno-pravovye-mekhanizmy-obespecheniya-informacionnoi-bezopasnosti/osnovnye-etapy-analiticheskoi-raboty..md)
       * [Функции аналитического подразделения в области защиты информации на предприятии.](2020/bumazhnaya-ib/organizacionno-pravovye-mekhanizmy-obespecheniya-informacionnoi-bezopasnosti/funkcii-analiticheskogo-podrazdeleniya-v-oblasti-zashity-informacii-na-predpriyatii..md)
     * [Аудит ИБ](2020/bumazhnaya-ib/audit-ib/README.md)
       * [Классификация межсетевых экранов](2020/bumazhnaya-ib/audit-ib/untitled.md)
