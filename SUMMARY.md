@@ -2,7 +2,7 @@
 
 * [Добро пожаловать!](README.md)
 * [2020](2020/README.md)
-  * [Бумажная ИБ](2020/bumazhnaya-ib/README.md)
+  * [Домашка по ИБ \(1 полугодие\)](2020/bumazhnaya-ib/README.md)
     * [Аудит ИБ](2020/bumazhnaya-ib/audit-ib/README.md)
       * [Классификация межсетевых экранов](2020/bumazhnaya-ib/audit-ib/untitled.md)
       * [Классификация защищенности средств антивирусной защиты информации](2020/bumazhnaya-ib/audit-ib/klassifikaciya-zashishennosti-sredstv-antivirusnoi-zashity-informacii/README.md)
