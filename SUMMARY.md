@@ -3,6 +3,7 @@
 * [Добро пожаловать!](README.md)
 * [2020](2020/README.md)
   * [Бумажная ИБ](2020/bumazhnaya-ib/README.md)
+    * [Политика управления обновлениями и уязвимостями программного обеспечения](2020/bumazhnaya-ib/politika-upravleniya-obnovleniyami-i-uyazvimostyami-programmnogo-obespecheniya.md)
     * [Политика антивирусной защиты](2020/bumazhnaya-ib/politika-antivirusnoi-zashity.md)
   * [Статьи \(мои\)](2020/stati-moi/README.md)
     * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](2020/stati-moi/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
