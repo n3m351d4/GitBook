@@ -13,12 +13,4 @@
 11. Andrew "bunnie" Huang \| **The Hardware Hacker**
 12.  **СИСТЕМЫ СВЯЗИ С ПОДВИЖНЫМИ ОБЪЕКТАМИ** Под редакцией Г.В. Горелова
 13. \*\*\*\*[**Руководство новичка по цифровой обработке сигналов \(DSP\)** \| Ресурсы \| Аналоговые устройства](https://www.analog.com/ru/design-center/landing-pages/001/beginners-guide-to-dsp.html)
-14. **Нейронаука, Наука о мозге, Введение для студентов**
-15. **Traversable Acausal Retrograde Domains**, Ben Tippett, UBCO CCGRRA 201
-16. **Space, the Final Frontier for Cybersecurity?** David Livingstone and Patricia Lewis International Security Department \| September 2016
-17. **Использование космического пространства в военных целях: современное состояние и перспективы развития систем информационно-космического обеспечения и средств вооружения,** Макаренко С. И.
-18. А.А. Демидов **ПРОБЛЕМЫ КОНТРОЛЯ БЕЗОПАСНОСТИ ИНФОРМАЦИИ НА ОБЪЕКТАХ ТЕЛЕКОММУНИКАЦИОННЫХ СИСТЕМ ОРГАНОВ ГОСУДАРСТВЕННОГО УПРАВЛЕНИЯ**
-19. **Cyber-Psychopathy: Examining the Relationship between Dark E-Personality and Online Misconduct** Andrew D. Nevin
-
-
 
