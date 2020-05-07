@@ -16,5 +16,7 @@
 
 {% embed url="https://dc7495.org/heap-overflow-2/" %}
 
+{% embed url="https://dc7495.org/analysis-of-malicious-ransomware-traffic-using-captipper/" %}
+
 
 
