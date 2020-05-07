@@ -61,3 +61,13 @@ var url = window.location.pathname,
 **12.** [http://rfic.eecs.berkeley.edu/~niknejad/ee142\_fa05lects/pdf/lect1.pdf](http://rfic.eecs.berkeley.edu/~niknejad/ee142_fa05lects/pdf/lect1.pdf)  
 если подставлять цифры 1, 2, 3 и тд в конец, то можно выкачать серию лекций университета Беркли по радиоприемникам...
 
+**13. Магазин SDR**  [http://s.aliexpress.com/Yj6raema](http://s.aliexpress.com/Yj6raema)
+
+**14. USB Killer** [https://easyeda.com/search?wd=USB%20killer](https://easyeda.com/search?wd=USB%20killer)
+
+15. 
+
+![](../.gitbook/assets/image%20%2842%29.png)
+
+\*\*\*\*
+
