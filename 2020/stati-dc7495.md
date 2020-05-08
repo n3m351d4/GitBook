@@ -18,5 +18,7 @@
 
 {% embed url="https://dc7495.org/analysis-of-malicious-ransomware-traffic-using-captipper/" %}
 
+{% embed url="https://dc7495.org/binary-sms-messages-a-good-old-backdoor-in-a-new-way/" %}
+
 
 
