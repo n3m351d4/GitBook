@@ -23,7 +23,7 @@
       * [Классификация защищенности средств антивирусной защиты информации](2020/bumazhnaya-ib/audit-ib/klassifikaciya-zashishennosti-sredstv-antivirusnoi-zashity-informacii.md)
       * [Политика антивирусной защиты](2020/bumazhnaya-ib/audit-ib/politika-antivirusnoi-zashity.md)
       * [Политика управления обновлениями и уязвимостями программного обеспечения](2020/bumazhnaya-ib/audit-ib/politika-upravleniya-obnovleniyami-i-uyazvimostyami-programmnogo-obespecheniya.md)
-      * [Алгоритмы приближенных вычислений наличия в программах разрушающих программных средств](2020/bumazhnaya-ib/audit-ib/algoritmy-priblizhennykh-vychislenii-nalichiya-v-programmakh-razrushayushikh-programmnykh-sredstv.md)
+      * [ПР4 Алгоритмы приближенных вычислений наличия в программах разрушающих программных средств](2020/bumazhnaya-ib/audit-ib/algoritmy-priblizhennykh-vychislenii-nalichiya-v-programmakh-razrushayushikh-programmnykh-sredstv.md)
 * [2019](2019/README.md)
   * [Видео доклады](2019/video-2019.md)
   * [Статьи](2019/stati-2019/README.md)
