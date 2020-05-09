@@ -19,6 +19,7 @@
       * [Основные этапы аналитической работы.](2020/bumazhnaya-ib/organizacionno-pravovye-mekhanizmy-obespecheniya-informacionnoi-bezopasnosti/osnovnye-etapy-analiticheskoi-raboty..md)
       * [Функции аналитического подразделения в области защиты информации на предприятии.](2020/bumazhnaya-ib/organizacionno-pravovye-mekhanizmy-obespecheniya-informacionnoi-bezopasnosti/funkcii-analiticheskogo-podrazdeleniya-v-oblasti-zashity-informacii-na-predpriyatii..md)
     * [Аудит ИБ](2020/bumazhnaya-ib/audit-ib/README.md)
+      * [ПР6 Методология обследования и проектирования защищенных информационных \(автоматизированных\) систем.](2020/bumazhnaya-ib/audit-ib/pr6-metodologiya-obsledovaniya-i-proektirovaniya-zashishennykh-informacionnykh-avtomatizirovannykh-s.md)
       * [Классификация межсетевых экранов](2020/bumazhnaya-ib/audit-ib/untitled.md)
       * [Классификация защищенности средств антивирусной защиты информации](2020/bumazhnaya-ib/audit-ib/klassifikaciya-zashishennosti-sredstv-antivirusnoi-zashity-informacii.md)
       * [Политика антивирусной защиты](2020/bumazhnaya-ib/audit-ib/politika-antivirusnoi-zashity.md)
