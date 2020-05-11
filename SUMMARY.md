@@ -9,6 +9,7 @@
   * [Видео доклады](2020/video-2020.md)
   * [Статьи DC7495](2020/stati-dc7495.md)
   * [Статьи для канала Inside](2020/stati-dlya-kanala-inside/README.md)
+    * [Untitled](2020/stati-dlya-kanala-inside/untitled.md)
     * [Боевой OSINT s01e01 - OSINT & RDP](2020/stati-dlya-kanala-inside/boevoi-osint-s01e01-osint-and-rdp.md)
   * [Домашка по ИБ \(1 полугодие\)](2020/bumazhnaya-ib/README.md)
     * [Управление информационной безопасностью объектов критической информационной инфраструктуры](2020/bumazhnaya-ib/upravlenie-informacionnoi-bezopasnostyu-obektov-kriticheskoi-informacionnoi-infrastruktury/README.md)
