@@ -1,6 +1,6 @@
 # Статьи DC7495
 
-В данном разделе будут перечислены статьи для сайта DC7495, в выборе которых я участвовала.
+В данном разделе будут перечислены статьи для сайта DC7495, в выборе которых я участвовала и публикации которых я курировала.
 
 Авторство данных статей по большей части не мое, но я хочу их перечислить здесь, так как считаю выбранные темы достаточно занимательными.
 
@@ -17,6 +17,10 @@
 {% embed url="https://dc7495.org/heap-overflow-2/" %}
 
 {% embed url="https://dc7495.org/analysis-of-malicious-ransomware-traffic-using-captipper/" %}
+
+{% embed url="https://dc7495.org/binary-sms-messages-a-good-old-backdoor-in-a-new-way/" %}
+
+{% embed url="https://dc7495.org/buffer-overflow-on-the-heap-part-3/" %}
 
 
 
