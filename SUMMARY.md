@@ -3,7 +3,7 @@
 * [Добро пожаловать!](README.md)
 * [2020](2020/README.md)
   * [Статьи \(мои\)](2020/articles/README.md)
-    * [НИР Обзор программируемых радиоприемников](2020/articles/nir-obzor-programmiruemykh-radiopriemnikov.md)
+    * [НИР 2018 Обзор программируемых радиоприемников](2020/articles/nir-obzor-programmiruemykh-radiopriemnikov.md)
     * [Пассивный IMSI Cather для сетей GSM: еще проще.](2020/articles/imsi-gsm-simple.md)
     * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](2020/articles/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
   * [Переводы](2020/perevody/README.md)
