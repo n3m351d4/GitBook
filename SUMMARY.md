@@ -47,7 +47,7 @@
   * [Проекты](2018/projects.md)
   * [Книги почитать](2018/knigi-pochitat.md)
   * [Статьи](2018/articles/README.md)
-    * [НИР Обзор программируемых радиоприемников](2018/articles/nir-obzor-programmiruemykh-radiopriemnikov.md)
+    * [НИР Обзор программируемых радиоприемников](2018/articles/nir-radio-receivers.md)
     * [Картинки про создание диплома](2018/articles/kartinki-pro-sozdanie-diploma.md)
     * [Утренняя прогулка](2018/articles/utrennyaya-progulka.md)
     * [ДИСС](2018/articles/diss.md)
