@@ -22,5 +22,7 @@
 
 {% embed url="https://dc7495.org/buffer-overflow-on-the-heap-part-3/" %}
 
+{% embed url="https://dc7495.org/android-forensics-hacking-the-image-key/" %}
+
 
 
