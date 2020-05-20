@@ -47,6 +47,7 @@
   * [Проекты](2018/projects.md)
   * [Книги почитать](2018/knigi-pochitat.md)
   * [Статьи](2018/articles/README.md)
+    * [НИР Особенности проектирования ВЧ линий связи](2018/articles/nir-osobennosti-proektirovaniya-vch-linii-svyazi.md)
     * [НИР Обзор программируемых радиоприемников](2018/articles/nir-radio-receivers.md)
     * [Картинки про создание диплома](2018/articles/kartinki-pro-sozdanie-diploma.md)
     * [Утренняя прогулка](2018/articles/utrennyaya-progulka.md)
