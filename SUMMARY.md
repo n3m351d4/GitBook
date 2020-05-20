@@ -60,7 +60,6 @@
       * [Глава 9 и 13. Структура СРНС и структура кадра сигнала ГЛОНАСС.](2018/articles/radiolokaciya-i-radionavigaciya./untitled-2.md)
       * [Глава 11 и 12. Космический сегмент ГЛОНАСС и GPS, состав ГЛОНАСС.](2018/articles/radiolokaciya-i-radionavigaciya./glava-11-i-12.-kosmicheskii-segment-glonass-i-gps-sostav-glonass..md)
     * [Информационная безопасность в системах подвижной связи. Доклад.](2018/articles/informacionnaya-bezopasnost-v-sistemakh-podvizhnoi-svyazi.-doklad..md)
-    * [Как лечиться ртутью](2018/articles/kak-lechitsya-rtutyu.md)
     * [Welcome to Yamantau \(CIA\)](2018/articles/welcome-to-yamantau-cia.md)
     * [Проект Кобра и ГХК](2018/articles/proekt-kobra-i-odna-nasha-podzemnaya-laboratoriya.md)
     * [Город 26](2018/articles/gorod-26.md)
