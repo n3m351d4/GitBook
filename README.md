@@ -26,9 +26,9 @@ Whoami
 
 ## **2017 год**
 
-### [Статьи](https://notes.n3m3515.space/2017/stati) 
+### Статьи 
 
-#### **Радиотехнические системы корабля "Буран"**
+#### \*\*\*\*[**Радиотехнические системы корабля "Буран"**](https://notes.n3m3515.space/2017/stati/radiotekhnicheskie-sistemy-korablya-buran)
 
 ### \*\*\*\*[Cheat Sheets](https://notes.n3m3515.space/2017/cheat-sheets)
 
