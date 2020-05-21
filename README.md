@@ -24,13 +24,21 @@ Whoami
 
 
 
-**2017 год:**
+## **2017 год**
 
-{% embed url="https://notes.n3m3515.space/2017/stati" %}
+### [Статьи](https://notes.n3m3515.space/2017/stati) 
 
-{% embed url="https://notes.n3m3515.space/2017/cheat-sheets" %}
+#### **Радиотехнические системы корабля "Буран"**
 
-{% embed url="https://notes.n3m3515.space/2017/poleznye-video-2017" %}
+### \*\*\*\*[Cheat Sheets](https://notes.n3m3515.space/2017/cheat-sheets)
+
+**RFID/NFC**
+
+### \*\*\*\*[Полезные видео](https://notes.n3m3515.space/2017/poleznye-video-2017)
+
+**Don't Talk to the Police** - Regent Law Professor James Duane gives viewers startling reasons why they should always exercise their 5th Amendment rights when questioned by government officials.
+
+Теория Всего от Атена
 
 
 
