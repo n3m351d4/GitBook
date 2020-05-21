@@ -62,9 +62,3 @@ var url = window.location.pathname,
 
 **14. USB Killer** [https://easyeda.com/search?wd=USB%20killer](https://easyeda.com/search?wd=USB%20killer)
 
-15. 
-
-![](../.gitbook/assets/image%20%2842%29.png)
-
-\*\*\*\*
-
