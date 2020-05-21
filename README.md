@@ -18,6 +18,13 @@ Whoami
 
 ## **2020 год**
 
+### Переводы
+
+[IoT WiFi модуль – Дампим данные](https://notes.n3m3515.space/2020/perevody/iot-wifi-module-data-dump)
+
+[  
+](http://dc7495.org/mqtt-iot-nervous-system/)
+
 ## **2019 год**
 
 ## **2018 год**
