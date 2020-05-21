@@ -18,12 +18,19 @@ Whoami
 
 ## **2020 год**
 
+### Мои статьи
+
+[Пассивный IMSI Cather для сетей GSM: еще проще.](https://notes.n3m3515.space/2020/articles/imsi-gsm-simple)
+
+[Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](https://notes.n3m3515.space/2020/articles/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm)
+
+.............
+
 ### Переводы
 
 [IoT WiFi модуль – Дампим данные](https://notes.n3m3515.space/2020/perevody/iot-wifi-module-data-dump)
 
-[  
-](http://dc7495.org/mqtt-iot-nervous-system/)
+............
 
 ## **2019 год**
 
