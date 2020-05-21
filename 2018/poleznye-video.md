@@ -26,7 +26,5 @@
 
 {% embed url="https://youtu.be/U0Bdvwfix-0" %}
 
-{% embed url="https://www.youtube.com/watch?v=f6kJG1GhPZY" %}
-
 
 
