@@ -62,7 +62,7 @@
     * [Транспортировка и запуск](2018/sputniki-gso/transportirovka-i-zapusk.md)
     * [Что конкретно происходит, например, на ГСО](2018/sputniki-gso/chto-konkretno-proiskhodit-naprimer-na-gso.md)
   * [Статьи](2018/articles/README.md)
-    * [НИР Методы РЭБ в области космической навигации и обеспечение безопасности КА](2018/articles/nir-metody-reb-v-oblasti-kosmicheskoi-navigacii-i-obespechenie-bezopasnosti-ka.md)
+    * [НИР Методы РЭБ в области космической навигации и обеспечение безопасности КА](2018/articles/ka.md)
     * [НИР Особенности проектирования ВЧ линий связи](2018/articles/design-features-of-rf-communication-systems.md)
     * [НИР Обзор программируемых радиоприемников](2018/articles/nir-radio-receivers.md)
     * [Картинки про создание диплома](2018/articles/kartinki-pro-sozdanie-diploma.md)
