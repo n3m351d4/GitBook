@@ -24,5 +24,7 @@
 
 {% embed url="https://dc7495.org/android-forensics-hacking-the-image-key/" %}
 
+{% embed url="https://dc7495.org/check-your-perimeter/" %}
+
 
 
