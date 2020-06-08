@@ -4,21 +4,49 @@
 
 ##   Аннотация
 
-![](../../.gitbook/assets/image%20%28128%29.png)
+![](../../.gitbook/assets/image%20%28134%29.png)
 
 ## Введение
 
-![](../../.gitbook/assets/image%20%28130%29.png)
+![](../../.gitbook/assets/image%20%28137%29.png)
 
 ![](../../.gitbook/assets/image%20%28125%29.png)
 
-![](../../.gitbook/assets/image%20%28127%29.png)
+![](../../.gitbook/assets/image%20%28130%29.png)
 
 ## Общие проблемы Интернета вещей
 
+![](../../.gitbook/assets/image%20%28140%29.png)
+
+![](../../.gitbook/assets/image%20%28135%29.png)
+
+![](../../.gitbook/assets/image%20%28138%29.png)
+
+### Проблемы систем умного дома
+
+![](../../.gitbook/assets/image%20%28133%29.png)
+
+![](../../.gitbook/assets/image%20%28128%29.png)
+
+### Проблемы "умных городов"
+
+![](../../.gitbook/assets/image%20%28141%29.png)
+
 ![](../../.gitbook/assets/image%20%28132%29.png)
 
-![](../../.gitbook/assets/image%20%28129%29.png)
+## Обзор литературы
 
 ![](../../.gitbook/assets/image%20%28131%29.png)
+
+![](../../.gitbook/assets/image%20%28139%29.png)
+
+## Архитектура устройств Интернета вещей
+
+![](../../.gitbook/assets/image%20%28136%29.png)
+
+![](../../.gitbook/assets/image%20%28126%29.png)
+
+## Атаки на устройства Интернета вещей
+
+![](../../.gitbook/assets/image%20%28129%29.png)
 
