@@ -3,6 +3,7 @@
 * [Добро пожаловать!](README.md)
 * [2020](2020/README.md)
   * [Статьи \(мои\)](2020/articles/README.md)
+    * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](2020/articles/zashita-ustroistv-interneta-veshei-ot-raspredelennykh-atak-tipa-otkaz-v-obsluzhivanii-.-1.md)
     * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](2020/articles/zashita-ustroistv-interneta-veshei-ot-raspredelennykh-atak-tipa-otkaz-v-obsluzhivanii-..md)
     * [Пассивный IMSI Cather для сетей GSM: еще проще.](2020/articles/imsi-gsm-simple.md)
     * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](2020/articles/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
