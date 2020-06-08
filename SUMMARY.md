@@ -7,7 +7,7 @@
     * [Пассивный IMSI Cather для сетей GSM: еще проще.](2020/articles/imsi-gsm-simple.md)
     * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](2020/articles/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
   * [Переводы](2020/perevody/README.md)
-    * [Исключительный провал – Взлом защиты от чтения STM32F1](2020/perevody/isklyuchitelnyi-proval-vzlom-zashity-ot-chteniya-stm32f1.md)
+    * [Исключительный провал – Взлом защиты от чтения STM32F1](2020/perevody/stm32f1.md)
     * [Собери их всех: Разбираемся, как IMSI-Catcher’ы используются в сотовых сетях](2020/perevody/catch-them-all.md)
     * [IoT WiFi модуль – Дампим данные](2020/perevody/iot-wifi-module-data-dump.md)
   * [Проекты](2020/projects.md)
