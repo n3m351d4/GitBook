@@ -3,6 +3,7 @@
 * [Добро пожаловать!](README.md)
 * [2020](2020/README.md)
   * [Статьи \(мои\)](2020/articles/README.md)
+    * [IMPORTOZAMESHENIE: как устройство училось говорить по-русски](2020/articles/importozameshenie.md)
     * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](2020/articles/iot-ddos.md)
     * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](2020/articles/zashita-ustroistv-interneta-veshei-ot-raspredelennykh-atak-tipa-otkaz-v-obsluzhivanii-..md)
     * [Пассивный IMSI Cather для сетей GSM: еще проще.](2020/articles/imsi-gsm-simple.md)
