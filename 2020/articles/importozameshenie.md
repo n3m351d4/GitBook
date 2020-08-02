@@ -54,7 +54,7 @@ description: 02 08 2020
 
 ![](https://lh3.googleusercontent.com/kTBkAYyPJl-uHCbmuE06ppkEzjrCtgvpbeqUvv1DgHmfWzPpIG51WZktZJU35a8AnUj5qYoAOOCfMMW-VvctEO9baQyC-KxBlBDRYCwspotf_-EKhmkPcNNbauA1HITRntKCYJw)
 
-Градиенты на кнопках - пришлось аккуратно копировать вертикальные участки и растягивать их, замазывая текст, ориентируясь по пикселям.
+Градиенты на кнопках - пришлось аккуратно копировать вертикальные участки и растягивать их, замазывая текст, ориентируясь по пикселям. На текст можно не обращать внимания, потому что китайцы сами наделали в английском меню ошибок и вкл и выкл могли обозначить как open close, мы же старались приблизиться к реальности максимально точно подбирая смысл действия, которое привязано к динамическому элементу \(фух\).
 
 ![](https://lh3.googleusercontent.com/tAtwmITppfC3qyJN185sj-dAj3zJmvepRf0XKTxVTP_RGXxpwdFN-9Ttt81M5IfNdg8ORkgC_hKfyyx58_AWKC-uVgzWchkA58DkrNOxhysP8-GpKa-fO4ARpqXAHXW2J9NFFL0)
 
