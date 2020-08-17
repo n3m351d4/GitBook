@@ -1,5 +1,9 @@
 # Видео доклады
 
+
+
+{% embed url="https://www.youtube.com/watch?v=i-2Xc8JqKBI" %}
+
 {% embed url="https://www.youtube.com/watch?v=OXGArFVD-Jg&list=PLCJ\_IxdpiV8NXsyi9IFEPgpcd-DS\_ilfQ&index=2" %}
 
 {% file src="../.gitbook/assets/15.-googlehacking.pdf" %}
