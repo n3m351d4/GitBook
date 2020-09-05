@@ -19,7 +19,7 @@
     * [IoT WiFi модуль – Дампим данные](2020/translations/iot-wifi-module-data-dump.md)
   * [Проекты](2020/projects/README.md)
     * [Throwing Star LAN Tap](2020/projects/throwing-star-lan-tap.md)
-  * [Видео доклады](2020/video-2020.md)
+  * [Видео](2020/video-2020.md)
   * [Статьи DC7495](2020/stati-dc7495.md)
   * [Статьи для канала Inside](2020/stati-dlya-kanala-inside/README.md)
     * [Untitled](2020/stati-dlya-kanala-inside/untitled.md)
