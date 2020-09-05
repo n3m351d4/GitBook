@@ -4,6 +4,8 @@
 
 Авторство данных статей по большей части не мое, но я хочу их перечислить здесь, так как считаю выбранные темы достаточно занимательными.
 
+{% embed url="https://dc7495.org/unpacking-malware-like-pro/" %}
+
 {% embed url="http://dc7495.org/reducing-threats-in-root-server-systems/" %}
 
 {% embed url="http://dc7495.org/introduction-to-computer-forensics/" %}
