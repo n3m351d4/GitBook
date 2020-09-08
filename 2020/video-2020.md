@@ -1,6 +1,10 @@
-# Видео доклады
+# Видео
+
+{% embed url="https://www.youtube.com/watch?v=lV8hMjZf4yg" %}
 
 
+
+{% embed url="https://www.youtube.com/watch?v=fpB9pCd\_hH4" %}
 
 {% embed url="https://www.youtube.com/watch?v=i-2Xc8JqKBI" %}
 
