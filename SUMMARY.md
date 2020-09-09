@@ -9,6 +9,7 @@
     * [Пассивный IMSI Cather для сетей GSM: еще проще.](2020/articles/imsi-gsm-simple.md)
     * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](2020/articles/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
   * [Переводы](2020/translations/README.md)
+    * [Hardware Hacking: JTAG– отладка микроконтроллера](2020/translations/hardware-hacking-jtag-otladka-mikrokontrollera.md)
     * [Мануал по установке MaltegoXL](2020/translations/manual-po-kryakingu-maltegoxl.md)
     * [Собираем пассивный IMSI Catcher](2020/translations/sobiraem-passivnyi-imsi-catcher.md)
     * [Изучение MQTT с использованием Wireshark](2020/translations/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
