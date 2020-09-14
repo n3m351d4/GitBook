@@ -23,7 +23,7 @@
   * [Переводы](2020/translations/README.md)
     * [JTAG – отладка микроконтроллера](2020/translations/hardware-hacking-jtag.md)
     * [Мануал по установке MaltegoXL](2020/translations/manual-po-kryakingu-maltegoxl.md)
-    * [Делаем дамп прошивки с помощью программатора CH341a](2020/translations/ch341a.md)
+    * [Hardware Hacking - Делаем дамп прошивки с помощью программатора CH341a](2020/translations/ch341a.md)
     * [Собираем пассивный IMSI Catcher](2020/translations/sobiraem-passivnyi-imsi-catcher.md)
     * [Изучение MQTT с использованием Wireshark](2020/translations/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
     * [MQTT – Нервная Система IoT](2020/translations/mqtt-nervnaya-sistema-iot.md)
