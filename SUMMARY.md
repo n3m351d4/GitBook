@@ -14,7 +14,7 @@
     * [Собираем пассивный IMSI Catcher](2020/translations/sobiraem-passivnyi-imsi-catcher.md)
     * [Изучение MQTT с использованием Wireshark](2020/translations/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
     * [MQTT – Нервная Система IoT](2020/translations/mqtt-nervnaya-sistema-iot.md)
-    * [Делаем дамп прошивки с помощью программатора CH341a](2020/translations/ch341a.md)
+    * [Hardware Hacking: Делаем дамп прошивки с помощью программатора CH341a](2020/translations/ch341a.md)
     * [Исключительный провал – Взлом защиты от чтения STM32F1](2020/translations/stm32f1.md)
     * [Собери их всех: Разбираемся, как IMSI-Catcher’ы используются в сотовых сетях](2020/translations/catch-them-all.md)
     * [IoT WiFi модуль – Дампим данные](2020/translations/iot-wifi-module-data-dump.md)
