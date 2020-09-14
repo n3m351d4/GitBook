@@ -6,7 +6,6 @@
 
 * [JTAG – отладка микроконтроллера](hardware-hacking/hardware-hacking-jtag.md)
 * [Делаем дамп прошивки с помощью программатора CH341a](hardware-hacking/ch341a.md)
-* [Untitled](hardware-hacking/untitled.md)
 
 ---
 
