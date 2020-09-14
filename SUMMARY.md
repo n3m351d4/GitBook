@@ -7,7 +7,8 @@
 ---
 
 * [Статьи](stati.md)
-* [Обучающие руководства \(переводы\)](how-to.md)
+* [Обучающие руководства \(переводы\)](how-to/README.md)
+  * [Hardware Hacking: Делаем дамп прошивки с помощью программатора CH341a](how-to/ch341a.md)
 
 ## BLOG
 
@@ -21,9 +22,8 @@
     * [Пассивный IMSI Cather для сетей GSM: еще проще.](2020/articles/imsi-gsm-simple.md)
     * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](2020/articles/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
   * [Переводы](2020/translations/README.md)
-    * [JTAG – отладка микроконтроллера](2020/translations/hardware-hacking-jtag.md)
+    * [Hardware Hacking: JTAG – отладка микроконтроллера](2020/translations/hardware-hacking-jtag.md)
     * [Мануал по установке MaltegoXL](2020/translations/manual-po-kryakingu-maltegoxl.md)
-    * [Hardware Hacking - Делаем дамп прошивки с помощью программатора CH341a](2020/translations/ch341a.md)
     * [Собираем пассивный IMSI Catcher](2020/translations/sobiraem-passivnyi-imsi-catcher.md)
     * [Изучение MQTT с использованием Wireshark](2020/translations/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
     * [MQTT – Нервная Система IoT](2020/translations/mqtt-nervnaya-sistema-iot.md)
