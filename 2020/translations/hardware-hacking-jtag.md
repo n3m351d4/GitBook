@@ -1,3 +1,7 @@
+---
+description: 09.2020
+---
+
 # Hardware Hacking: JTAG – отладка микроконтроллера
 
 _Перевела @ZzzNein \(безграничную благодарность можно выразить_ [_ЗДЕСЬ_](https://yasobe.ru/na/na_perevody_i_kontent)_\), проверила @N3M351DA._ [_Оригинальный текст_](https://www.blackhillsinfosec.com/jtag-micro-controller-debugging/) _- Реймонд Фелч, 23 августа 2019 г._
