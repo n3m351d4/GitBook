@@ -6,7 +6,7 @@
 
 ---
 
-* [Untitled](untitled.md)
+* [Обучающие руководства](how-to.md)
 
 ## BLOG
 
