@@ -7,6 +7,7 @@
 ---
 
 * [Обучающие руководства \(переводы\)](how-to/README.md)
+  * [Hardware Hacking: Как воспроизводить радиосигналы с помощью SDR](how-to/hardware-hacking-kak-vosproizvodit-radiosignaly-s-pomoshyu-sdr.md)
   * [Hardware Hacking: Делаем дамп прошивки с помощью программатора CH341a](how-to/ch341a.md)
 * [Статьи](stati.md)
 
