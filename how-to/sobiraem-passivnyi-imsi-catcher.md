@@ -1,4 +1,8 @@
-# Собираем пассивный IMSI Catcher
+---
+description: '2020'
+---
+
+# SDR: Собираем пассивный IMSI Catcher
 
 _Перевод: @N3M351DA  
 Источник:_ [_https://harrisonsand.com/imsi-catcher/_ ](https://harrisonsand.com/imsi-catcher/)\_\_

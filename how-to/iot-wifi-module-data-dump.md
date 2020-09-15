@@ -1,8 +1,8 @@
 ---
-description: 'Перевод: @N3M351D4'
+description: '2020, Перевод: @N3M351D4'
 ---
 
-# IoT WiFi модуль – Дампим данные
+# Hardware Hacking: IoT WiFi модуль – Дампим данные
 
 _Источник:_ [_https://blog.compass-security.com/2017/04/iot-wifi-module-dump-the-data/_ ](https://blog.compass-security.com/2017/04/iot-wifi-module-dump-the-data/)
 

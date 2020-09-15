@@ -7,12 +7,15 @@
 ---
 
 * [Обучение \(переводы\)](how-to/README.md)
-  * [Hardware Hacking: Как воспроизводить радиосигналы с помощью SDR](how-to/hardware-hacking-sdr-replay.md)
   * [Hardware Hacking: Делаем дамп прошивки с помощью программатора CH341a](how-to/ch341a.md)
   * [Hardware Hacking: JTAG – отладка микроконтроллера](how-to/hardware-hacking-jtag.md)
+  * [Hardware Hacking: Как воспроизводить радиосигналы с помощью SDR](how-to/hardware-hacking-sdr-replay.md)
+  * [Hardware Hacking: IoT WiFi модуль – Дампим данные](how-to/iot-wifi-module-data-dump.md)
+  * [SDR: Собираем пассивный IMSI Catcher](how-to/sobiraem-passivnyi-imsi-catcher.md)
 * [Статьи](stati/README.md)
   * [Пассивный IMSI Cather для сетей GSM: еще проще.](stati/imsi-gsm-simple.md)
   * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](stati/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
+  * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](stati/iot-ddos.md)
   * [IMPORTOZAMESHENIE: как устройство училось говорить по-русски](stati/importozameshenie.md)
 
 ## BLOG
@@ -20,17 +23,13 @@
 ---
 
 * [2020](2020/README.md)
-  * [Статьи \(мои\)](2020/articles/README.md)
-    * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](2020/articles/iot-ddos.md)
-    * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](2020/articles/zashita-ustroistv-interneta-veshei-ot-raspredelennykh-atak-tipa-otkaz-v-obsluzhivanii-..md)
+  * [Статьи \(мои\)](2020/articles.md)
   * [Переводы](2020/translations/README.md)
     * [Мануал по установке MaltegoXL](2020/translations/manual-po-kryakingu-maltegoxl.md)
-    * [Собираем пассивный IMSI Catcher](2020/translations/sobiraem-passivnyi-imsi-catcher.md)
     * [Изучение MQTT с использованием Wireshark](2020/translations/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
     * [MQTT – Нервная Система IoT](2020/translations/mqtt-nervnaya-sistema-iot.md)
     * [Исключительный провал – Взлом защиты от чтения STM32F1](2020/translations/stm32f1.md)
     * [Собери их всех: Разбираемся, как IMSI-Catcher’ы используются в сотовых сетях](2020/translations/catch-them-all.md)
-    * [IoT WiFi модуль – Дампим данные](2020/translations/iot-wifi-module-data-dump.md)
   * [Проекты](2020/projects/README.md)
     * [Throwing Star LAN Tap](2020/projects/throwing-star-lan-tap.md)
   * [Видео](2020/video-2020.md)
