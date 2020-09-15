@@ -6,7 +6,7 @@
 
 ---
 
-* [Обучающие руководства \(переводы\)](how-to/README.md)
+* [Обучение \(переводы\)](how-to/README.md)
   * [Hardware Hacking: Как воспроизводить радиосигналы с помощью SDR](how-to/hardware-hacking-sdr-replay.md)
   * [Hardware Hacking: Делаем дамп прошивки с помощью программатора CH341a](how-to/ch341a.md)
   * [Hardware Hacking: JTAG – отладка микроконтроллера](how-to/hardware-hacking-jtag.md)
