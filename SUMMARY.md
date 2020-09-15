@@ -10,7 +10,10 @@
   * [Hardware Hacking: Как воспроизводить радиосигналы с помощью SDR](how-to/hardware-hacking-sdr-replay.md)
   * [Hardware Hacking: Делаем дамп прошивки с помощью программатора CH341a](how-to/ch341a.md)
   * [Hardware Hacking: JTAG – отладка микроконтроллера](how-to/hardware-hacking-jtag.md)
-* [Статьи](stati.md)
+* [Статьи](stati/README.md)
+  * [Пассивный IMSI Cather для сетей GSM: еще проще.](stati/imsi-gsm-simple.md)
+  * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](stati/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
+  * [IMPORTOZAMESHENIE: как устройство училось говорить по-русски](stati/importozameshenie.md)
 
 ## BLOG
 
@@ -18,11 +21,8 @@
 
 * [2020](2020/README.md)
   * [Статьи \(мои\)](2020/articles/README.md)
-    * [IMPORTOZAMESHENIE: как устройство училось говорить по-русски](2020/articles/importozameshenie.md)
     * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](2020/articles/iot-ddos.md)
     * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](2020/articles/zashita-ustroistv-interneta-veshei-ot-raspredelennykh-atak-tipa-otkaz-v-obsluzhivanii-..md)
-    * [Пассивный IMSI Cather для сетей GSM: еще проще.](2020/articles/imsi-gsm-simple.md)
-    * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](2020/articles/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
   * [Переводы](2020/translations/README.md)
     * [Мануал по установке MaltegoXL](2020/translations/manual-po-kryakingu-maltegoxl.md)
     * [Собираем пассивный IMSI Catcher](2020/translations/sobiraem-passivnyi-imsi-catcher.md)
