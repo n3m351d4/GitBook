@@ -8,16 +8,6 @@
 
 * [Статьи для DC7495](stati-dc7495.md)
 * [Видео](video-2020.md)
-* [2018](2018/README.md)
-  * [Статьи](2018/articles/README.md)
-    * [Утренняя прогулка](2018/articles/utrennyaya-progulka.md)
-    * [Welcome to Yamantau \(CIA\)](2018/articles/welcome-to-yamantau-cia.md)
-    * [Проект Кобра и ГХК](2018/articles/proekt-kobra-i-odna-nasha-podzemnaya-laboratoriya.md)
-    * [Город 26](2018/articles/gorod-26.md)
-    * [Что такое проект и план работ](2018/articles/project.md)
-    * [Активаторы метаболизма мозга](2018/articles/metabolizm.md)
-    * [Убежища](2018/articles/go.md)
-    * [Добавки Бета-Аланина для солдат боевых подразделений.](2018/articles/beta-alanin.md)
 
 ## Hardware Hacking
 
@@ -119,4 +109,17 @@
   * [Картинки про создание диплома](space-and-special-systems/radio/kartinki-pro-sozdanie-diploma.md)
   * [НИР Обзор программируемых радиоприемников](space-and-special-systems/radio/nir-radio-receivers.md)
   * [НИР Особенности проектирования ВЧ линий связи](space-and-special-systems/radio/design-features-of-rf-communication-systems.md)
+
+## Biohacking
+
+* [Добавки Бета-Аланина для солдат боевых подразделений.](biohacking/beta-alanin.md)
+* [Активаторы метаболизма мозга](biohacking/metabolizm.md)
+
+## Stalking and netstalking
+
+* [Welcome to Yamantau \(CIA\)](stalking-and-netstalking/welcome-to-yamantau-cia.md)
+* [Проект Кобра и ГХК](stalking-and-netstalking/proekt-kobra-i-odna-nasha-podzemnaya-laboratoriya.md)
+* [Убежища](stalking-and-netstalking/go.md)
+* [Город 26](stalking-and-netstalking/gorod-26.md)
+* [Утренняя прогулка](stalking-and-netstalking/utrennyaya-progulka.md)
 
