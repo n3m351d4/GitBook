@@ -10,8 +10,7 @@
   * [Проекты](2020/projects.md)
   * [Видео](2020/video-2020.md)
   * [Статьи DC7495](2020/stati-dc7495.md)
-  * [Статьи для канала Inside](2020/stati-dlya-kanala-inside/README.md)
-    * [Боевой OSINT s01e01 - OSINT & RDP](2020/stati-dlya-kanala-inside/boevoi-osint-s01e01-osint-and-rdp.md)
+  * [Статьи для канала Inside](2020/stati-dlya-kanala-inside.md)
 * [2019](2019/README.md)
   * [Статьи](2019/stati-2019/README.md)
     * [Internet of Things and Embedded Systems](2019/stati-2019/internet-of-things-and-embedded-systems.md)
@@ -96,7 +95,8 @@
 
 ## Social Engeneering & OSINT
 
-* [Untitled](social-engeneering-and-osint/untitled.md)
+* [Боевой OSINT s01e01 - OSINT & RDP](social-engeneering-and-osint/boevoi-osint-s01e01-osint-and-rdp.md)
+* [Боевой OSINT s01e02](social-engeneering-and-osint/untitled.md)
 
 ## Pentest
 
