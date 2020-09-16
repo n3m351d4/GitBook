@@ -7,7 +7,6 @@
 ---
 
 * [2020](2020/README.md)
-  * [Переводы](2020/translations.md)
   * [Проекты](2020/projects.md)
   * [Видео](2020/video-2020.md)
   * [Статьи DC7495](2020/stati-dc7495.md)
