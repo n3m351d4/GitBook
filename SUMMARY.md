@@ -13,11 +13,8 @@
 * [2019](2019/README.md)
   * [Статьи](2019/stati-2019/README.md)
     * [Internet of Things and Embedded Systems](2019/stati-2019/internet-of-things-and-embedded-systems.md)
-    * [DC7495 Wireless Quest](2019/stati-2019/dc7495-wireless-quest.md)
-    * [Социальная инженерия. Угрозы и защита: литературный обзор](2019/stati-2019/socialnaya-inzheneriya.-ugrozy-i-zashita-literaturnyi-obzor.md)
     * [Безопасность и конфиденциальность в Интернете вещей.](2019/stati-2019/bezopasnost-i-konfidencialnost-v-internete-veshei..md)
     * [Кибер-криминология как академическая дисциплина: ее история, влияние и вклад](2019/stati-2019/kiber-kriminologiya-kak-akademicheskaya-disciplina-ee-istoriya-vliyanie-i-vklad.md)
-    * [IOT. Исследование технологий защищенности от компьютерных атак для IOT – решений](2019/stati-2019/iot.-issledovanie-tekhnologii-zashishennosti-ot-kompyuternykh-atak-dlya-iot-reshenii.md)
   * [Видео доклады](2019/video-2019.md)
   * [Проекты](2019/projects.md)
 * [2018](2018/README.md)
@@ -83,6 +80,7 @@
   * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](articles/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
   * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](articles/iot-ddos.md)
   * [IMPORTOZAMESHENIE: как устройство училось говорить по-русски](articles/importozameshenie.md)
+  * [Пошаговое руководство к поиску и эксплуатации Android-устройств](articles/poshagovoe-rukovodstvo-k-poisku-i-ekspluatacii-android-ustroistv-libo-otladochnykh-khostov-ispolzuyu.md)
 
 ## Networks
 
@@ -93,14 +91,16 @@
 
 ## Social Engeneering & OSINT
 
-* [Боевой OSINT s01e01 - OSINT & RDP](social-engeneering-and-osint/boevoi-osint-s01e01-osint-and-rdp.md)
-* [Боевой OSINT s01e02](social-engeneering-and-osint/untitled.md)
+* [Переводы](social-engeneering-and-osint/perevody/README.md)
+  * [Социальная инженерия. Угрозы и защита: литературный обзор](social-engeneering-and-osint/perevody/socialnaya-inzheneriya.-ugrozy-i-zashita-literaturnyi-obzor.md)
+  * [Боевой OSINT s01e01 - OSINT & RDP](social-engeneering-and-osint/perevody/boevoi-osint-s01e01-osint-and-rdp.md)
+  * [Боевой OSINT s01e02](social-engeneering-and-osint/perevody/untitled.md)
 
 ## Pentest
 
-* [Пошаговое руководство к поиску и эксплуатации Android-устройств](pentest/poshagovoe-rukovodstvo-k-poisku-i-ekspluatacii-android-ustroistv-libo-otladochnykh-khostov-ispolzuyu.md)
 * [Переводы](pentest/perevody/README.md)
   * [Мануал по установке MaltegoXL](pentest/perevody/manual-po-kryakingu-maltegoxl.md)
+* [DC7495 Wireless Quest](pentest/dc7495-wireless-quest.md)
 
 ## InfoSec
 
@@ -120,4 +120,9 @@
   * [Политика управления обновлениями и уязвимостями программного обеспечения](infosec/audit-ib/politika-upravleniya-obnovleniyami-i-uyazvimostyami-programmnogo-obespecheniya.md)
   * [ПР4 Алгоритмы приближенных вычислений наличия в программах разрушающих программных средств](infosec/audit-ib/algoritmy-priblizhennykh-vychislenii-nalichiya-v-programmakh-razrushayushikh-programmnykh-sredstv.md)
   * [ПР6 Методология обследования и проектирования защищенных информационных \(автоматизированных\) систем.](infosec/audit-ib/pr6-metodologiya-obsledovaniya-i-proektirovaniya-zashishennykh-informacionnykh-avtomatizirovannykh-s.md)
+
+## IOT
+
+* [IOT. Исследование технологий защищенности от компьютерных атак для IOT – решений](iot/iot.-issledovanie-tekhnologii-zashishennosti-ot-kompyuternykh-atak-dlya-iot-reshenii.md)
+* [Untitled](iot/untitled.md)
 
