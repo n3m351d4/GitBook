@@ -6,7 +6,7 @@
 
 ---
 
-* [Обучение \(переводы\)](how-to/README.md)
+* [Hardware Hacking: Обучение \(переводы\)](how-to/README.md)
   * [Hardware Hacking: Делаем дамп прошивки с помощью программатора CH341a](how-to/ch341a.md)
   * [Hardware Hacking: JTAG – отладка микроконтроллера](how-to/hardware-hacking-jtag.md)
   * [Hardware Hacking: IoT WiFi модуль – Дампим данные](how-to/iot-wifi-module-data-dump.md)
