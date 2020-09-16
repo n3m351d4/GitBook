@@ -14,17 +14,17 @@
   * [Hardware Hacking: Исключительный провал – Взлом защиты от чтения STM32F1](how-to/stm32f1.md)
   * [SDR: Собери их всех: Разбираемся, как IMSI-Catcher’ы используются в сотовых сетях](how-to/catch-them-all.md)
   * [SDR: Собираем пассивный IMSI Catcher](how-to/sobiraem-passivnyi-imsi-catcher.md)
-* [Hardware Hacking: Статьи](stati/README.md)
-  * [Пассивный IMSI Cather для сетей GSM: еще проще.](stati/imsi-gsm-simple.md)
-  * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](stati/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
-  * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](stati/iot-ddos.md)
-  * [IMPORTOZAMESHENIE: как устройство училось говорить по-русски](stati/importozameshenie.md)
+* [Hardware Hacking: Статьи](articles/README.md)
+  * [Пассивный IMSI Cather для сетей GSM: еще проще.](articles/imsi-gsm-simple.md)
+  * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](articles/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
+  * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](articles/iot-ddos.md)
+  * [IMPORTOZAMESHENIE: как устройство училось говорить по-русски](articles/importozameshenie.md)
 
 ## Networks
 
-* [Networks: Переводы](networks/untitled/README.md)
-  * [MQTT – Нервная Система IoT](networks/untitled/mqtt-nervnaya-sistema-iot.md)
-  * [Изучение MQTT с использованием Wireshark](networks/untitled/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
+* [Networks: Переводы](networks/translations/README.md)
+  * [MQTT – Нервная Система IoT](networks/translations/mqtt-nervnaya-sistema-iot.md)
+  * [Изучение MQTT с использованием Wireshark](networks/translations/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
 * [Throwing Star LAN Tap](networks/throwing-star-lan-tap.md)
 
 ## BLOG
