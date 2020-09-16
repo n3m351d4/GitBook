@@ -83,6 +83,11 @@
   * [Проекты](2018/projects.md)
   * [Книги почитать](2018/knigi-pochitat.md)
   * [Полезные видео](2018/poleznye-video.md)
+* [2017](2017/README.md)
+  * [Статьи](2017/stati/README.md)
+    * [Радиотехнические системы корабля "Буран"](2017/stati/radiotekhnicheskie-sistemy-korablya-buran.md)
+  * [Cheat Sheets](2017/cheat-sheets.md)
+  * [Полезные видео](2017/poleznye-video-2017.md)
 
 ## Hardware Hacking
 
@@ -108,12 +113,4 @@
   * [MQTT – Нервная Система IoT](networks/translations/mqtt-nervnaya-sistema-iot.md)
   * [Изучение MQTT с использованием Wireshark](networks/translations/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
 * [Throwing Star LAN Tap](networks/throwing-star-lan-tap.md)
-
----
-
-* [2017](2017/README.md)
-  * [Статьи](2017/stati/README.md)
-    * [Радиотехнические системы корабля "Буран"](2017/stati/radiotekhnicheskie-sistemy-korablya-buran.md)
-  * [Cheat Sheets](2017/cheat-sheets.md)
-  * [Полезные видео](2017/poleznye-video-2017.md)
 
