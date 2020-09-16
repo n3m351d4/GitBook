@@ -13,7 +13,6 @@
 * [2019](2019/README.md)
   * [Статьи](2019/stati-2019/README.md)
     * [Internet of Things and Embedded Systems](2019/stati-2019/internet-of-things-and-embedded-systems.md)
-    * [Безопасность и конфиденциальность в Интернете вещей.](2019/stati-2019/bezopasnost-i-konfidencialnost-v-internete-veshei..md)
     * [Кибер-криминология как академическая дисциплина: ее история, влияние и вклад](2019/stati-2019/kiber-kriminologiya-kak-akademicheskaya-disciplina-ee-istoriya-vliyanie-i-vklad.md)
   * [Видео доклады](2019/video-2019.md)
   * [Проекты](2019/projects.md)
@@ -123,6 +122,7 @@
 
 ## IOT
 
-* [IOT. Исследование технологий защищенности от компьютерных атак для IOT – решений](iot/iot.-issledovanie-tekhnologii-zashishennosti-ot-kompyuternykh-atak-dlya-iot-reshenii.md)
-* [Untitled](iot/untitled.md)
+* [Переводы](iot/untitled/README.md)
+  * [IOT. Исследование технологий защищенности от компьютерных атак для IOT – решений](iot/untitled/iot.-issledovanie-tekhnologii-zashishennosti-ot-kompyuternykh-atak-dlya-iot-reshenii.md)
+  * [Безопасность и конфиденциальность в Интернете вещей.](iot/untitled/bezopasnost-i-konfidencialnost-v-internete-veshei..md)
 
