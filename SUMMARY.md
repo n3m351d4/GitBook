@@ -32,7 +32,6 @@
 ---
 
 * [2020](2020/README.md)
-  * [Статьи \(мои\)](2020/articles.md)
   * [Переводы](2020/translations/README.md)
     * [Мануал по установке MaltegoXL](2020/translations/manual-po-kryakingu-maltegoxl.md)
   * [Проекты](2020/projects.md)
