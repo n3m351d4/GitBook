@@ -99,7 +99,3 @@
   * [Город 26](stalking-and-netstalking-1/gorod-26.md)
   * [Утренняя прогулка](stalking-and-netstalking-1/utrennyaya-progulka.md)
 
-## Space and Special systems
-
-## Biohacking
-
