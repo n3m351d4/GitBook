@@ -2,31 +2,6 @@
 
 * [Добро пожаловать!](README.md)
 
-## Hardware Hacking
-
----
-
-* [Hardware Hacking: Переводы](how-to/README.md)
-  * [Hardware Hacking: Делаем дамп прошивки с помощью программатора CH341a](how-to/ch341a.md)
-  * [Hardware Hacking: JTAG – отладка микроконтроллера](how-to/hardware-hacking-jtag.md)
-  * [Hardware Hacking: IoT WiFi модуль – Дампим данные](how-to/iot-wifi-module-data-dump.md)
-  * [Hardware Hacking: Как воспроизводить радиосигналы с помощью SDR](how-to/hardware-hacking-sdr-replay.md)
-  * [Hardware Hacking: Исключительный провал – Взлом защиты от чтения STM32F1](how-to/stm32f1.md)
-  * [SDR: Собери их всех: Разбираемся, как IMSI-Catcher’ы используются в сотовых сетях](how-to/catch-them-all.md)
-  * [SDR: Собираем пассивный IMSI Catcher](how-to/sobiraem-passivnyi-imsi-catcher.md)
-* [Hardware Hacking: Статьи](articles/README.md)
-  * [Пассивный IMSI Cather для сетей GSM: еще проще.](articles/imsi-gsm-simple.md)
-  * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](articles/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
-  * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](articles/iot-ddos.md)
-  * [IMPORTOZAMESHENIE: как устройство училось говорить по-русски](articles/importozameshenie.md)
-
-## Networks
-
-* [Networks: Переводы](networks/translations/README.md)
-  * [MQTT – Нервная Система IoT](networks/translations/mqtt-nervnaya-sistema-iot.md)
-  * [Изучение MQTT с использованием Wireshark](networks/translations/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
-* [Throwing Star LAN Tap](networks/throwing-star-lan-tap.md)
-
 ## BLOG
 
 ---
@@ -108,6 +83,34 @@
   * [Проекты](2018/projects.md)
   * [Книги почитать](2018/knigi-pochitat.md)
   * [Полезные видео](2018/poleznye-video.md)
+
+## Hardware Hacking
+
+---
+
+* [Hardware Hacking: Переводы](how-to/README.md)
+  * [Hardware Hacking: Делаем дамп прошивки с помощью программатора CH341a](how-to/ch341a.md)
+  * [Hardware Hacking: JTAG – отладка микроконтроллера](how-to/hardware-hacking-jtag.md)
+  * [Hardware Hacking: IoT WiFi модуль – Дампим данные](how-to/iot-wifi-module-data-dump.md)
+  * [Hardware Hacking: Как воспроизводить радиосигналы с помощью SDR](how-to/hardware-hacking-sdr-replay.md)
+  * [Hardware Hacking: Исключительный провал – Взлом защиты от чтения STM32F1](how-to/stm32f1.md)
+  * [SDR: Собери их всех: Разбираемся, как IMSI-Catcher’ы используются в сотовых сетях](how-to/catch-them-all.md)
+  * [SDR: Собираем пассивный IMSI Catcher](how-to/sobiraem-passivnyi-imsi-catcher.md)
+* [Hardware Hacking: Статьи](articles/README.md)
+  * [Пассивный IMSI Cather для сетей GSM: еще проще.](articles/imsi-gsm-simple.md)
+  * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](articles/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
+  * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](articles/iot-ddos.md)
+  * [IMPORTOZAMESHENIE: как устройство училось говорить по-русски](articles/importozameshenie.md)
+
+## Networks
+
+* [Networks: Переводы](networks/translations/README.md)
+  * [MQTT – Нервная Система IoT](networks/translations/mqtt-nervnaya-sistema-iot.md)
+  * [Изучение MQTT с использованием Wireshark](networks/translations/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
+* [Throwing Star LAN Tap](networks/throwing-star-lan-tap.md)
+
+---
+
 * [2017](2017/README.md)
   * [Статьи](2017/stati/README.md)
     * [Радиотехнические системы корабля "Буран"](2017/stati/radiotekhnicheskie-sistemy-korablya-buran.md)
