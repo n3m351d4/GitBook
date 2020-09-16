@@ -45,8 +45,7 @@
     * [Добавки Бета-Аланина для солдат боевых подразделений.](2018/articles/beta-alanin.md)
     * [Эффект Вертера или откуда вываливаются школьники](2018/articles/verter.md)
 * [2017](2017/README.md)
-  * [Статьи](2017/stati/README.md)
-    * [Радиотехнические системы корабля "Буран"](2017/stati/radiotekhnicheskie-sistemy-korablya-buran.md)
+  * [Статьи](2017/stati.md)
 
 ## Hardware Hacking
 
@@ -114,4 +113,9 @@
   * [Internet of Things and Embedded Systems](iot/untitled/internet-of-things-and-embedded-systems.md)
   * [IOT. Исследование технологий защищенности от компьютерных атак для IOT – решений](iot/untitled/iot.-issledovanie-tekhnologii-zashishennosti-ot-kompyuternykh-atak-dlya-iot-reshenii.md)
   * [Безопасность и конфиденциальность в Интернете вещей.](iot/untitled/bezopasnost-i-konfidencialnost-v-internete-veshei..md)
+
+## Space and Special systems
+
+* [Радиотехнические системы корабля "Буран"](space-and-special-systems/radiotekhnicheskie-sistemy-korablya-buran.md)
+* [Untitled](space-and-special-systems/untitled.md)
 
