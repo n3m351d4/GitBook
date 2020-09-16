@@ -8,9 +8,6 @@
 
 * [Статьи для DC7495](stati-dc7495.md)
 * [Видео](video-2020.md)
-* [2019](2019/README.md)
-  * [Видео доклады](2019/video-2019.md)
-  * [Проекты](2019/projects.md)
 * [2018](2018/README.md)
   * [Серия лекций: Радиолокация и радионавигация.](2018/radiolokaciya-i-radionavigaciya./README.md)
     * [Глава 0. Тезисы.](2018/radiolokaciya-i-radionavigaciya./glava-0.-tezisy..md)
@@ -48,19 +45,16 @@
     * [Добавки Бета-Аланина для солдат боевых подразделений.](2018/articles/beta-alanin.md)
     * [Эффект Вертера или откуда вываливаются школьники](2018/articles/verter.md)
   * [Посты](2018/posty.md)
-  * [Проекты](2018/projects.md)
   * [Книги почитать](2018/knigi-pochitat.md)
-  * [Полезные видео](2018/poleznye-video.md)
 * [2017](2017/README.md)
   * [Статьи](2017/stati/README.md)
     * [Радиотехнические системы корабля "Буран"](2017/stati/radiotekhnicheskie-sistemy-korablya-buran.md)
-  * [Cheat Sheets](2017/cheat-sheets.md)
-  * [Полезные видео](2017/poleznye-video-2017.md)
 
 ## Hardware Hacking
 
 ---
 
+* [RFID vs NFC Cheatsheet](cheat-sheets.md)
 * [Hardware Hacking: Переводы](how-to/README.md)
   * [Hardware Hacking: Делаем дамп прошивки с помощью программатора CH341a](how-to/ch341a.md)
   * [Hardware Hacking: JTAG – отладка микроконтроллера](how-to/hardware-hacking-jtag.md)
