@@ -6,7 +6,7 @@ Whoami
 * bachelor \(telecommunications and theoretical radiophysics\)
 * HW dev
 * engineer researcher
-* young master of information security
+* master of information security
 
 Листая оглавление, вы можете ознакомиться со всеми материалами, которые я с 2017 года складирую в паблике Inside. Здесь будет только самое интересное и важное.
 
