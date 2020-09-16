@@ -4,8 +4,6 @@
 
 Авторство данных статей по большей части не мое, но я хочу их перечислить здесь, так как считаю выбранные темы достаточно занимательными.
 
-{% embed url="https://dc7495.org/heap-buffer-overflow-04/" %}
-
 {% embed url="https://dc7495.org/unpacking-malware-like-pro/" %}
 
 {% embed url="http://dc7495.org/reducing-threats-in-root-server-systems/" %}
@@ -16,9 +14,13 @@
 
 {% embed url="http://dc7495.org/intrusion-detection-system-for-detecting-internal-attacks-in-iot-systems-based-on-trust/" %}
 
-{% embed url="http://dc7495.org/heap-buffer-overflow/" %}
+{% embed url="https://dc7495.org/heap-buffer-overflow-04/" %}
+
+{% embed url="https://dc7495.org/buffer-overflow-on-the-heap-part-3/" %}
 
 {% embed url="https://dc7495.org/heap-overflow-2/" %}
+
+{% embed url="http://dc7495.org/heap-buffer-overflow/" %}
 
 {% embed url="https://dc7495.org/analysis-of-malicious-ransomware-traffic-using-captipper/" %}
 
