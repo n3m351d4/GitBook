@@ -1,2 +1,2 @@
-# Hardware Hacking: Обучение \(переводы\)
+# Hardware Hacking: Переводы
 

@@ -6,7 +6,7 @@
 
 ---
 
-* [Hardware Hacking: Обучение \(переводы\)](how-to/README.md)
+* [Hardware Hacking: Переводы](how-to/README.md)
   * [Hardware Hacking: Делаем дамп прошивки с помощью программатора CH341a](how-to/ch341a.md)
   * [Hardware Hacking: JTAG – отладка микроконтроллера](how-to/hardware-hacking-jtag.md)
   * [Hardware Hacking: IoT WiFi модуль – Дампим данные](how-to/iot-wifi-module-data-dump.md)
@@ -19,6 +19,13 @@
   * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](stati/iot-ddos.md)
   * [IMPORTOZAMESHENIE: как устройство училось говорить по-русски](stati/importozameshenie.md)
 
+## Networks
+
+* [Изучение MQTT с использованием Wireshark](networks/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
+* [MQTT – Нервная Система IoT](networks/mqtt-nervnaya-sistema-iot.md)
+* [Throwing Star LAN Tap](networks/throwing-star-lan-tap.md)
+* [Untitled](networks/untitled.md)
+
 ## BLOG
 
 ---
@@ -27,11 +34,8 @@
   * [Статьи \(мои\)](2020/articles.md)
   * [Переводы](2020/translations/README.md)
     * [Мануал по установке MaltegoXL](2020/translations/manual-po-kryakingu-maltegoxl.md)
-    * [Изучение MQTT с использованием Wireshark](2020/translations/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
-    * [MQTT – Нервная Система IoT](2020/translations/mqtt-nervnaya-sistema-iot.md)
     * [Собери их всех: Разбираемся, как IMSI-Catcher’ы используются в сотовых сетях](2020/translations/catch-them-all.md)
-  * [Проекты](2020/projects/README.md)
-    * [Throwing Star LAN Tap](2020/projects/throwing-star-lan-tap.md)
+  * [Проекты](2020/projects.md)
   * [Видео](2020/video-2020.md)
   * [Статьи DC7495](2020/stati-dc7495.md)
   * [Статьи для канала Inside](2020/stati-dlya-kanala-inside/README.md)
