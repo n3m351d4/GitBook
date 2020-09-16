@@ -13,7 +13,7 @@
   * [Hardware Hacking: Как воспроизводить радиосигналы с помощью SDR](how-to/hardware-hacking-sdr-replay.md)
   * [Исключительный провал – Взлом защиты от чтения STM32F1](how-to/stm32f1.md)
   * [SDR: Собираем пассивный IMSI Catcher](how-to/sobiraem-passivnyi-imsi-catcher.md)
-* [Статьи](stati/README.md)
+* [Hardware Hacking: Статьи](stati/README.md)
   * [Пассивный IMSI Cather для сетей GSM: еще проще.](stati/imsi-gsm-simple.md)
   * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](stati/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
   * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](stati/iot-ddos.md)

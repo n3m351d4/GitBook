@@ -1,2 +1,2 @@
-# Статьи
+# Hardware Hacking: Статьи
 
