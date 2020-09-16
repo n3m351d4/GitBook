@@ -26,20 +26,16 @@
   * [Networks: Переводы](networks-1/translations/README.md)
     * [MQTT – Нервная Система IoT](networks-1/translations/mqtt-nervnaya-sistema-iot.md)
     * [Изучение MQTT с использованием Wireshark](networks-1/translations/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
-
-## Social Engeneering & OSINT
-
-* [Эффект Вертера или откуда вываливаются школьники](social-engeneering-and-osint/verter.md)
-* [Переводы](social-engeneering-and-osint/perevody/README.md)
-  * [Социальная инженерия. Угрозы и защита: литературный обзор](social-engeneering-and-osint/perevody/socialnaya-inzheneriya.-ugrozy-i-zashita-literaturnyi-obzor.md)
-  * [Боевой OSINT s01e01 - OSINT & RDP](social-engeneering-and-osint/perevody/boevoi-osint-s01e01-osint-and-rdp.md)
-  * [Боевой OSINT s01e02](social-engeneering-and-osint/perevody/untitled.md)
-
-## Pentest
-
-* [Переводы](pentest/perevody/README.md)
-  * [Мануал по установке MaltegoXL](pentest/perevody/manual-po-kryakingu-maltegoxl.md)
-* [DC7495 Wireless Quest](pentest/dc7495-wireless-quest.md)
+* [Social Engeneering & OSINT](social-engeneering-and-osint-1/README.md)
+  * [Переводы](social-engeneering-and-osint-1/perevody/README.md)
+    * [Социальная инженерия. Угрозы и защита: литературный обзор](social-engeneering-and-osint-1/perevody/socialnaya-inzheneriya.-ugrozy-i-zashita-literaturnyi-obzor.md)
+    * [Боевой OSINT s01e01 - OSINT & RDP](social-engeneering-and-osint-1/perevody/boevoi-osint-s01e01-osint-and-rdp.md)
+    * [Боевой OSINT s01e02](social-engeneering-and-osint-1/perevody/untitled.md)
+  * [Эффект Вертера или откуда вываливаются школьники](social-engeneering-and-osint-1/verter.md)
+* [Pentest](pentest-1/README.md)
+  * [DC7495 Wireless Quest](pentest-1/dc7495-wireless-quest.md)
+  * [Переводы](pentest-1/perevody/README.md)
+    * [Мануал по установке MaltegoXL](pentest-1/perevody/manual-po-kryakingu-maltegoxl.md)
 
 ## InfoSec
 
