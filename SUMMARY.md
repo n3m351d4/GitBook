@@ -8,27 +8,23 @@
 
 * [Статьи для DC7495](stati-dc7495.md)
 * [Видео](video-2020.md)
-
-## Hardware Hacking
-
----
-
-* [RFID vs NFC Cheatsheet](cheat-sheets.md)
-* [Hardware Hacking: Переводы](how-to/README.md)
-  * [Hardware Hacking: Делаем дамп прошивки с помощью программатора CH341a](how-to/ch341a.md)
-  * [Hardware Hacking: JTAG – отладка микроконтроллера](how-to/hardware-hacking-jtag.md)
-  * [Hardware Hacking: IoT WiFi модуль – Дампим данные](how-to/iot-wifi-module-data-dump.md)
-  * [Hardware Hacking: Как воспроизводить радиосигналы с помощью SDR](how-to/hardware-hacking-sdr-replay.md)
-  * [Hardware Hacking: Исключительный провал – Взлом защиты от чтения STM32F1](how-to/stm32f1.md)
-  * [SDR: Собери их всех: Разбираемся, как IMSI-Catcher’ы используются в сотовых сетях](how-to/catch-them-all.md)
-  * [SDR: Собираем пассивный IMSI Catcher](how-to/sobiraem-passivnyi-imsi-catcher.md)
-* [Hardware Hacking: Статьи](articles/README.md)
-  * [Информационная безопасность в системах подвижной связи. Доклад.](articles/informacionnaya-bezopasnost-v-sistemakh-podvizhnoi-svyazi.-doklad..md)
-  * [Пассивный IMSI Cather для сетей GSM: еще проще.](articles/imsi-gsm-simple.md)
-  * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](articles/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
-  * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](articles/iot-ddos.md)
-  * [IMPORTOZAMESHENIE: как устройство училось говорить по-русски](articles/importozameshenie.md)
-  * [Пошаговое руководство к поиску и эксплуатации Android-устройств](articles/poshagovoe-rukovodstvo-k-poisku-i-ekspluatacii-android-ustroistv-libo-otladochnykh-khostov-ispolzuyu.md)
+* [Hardware Hacking](hardware-hacking-1/README.md)
+  * [Hardware Hacking: Статьи](hardware-hacking-1/articles/README.md)
+    * [Информационная безопасность в системах подвижной связи. Доклад.](hardware-hacking-1/articles/informacionnaya-bezopasnost-v-sistemakh-podvizhnoi-svyazi.-doklad..md)
+    * [Пассивный IMSI Cather для сетей GSM: еще проще.](hardware-hacking-1/articles/imsi-gsm-simple.md)
+    * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](hardware-hacking-1/articles/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
+    * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](hardware-hacking-1/articles/iot-ddos.md)
+    * [IMPORTOZAMESHENIE: как устройство училось говорить по-русски](hardware-hacking-1/articles/importozameshenie.md)
+    * [Пошаговое руководство к поиску и эксплуатации Android-устройств](hardware-hacking-1/articles/poshagovoe-rukovodstvo-k-poisku-i-ekspluatacii-android-ustroistv-libo-otladochnykh-khostov-ispolzuyu.md)
+  * [Hardware Hacking: Переводы](hardware-hacking-1/how-to/README.md)
+    * [Hardware Hacking: Делаем дамп прошивки с помощью программатора CH341a](hardware-hacking-1/how-to/ch341a.md)
+    * [Hardware Hacking: JTAG – отладка микроконтроллера](hardware-hacking-1/how-to/hardware-hacking-jtag.md)
+    * [Hardware Hacking: IoT WiFi модуль – Дампим данные](hardware-hacking-1/how-to/iot-wifi-module-data-dump.md)
+    * [Hardware Hacking: Как воспроизводить радиосигналы с помощью SDR](hardware-hacking-1/how-to/hardware-hacking-sdr-replay.md)
+    * [Hardware Hacking: Исключительный провал – Взлом защиты от чтения STM32F1](hardware-hacking-1/how-to/stm32f1.md)
+    * [SDR: Собери их всех: Разбираемся, как IMSI-Catcher’ы используются в сотовых сетях](hardware-hacking-1/how-to/catch-them-all.md)
+    * [SDR: Собираем пассивный IMSI Catcher](hardware-hacking-1/how-to/sobiraem-passivnyi-imsi-catcher.md)
+  * [RFID vs NFC Cheatsheet](hardware-hacking-1/cheat-sheets.md)
 
 ## Networks
 
