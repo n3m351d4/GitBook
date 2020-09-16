@@ -21,13 +21,11 @@
     * [SDR: Собери их всех: Разбираемся, как IMSI-Catcher’ы используются в сотовых сетях](hardware-hacking-1/how-to/catch-them-all.md)
     * [SDR: Собираем пассивный IMSI Catcher](hardware-hacking-1/how-to/sobiraem-passivnyi-imsi-catcher.md)
   * [RFID vs NFC Cheatsheet](hardware-hacking-1/cheat-sheets.md)
-
-## Networks
-
-* [Networks: Переводы](networks/translations/README.md)
-  * [MQTT – Нервная Система IoT](networks/translations/mqtt-nervnaya-sistema-iot.md)
-  * [Изучение MQTT с использованием Wireshark](networks/translations/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
-* [Throwing Star LAN Tap](networks/throwing-star-lan-tap.md)
+* [Networks](networks-1/README.md)
+  * [Throwing Star LAN Tap](networks-1/throwing-star-lan-tap.md)
+  * [Networks: Переводы](networks-1/translations/README.md)
+    * [MQTT – Нервная Система IoT](networks-1/translations/mqtt-nervnaya-sistema-iot.md)
+    * [Изучение MQTT с использованием Wireshark](networks-1/translations/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
 
 ## Social Engeneering & OSINT
 
