@@ -7,8 +7,7 @@
 ---
 
 * [2020](2020/README.md)
-  * [Переводы](2020/translations/README.md)
-    * [Мануал по установке MaltegoXL](2020/translations/manual-po-kryakingu-maltegoxl.md)
+  * [Переводы](2020/translations.md)
   * [Проекты](2020/projects.md)
   * [Видео](2020/video-2020.md)
   * [Статьи DC7495](2020/stati-dc7495.md)
@@ -117,4 +116,9 @@
 ## Social Engeneering & OSINT
 
 * [Untitled](social-engeneering-and-osint/untitled.md)
+
+## Pentest
+
+* [Переводы](pentest/perevody/README.md)
+  * [Мануал по установке MaltegoXL](pentest/perevody/manual-po-kryakingu-maltegoxl.md)
 
