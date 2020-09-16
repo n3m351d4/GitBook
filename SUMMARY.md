@@ -40,7 +40,6 @@
     * [IOT. Исследование технологий защищенности от компьютерных атак для IOT – решений](2019/stati-2019/iot.-issledovanie-tekhnologii-zashishennosti-ot-kompyuternykh-atak-dlya-iot-reshenii.md)
   * [Видео доклады](2019/video-2019.md)
   * [Проекты](2019/projects.md)
-  * [Интересные видео](2019/interesnye-video.md)
 * [2018](2018/README.md)
   * [Серия лекций: Радиолокация и радионавигация.](2018/radiolokaciya-i-radionavigaciya./README.md)
     * [Глава 0. Тезисы.](2018/radiolokaciya-i-radionavigaciya./glava-0.-tezisy..md)
