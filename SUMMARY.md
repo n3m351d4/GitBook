@@ -6,14 +6,9 @@
 
 ---
 
-* [2020](2020/README.md)
-  * [Проекты](2020/projects.md)
-  * [Видео](2020/video-2020.md)
-  * [Статьи DC7495](2020/stati-dc7495.md)
+* [Статьи для DC7495](stati-dc7495.md)
+* [Видео](video-2020.md)
 * [2019](2019/README.md)
-  * [Статьи](2019/stati-2019/README.md)
-    * [Internet of Things and Embedded Systems](2019/stati-2019/internet-of-things-and-embedded-systems.md)
-    * [Кибер-криминология как академическая дисциплина: ее история, влияние и вклад](2019/stati-2019/kiber-kriminologiya-kak-akademicheskaya-disciplina-ee-istoriya-vliyanie-i-vklad.md)
   * [Видео доклады](2019/video-2019.md)
   * [Проекты](2019/projects.md)
 * [2018](2018/README.md)
@@ -119,10 +114,12 @@
   * [Политика управления обновлениями и уязвимостями программного обеспечения](infosec/audit-ib/politika-upravleniya-obnovleniyami-i-uyazvimostyami-programmnogo-obespecheniya.md)
   * [ПР4 Алгоритмы приближенных вычислений наличия в программах разрушающих программных средств](infosec/audit-ib/algoritmy-priblizhennykh-vychislenii-nalichiya-v-programmakh-razrushayushikh-programmnykh-sredstv.md)
   * [ПР6 Методология обследования и проектирования защищенных информационных \(автоматизированных\) систем.](infosec/audit-ib/pr6-metodologiya-obsledovaniya-i-proektirovaniya-zashishennykh-informacionnykh-avtomatizirovannykh-s.md)
+* [Кибер-криминология как академическая дисциплина: ее история, влияние и вклад](infosec/kiber-kriminologiya-kak-akademicheskaya-disciplina-ee-istoriya-vliyanie-i-vklad.md)
 
 ## IOT
 
 * [Переводы](iot/untitled/README.md)
+  * [Internet of Things and Embedded Systems](iot/untitled/internet-of-things-and-embedded-systems.md)
   * [IOT. Исследование технологий защищенности от компьютерных атак для IOT – решений](iot/untitled/iot.-issledovanie-tekhnologii-zashishennosti-ot-kompyuternykh-atak-dlya-iot-reshenii.md)
   * [Безопасность и конфиденциальность в Интернете вещей.](iot/untitled/bezopasnost-i-konfidencialnost-v-internete-veshei..md)
 
