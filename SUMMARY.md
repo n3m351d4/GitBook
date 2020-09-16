@@ -11,7 +11,8 @@
   * [Hardware Hacking: JTAG – отладка микроконтроллера](how-to/hardware-hacking-jtag.md)
   * [Hardware Hacking: IoT WiFi модуль – Дампим данные](how-to/iot-wifi-module-data-dump.md)
   * [Hardware Hacking: Как воспроизводить радиосигналы с помощью SDR](how-to/hardware-hacking-sdr-replay.md)
-  * [Исключительный провал – Взлом защиты от чтения STM32F1](how-to/stm32f1.md)
+  * [Hardware Hacking: Исключительный провал – Взлом защиты от чтения STM32F1](how-to/stm32f1.md)
+  * [SDR: Собери их всех: Разбираемся, как IMSI-Catcher’ы используются в сотовых сетях](how-to/catch-them-all.md)
   * [SDR: Собираем пассивный IMSI Catcher](how-to/sobiraem-passivnyi-imsi-catcher.md)
 * [Hardware Hacking: Статьи](stati/README.md)
   * [Пассивный IMSI Cather для сетей GSM: еще проще.](stati/imsi-gsm-simple.md)
@@ -21,10 +22,10 @@
 
 ## Networks
 
-* [Изучение MQTT с использованием Wireshark](networks/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
-* [MQTT – Нервная Система IoT](networks/mqtt-nervnaya-sistema-iot.md)
+* [Networks: Переводы](networks/untitled/README.md)
+  * [MQTT – Нервная Система IoT](networks/untitled/mqtt-nervnaya-sistema-iot.md)
+  * [Изучение MQTT с использованием Wireshark](networks/untitled/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
 * [Throwing Star LAN Tap](networks/throwing-star-lan-tap.md)
-* [Untitled](networks/untitled.md)
 
 ## BLOG
 
@@ -34,7 +35,6 @@
   * [Статьи \(мои\)](2020/articles.md)
   * [Переводы](2020/translations/README.md)
     * [Мануал по установке MaltegoXL](2020/translations/manual-po-kryakingu-maltegoxl.md)
-    * [Собери их всех: Разбираемся, как IMSI-Catcher’ы используются в сотовых сетях](2020/translations/catch-them-all.md)
   * [Проекты](2020/projects.md)
   * [Видео](2020/video-2020.md)
   * [Статьи DC7495](2020/stati-dc7495.md)
