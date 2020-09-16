@@ -3,7 +3,7 @@
 * [Добро пожаловать!](README.md)
 * [Blog](blog-1/README.md)
   * [Видео](blog-1/video-2020.md)
-  * [Статьи для DC7495](blog-1/stati-dc7495.md)
+  * [Статьи для DC7495](blog-1/dc7495.md)
 * [Hardware Hacking](hardware-hacking-1/README.md)
   * [Hardware Hacking: Статьи](hardware-hacking-1/articles/README.md)
     * [Информационная безопасность в системах подвижной связи. Доклад.](hardware-hacking-1/articles/informacionnaya-bezopasnost-v-sistemakh-podvizhnoi-svyazi.-doklad..md)
