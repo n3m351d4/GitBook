@@ -10,12 +10,10 @@
   * [Проекты](2020/projects.md)
   * [Видео](2020/video-2020.md)
   * [Статьи DC7495](2020/stati-dc7495.md)
-  * [Статьи для канала Inside](2020/stati-dlya-kanala-inside.md)
 * [2019](2019/README.md)
   * [Статьи](2019/stati-2019/README.md)
     * [Internet of Things and Embedded Systems](2019/stati-2019/internet-of-things-and-embedded-systems.md)
     * [DC7495 Wireless Quest](2019/stati-2019/dc7495-wireless-quest.md)
-    * [Пошаговое руководство к поиску и эксплуатации Android-устройств](2019/stati-2019/poshagovoe-rukovodstvo-k-poisku-i-ekspluatacii-android-ustroistv-libo-otladochnykh-khostov-ispolzuyu.md)
     * [Социальная инженерия. Угрозы и защита: литературный обзор](2019/stati-2019/socialnaya-inzheneriya.-ugrozy-i-zashita-literaturnyi-obzor.md)
     * [Безопасность и конфиденциальность в Интернете вещей.](2019/stati-2019/bezopasnost-i-konfidencialnost-v-internete-veshei..md)
     * [Кибер-криминология как академическая дисциплина: ее история, влияние и вклад](2019/stati-2019/kiber-kriminologiya-kak-akademicheskaya-disciplina-ee-istoriya-vliyanie-i-vklad.md)
@@ -100,6 +98,7 @@
 
 ## Pentest
 
+* [Пошаговое руководство к поиску и эксплуатации Android-устройств](pentest/poshagovoe-rukovodstvo-k-poisku-i-ekspluatacii-android-ustroistv-libo-otladochnykh-khostov-ispolzuyu.md)
 * [Переводы](pentest/perevody/README.md)
   * [Мануал по установке MaltegoXL](pentest/perevody/manual-po-kryakingu-maltegoxl.md)
 
