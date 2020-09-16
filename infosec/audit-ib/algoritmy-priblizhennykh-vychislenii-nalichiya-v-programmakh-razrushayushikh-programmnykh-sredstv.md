@@ -34,23 +34,23 @@
 
 **Опишите методы расчета вероятности наличия РПС на этапе испытаний программного обеспечения.**
 
-![](../../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2834%29.png)
 
-![](../../../.gitbook/assets/image%20%2812%29.png)
+![](../../.gitbook/assets/image%20%2812%29.png)
 
-![](../../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
-![](../../../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/image%20%282%29.png)
 
 **Опишите критерии принятия решений о наличии в программах РПС.**
 
-![](../../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
-![](../../../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
-![](../../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
-![](../../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 **Какие существуют подходы к исследованию сложных программных комплексов.**
 
