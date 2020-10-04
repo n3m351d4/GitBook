@@ -58,6 +58,7 @@
 * [IOT](iot-1/README.md)
   * [Викторины](iot-1/viktoriny/README.md)
     * [Викторина 1 RPi \(Ответы\)](iot-1/viktoriny/viktorina-1-rpi-otvety.md)
+    * [Untitled](iot-1/viktoriny/untitled.md)
   * [Переводы](iot-1/untitled/README.md)
     * [Internet of Things and Embedded Systems](iot-1/untitled/internet-of-things-and-embedded-systems.md)
     * [IOT. Исследование технологий защищенности от компьютерных атак для IOT – решений](iot-1/untitled/iot.-issledovanie-tekhnologii-zashishennosti-ot-kompyuternykh-atak-dlya-iot-reshenii.md)
