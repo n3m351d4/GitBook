@@ -12,7 +12,7 @@ Micro SD slot
 
 
 
-2. An ARM-based processor is
+**2. An ARM-based processor is**
 
 A processor manufactured in its entirety by ARM Ltd.
 
@@ -20,9 +20,11 @@ A processor manufactured in part by ARM Ltd.
 
 A processor whose design is similar to that of an ARM processor.
 
-+A processor which contains a core designed by ARM Ltd.
+**+A processor which contains a core designed by ARM Ltd.**
 
-3.     Which of the following is not a task of an operating system?
+\*\*\*\*
+
+**3.     Which of the following is not a task of an operating system?**
 
 +Improve performance by increasing clock frequency of the processor
 
