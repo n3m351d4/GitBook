@@ -97,6 +97,7 @@
     * [Средства радиолокации и геодезической съемки.](space-and-special-systems-1/radiolokacaya/sredstva-radiolokacii-i-geodezicheskoi-semki..md)
     * [ДИСС](space-and-special-systems-1/radiolokacaya/diss.md)
 * [Biohacking](biohacking-1/README.md)
+  * [Piracetam Changes your Personality](biohacking-1/piracetam-changes-your-personality.md)
   * [Добавки Бета-Аланина для солдат боевых подразделений.](biohacking-1/beta-alanin.md)
   * [Активаторы метаболизма мозга](biohacking-1/metabolizm.md)
 * [Urban Exploration](stalking-and-netstalking-1/README.md)
