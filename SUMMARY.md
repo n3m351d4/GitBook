@@ -58,6 +58,7 @@
       * [ПР6 Методология обследования и проектирования защищенных информационных \(автоматизированных\) систем.](infosec-1/zakonodatelstvo-etc/audit-ib/pr6-metodologiya-obsledovaniya-i-proektirovaniya-zashishennykh-informacionnykh-avtomatizirovannykh-s.md)
 * [IOT](iot-1/README.md)
   * [Snippets](iot-1/snippets/README.md)
+    * [Interfacing with RPi \| Sockets](iot-1/snippets/interfacing-with-rpi-or-sockets.md)
     * [Client and Server \| Ethernet and Wi-fi \(Arduino\)](iot-1/snippets/client-and-server-or-ethernet-and-wi-fi-arduino.md)
   * [Викторины](iot-1/viktoriny/README.md)
     * [Викторина 1 RPi \(Ответы\)](iot-1/viktoriny/viktorina-1-rpi-otvety.md)
