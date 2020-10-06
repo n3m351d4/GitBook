@@ -40,7 +40,6 @@
   * [Переводы](pentest-1/perevody/README.md)
     * [Мануал по установке MaltegoXL](pentest-1/perevody/manual-po-kryakingu-maltegoxl.md)
 * [InfoSec](infosec-1/README.md)
-  * [ОБЩАЯ ХАРАКТЕРИСТИКА ПСИХОЛОГИИ КИБЕРПРЕСТУПНИКА](infosec-1/obshaya-kharakteristika-psikhologii-kiberprestupnika.md)
   * [Кибер-криминология как академическая дисциплина: ее история, влияние и вклад](infosec-1/kiber-kriminologiya-kak-akademicheskaya-disciplina-ee-istoriya-vliyanie-i-vklad.md)
   * [Законодательство, etc](infosec-1/zakonodatelstvo-etc/README.md)
     * [Управление информационной безопасностью объектов критической информационной инфраструктуры](infosec-1/zakonodatelstvo-etc/upravlenie-informacionnoi-bezopasnostyu-obektov-kriticheskoi-informacionnoi-infrastruktury/README.md)
