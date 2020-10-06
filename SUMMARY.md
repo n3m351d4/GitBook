@@ -61,6 +61,7 @@
 * [IOT](iot-1/README.md)
   * [IOT. Предметная область: Исследование технологий защищенности от компьютерных атак для IOT – решений](iot-1/iot.-predmetnaya-oblast-issledovanie-tekhnologii-zashishennosti-ot-kompyuternykh-atak-dlya-iot-reshe.md)
   * [Snippets](iot-1/snippets/README.md)
+    * [Exeptions \| Socket client \| Socket server](iot-1/snippets/exeptions-or-socket-client-or-socket-server.md)
     * [Interfacing with RPi \| Sockets](iot-1/snippets/interfacing-with-rpi-or-sockets.md)
     * [Client and Server \| Ethernet and Wi-fi \(Arduino\)](iot-1/snippets/client-and-server-or-ethernet-and-wi-fi-arduino.md)
   * [Викторины](iot-1/viktoriny/README.md)
