@@ -58,6 +58,7 @@
       * [ПР4 Алгоритмы приближенных вычислений наличия в программах разрушающих программных средств](infosec-1/zakonodatelstvo-etc/audit-ib/algoritmy-priblizhennykh-vychislenii-nalichiya-v-programmakh-razrushayushikh-programmnykh-sredstv.md)
       * [ПР6 Методология обследования и проектирования защищенных информационных \(автоматизированных\) систем.](infosec-1/zakonodatelstvo-etc/audit-ib/pr6-metodologiya-obsledovaniya-i-proektirovaniya-zashishennykh-informacionnykh-avtomatizirovannykh-s.md)
 * [IOT](iot-1/README.md)
+  * [IOT. Предметная область: Исследование технологий защищенности от компьютерных атак для IOT – решений](iot-1/iot.-predmetnaya-oblast-issledovanie-tekhnologii-zashishennosti-ot-kompyuternykh-atak-dlya-iot-reshe.md)
   * [Snippets](iot-1/snippets/README.md)
     * [Interfacing with RPi \| Sockets](iot-1/snippets/interfacing-with-rpi-or-sockets.md)
     * [Client and Server \| Ethernet and Wi-fi \(Arduino\)](iot-1/snippets/client-and-server-or-ethernet-and-wi-fi-arduino.md)
