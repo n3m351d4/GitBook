@@ -27,6 +27,7 @@
     * [MQTT – Нервная Система IoT](networks-1/translations/mqtt-nervnaya-sistema-iot.md)
     * [Изучение MQTT с использованием Wireshark](networks-1/translations/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
 * [Social Engeneering & OSINT](social-engeneering-and-osint-1/README.md)
+  * [Проблема сознания в философии.](social-engeneering-and-osint-1/problema-soznaniya-v-filosofii..md)
   * [Старые добрые техники убеждения](social-engeneering-and-osint-1/starye-dobrye-tekhniki-ubezhdeniya.md)
   * [Переводы](social-engeneering-and-osint-1/perevody/README.md)
     * [Социальная инженерия. Угрозы и защита: литературный обзор](social-engeneering-and-osint-1/perevody/socialnaya-inzheneriya.-ugrozy-i-zashita-literaturnyi-obzor.md)
