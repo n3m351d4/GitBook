@@ -1,5 +1,5 @@
 ---
-description: '2020'
+description: 2020 @in51d3
 ---
 
 # Hardware Hacking: Основы работы с GNU Radio
