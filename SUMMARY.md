@@ -109,6 +109,5 @@
   * [Welcome to Yamantau \(CIA\)](stalking-and-netstalking-1/welcome-to-yamantau-cia.md)
   * [Проект Кобра и ГХК](stalking-and-netstalking-1/proekt-kobra-i-odna-nasha-podzemnaya-laboratoriya.md)
   * [Убежища](stalking-and-netstalking-1/go.md)
-  * [Город 26](stalking-and-netstalking-1/gorod-26.md)
   * [Утренняя прогулка](stalking-and-netstalking-1/utrennyaya-progulka.md)
 
