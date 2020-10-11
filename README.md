@@ -16,3 +16,23 @@ Whoami
 
 Если вы найдете ошибки \(а вы их найдете, потому что, например, ранние статьи я писала совсем на скорую руку\) - сообщите, пожалуйста мне. Но без фанатизма.
 
+
+
+Твиттер: [https://twitter.com/M155\_AUT15T1C](https://twitter.com/M155_AUT15T1C)
+
+Твич: [https://www.twitch.tv/n3m351d4](https://www.twitch.tv/n3m351d4)
+
+Гитхаб: [https://github.com/n3m351d4](https://github.com/n3m351d4)
+
+Мерч: [https://inside.printio.ru/](https://inside.printio.ru/) и [http://shop.n3m3515.space/](http://shop.n3m3515.space/)
+
+Мемы: [https://t.me/HWMailRu](https://t.me/HWMailRu)
+
+SDR: [https://t.me/sdradio](https://t.me/sdradio)
+
+Музыка: [https://t.me/in51d3\_mu51c](https://t.me/in51d3_mu51c)
+
+Помочь покушать, чтобы был контент: [https://www.donationalerts.com/r/n3m351d4](https://www.donationalerts.com/r/n3m351d4) - бот запостит ваше сообщение в канал! btc: 1Ldv7999XzE5NUTyQFKcZAbQkbVVdbr31R
+
+
+
