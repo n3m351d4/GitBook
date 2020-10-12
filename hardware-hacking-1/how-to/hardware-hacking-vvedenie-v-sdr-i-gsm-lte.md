@@ -189,7 +189,72 @@ sudo apt-get update
 sudo apt install wireshark-qt
 ```
 
-  
+## **Начало работы:**
+
+> Команда kal \(kalibrate-hackrf\)
+
+> ```text
+> 		-s	выбор диапазона сканирования (GSM850, GSM900, EGSM, DCS, PCS (1900 МГц))
+> 		-f	указать частоту ближайшей базовой станции GSM
+> 		-c	указать канал ближайшей базовой станции GSM
+> 		-b	указание индикатора диапазона (GSM850, GSM900, EGSM, DCS, PCS)
+> ```
+
+Необходимо выполнить команду: $  kal -s PCS 
+
+… для запуска kalibrate-hackrf \(kal\) выбрав диапазон PCS \(1900МГц\) и увидим следующее:
+
+> Для России, мы будем выполнять команду $  kal -s DCS
+>
+> Диапазон DCS - 1800 МГц, как мы уже определили ранее.
+
+![](https://lh3.googleusercontent.com/nSBDPRTAcB0acA54-y67BBzLJqC9M_jmwwALxm8GOQlcdcJOUwj4FBQJsgYiCsbiRIangfqwaZXeHia0hZRDKwfAQl-Uw509FbWhhE06z51PoMMirRYvJ9C00mjYA4PxLHcEsDRn)
+
+Я решил использовать первую найденную частоту \(1930,2 МГц\) для дальнейшего тестирования. Если настроить приемник GQRX на частоту 1930,2 МГц можно наблюдать активность, сосредоточенную вокруг частоты = 1930,535 МГц. Эта новая \(скорректированная\) частота будет использоваться нами в GnuRadio-Companion для захвата пакетного трафика.
+
+![](https://lh4.googleusercontent.com/8BJ2_teBP2YqUVXF1BiA6WiAdoKj3xJjJbHqV7XtFcLeXo_gZWya59jeKWnTofUixtVxrCoB6bLbqJQCxix6jQmuhFMdBmAnBlRhxvNK8J2OeTLvS-D4GLIYjvvAM8heG63i24XV)
+
+## **Using GnuRadio-Companion:**
+
+A few years back, open-source ‘airprobe\_rtlsdr.grc’ \(Airprobe project\) was the “goto” block for live monitoring of traffic, while using GnuRadio-Companion. 
+
+As of recent years, ‘**airprobe\_rtlsdr.grc**‘ was replaced by “**grgsm\_livemon.grc**”  Special note: The _gr-gsm_ project is based on the _gsm-receiver_ written by Piotr Krysik \(also the main author of _gr-gsm_ for the _Airprobe_ project\).
+
+I changed directory to gr-gsm/apps
+
+Executed:  $ gnuradio-companion grgsm\_livemon.grc
+
+This brings up the GnuRadio-Companion GUI, and displays the grgsm\_livemon.grc block template.
+
+![](https://lh4.googleusercontent.com/7jPAltEKbV7B9-xI2fzXF86gmli3DRFNTY1COgmJ331ApYScHpjOk82p9VuCiOLTx22alRMamEEvA5ewYrs4VVfgT495kjP4h52TcSbOb1LvhGVSdCDM0H8xrAyX5SgtBWf-IvWK)
+
+I then enabled the radio by clicking on the Start button \(top center of display\) and tuned to 1930.535MHz \(adjusted frequency determined using Gqrx SDR\). As soon as I locked into the frequency, I was presented with the following:
+
+![](https://lh3.googleusercontent.com/hrkhUJiHBVSo6z15BNleiQXdhFdCsWj3HdniXmLnBa-htHOc22le9Y-2DT3tYN_-TnqEC8lyvFLRgmeKiQSjMbMxR5S2T8MkbHCDlYTE-ULcFcM-4It2x6z7S_XqYtytBUvmN7B3)
+
+It’s not obvious by the above image, but the data inside the console terminal is streaming at a very fast rate and will continue to stream until we click the stop button \(top center of Gnu Radio Companion display\).
+
+Also, notice the high volume of “2b” bytes in the data stream. This is a strong indication that we are successfully capturing cellular traffic, as “2b” is used as a filler byte when constructing the packets.
+
+## **Using Wireshark to analyze the packets:**
+
+During a follow-up GnuRadio-Companion session, I decided to open a new terminal to run Wireshark and analyze the streaming live data using the loop-back mode and a ‘gsmtap’ filter.  This needs to be done as root, so the command is:
+
+```text
+$ sudo wireshark
+```
+
+![](https://lh5.googleusercontent.com/3--Vs58vZB2od3kFGivU2N7hUyT2_QkLXpJZRP4aof4Kew0VDUd-tUwVqHCrW7EaptJWSNbSFPl1CBhe0PJxBsr7Jxzf6Nn75zQX6NsUPzINgQScGLmy1oPyHB-68yvOzIasgxL4)
+
+As expected, Source and Destination are localhost \(due to loop-back mode\), and from my limited research of packet types, I know that System Information Type 4 is a carrier beacon, providing pertinent information.
+
+![](https://lh6.googleusercontent.com/HzbpVh6HLeGEtHr9JSqmBDUEJUlEgF8iBhbob0GgcJjqwiKtpUQpL9hPhVGglA1axQrpa6TrUxniLrq5ICEKyuhdvkGd-osGhKioOKgK2Gs1JwZvM0wymnM-txVjjLycPIbz0O6V)
+
+## **Summary:**
+
+As far as I’m concerned, this has turned out to be a pretty rewarding project and I feel I’ve learned quite a bit in the process. Obviously, I’ve barely scratched the surface of what Software Defined Radio is capable of, but I’m now looking forward to continuing my research in this area.
+
+Next up, I would like to better understand those packets I captured, what they mean and how the whole ‘mobile network’ works in general. I’d also like to run some sample test calls using my personal phones \(to keep it legal\) and capture/decode my personal SMS \(‘Hello World’\) packets.  ![&#x1F609;](https://s.w.org/images/core/emoji/13.0.0/svg/1f609.svg)  
 
 
 
