@@ -76,7 +76,7 @@ _Основная информация_
 
 > **Примечание:**
 >
-> Если вы так же ленивы, как и ваш покорный переводчик, вы можете скачать образ виртуальной машины GNU Radio с предустановленным ПО GNU Radio, gqrx, Wireshark и драйверами для популярных SDR, в том числе RTL SDR и Hack RF.
+> Если вы так же ленивы, как и ваш покорный переводчик, вы можете скачать образ виртуальной машины GNU Radio с предустановленным ПО GNU Radio, gqrx, Wireshark и драйверами для популярных SDR, в том числе RTL- SDR и HackRF.
 >
 > https://wiki.gnuradio.org/index.php/UbuntuVM
 
@@ -200,9 +200,9 @@ sudo apt install wireshark-qt
 > 		-b	указание индикатора диапазона (GSM850, GSM900, EGSM, DCS, PCS)
 > ```
 
-Необходимо выполнить команду: $  kal -s PCS 
+Выполнив команду: $  kal -s PCS 
 
-… для запуска kalibrate-hackrf \(kal\) выбрав диапазон PCS \(1900МГц\) и увидим следующее:
+… для запуска kalibrate-hackrf \(kal\) и выбрав диапазон PCS \(1900МГц\), мы увидим следующее:
 
 > Для России, мы будем выполнять команду $  kal -s DCS
 >
@@ -222,7 +222,7 @@ sudo apt install wireshark-qt
 
 ![](https://lh4.googleusercontent.com/7jPAltEKbV7B9-xI2fzXF86gmli3DRFNTY1COgmJ331ApYScHpjOk82p9VuCiOLTx22alRMamEEvA5ewYrs4VVfgT495kjP4h52TcSbOb1LvhGVSdCDM0H8xrAyX5SgtBWf-IvWK)
 
-Затем я запустил схему, нажав кнопку запуска \(вверху в центре дисплея\), и настроился на частоту 1930,535 МГц \(скорректированная частота была определена с помощью Gqrx SDR ранее\). Как только я зафиксировал частоту, я увидел следующее:
+Затем я запустил схему, нажав кнопку запуска \(вверху в центре дисплея\), и настроился на частоту 1930,535 МГц \(скорректированная частота была определена с помощью Gqrx SDR ранее\). Как только я выбрал частоту, я увидел следующее:
 
 ![](https://lh3.googleusercontent.com/hrkhUJiHBVSo6z15BNleiQXdhFdCsWj3HdniXmLnBa-htHOc22le9Y-2DT3tYN_-TnqEC8lyvFLRgmeKiQSjMbMxR5S2T8MkbHCDlYTE-ULcFcM-4It2x6z7S_XqYtytBUvmN7B3)
 
