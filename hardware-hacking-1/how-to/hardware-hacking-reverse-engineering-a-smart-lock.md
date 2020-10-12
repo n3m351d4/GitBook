@@ -29,7 +29,7 @@ description: Перевод @n3m351da @in51d3 2020
 * App Key  \(**AppKey**\) used to encrypt packets sent by the App to the Door
 * Ключ двери \(**DoorKey**\), используется для шифрования пакетов, отправляемых дверью в приложение.
 
-## **KEY GENERATION**
+## **!KEY GENERATION**
 
 The **CommonKey** is based entirely on a static 16-byte value which is simply enumerated with the last 5 bytes of the device’s Bluetooth address as follows:
 
@@ -51,7 +51,7 @@ The **AppKey** and **DoorKey** are created from two algorithms \(and heavily obf
 
 Now that the **AppNumber** and **DoorNumber** have been created and exchanged, we have the two components required for generating the remaining two secret keys \(**AppKey** and **DoorKey**\). This is accomplished by calling the makeAppKey and makeDoorKey functions with AppNumber and DoorNumber as arguments. This is done internally within the firmware and not sent OTA.![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image18.png)
 
-## **APPLICATION FLOW DIAGRAM**
+## **!APPLICATION FLOW DIAGRAM**
 
 Now that we have generated and exchanged AppKey and DoorKey, each side can now encrypt/decrypt packets sent or received. All packets transmitted by the App will be encrypted using the **AppKey** and all packets transmitted by the Door will be encrypted using the DoorKey. Both sides know each other’s encryption scheme and can, therefore, decrypt the packet.
 
@@ -87,7 +87,7 @@ Frida version 12.8.9
 
 Описание любого из вышеперечисленных инструментов, выходит за рамки данной статьи. Я бы посоветовал загрузить их и поэкспериментировать с разными утилитами, чтобы найти наиболее подходящие и почитать соответствующие руководства.
 
-## **USING FRIDA** 
+## **!USING FRIDA** 
 
 The F-Secure researchers stated in their blog that they were able to intercept function calls in the android app using a tool called Frida. I was not aware of this tool, so I decided to check it out. This tool is amazing! Understanding how to implement Frida is beyond the scope of this write-up. However, suffice to say, Frida allows a researcher the ability to attach to existing functions within an application and dynamically dump the arguments and return values. This is most definitely worth checking out! [https://frida.re/docs/home/](https://frida.re/docs/home/)
 
@@ -172,7 +172,7 @@ C:\Users\rayfe\keywe-tooling\frida&gt;**keywe\_inject.py trace\_java\_functions.
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image19.png)
 
-##  **BTSNOOP \(ANDROID BLUETOOTH HCI LOGGER\)**
+## **!BTSNOOP \(ANDROID BLUETOOTH HCI LOGGER\)**
 
 Ultimately, BTSNOOP has to be one of my greatest finds when wanting to capture a complete Bluetooth session between central \(phone\) and peripheral \(lock\), I attempted various methods to capture my OTA Bluetooth sessions, including Nordic’s nRF Sniffer development board nRF52840-DK, Sena’s UD100 dongle, the Ubertooth-One and Texas Instruments CC2540 dongle. The problem with all of these approaches is they couldn’t follow the connection due to Bluetooth Low Energy \(BLE\) channel hopping. The Nordic nRF52840-DK came close when using it together with Wireshark and Nordic’s BLE sniffer plugin, but unfortunately, the packet captures were at the Link Layer \(rather than the host controller interface layer\) resulting in encrypted data that was unable to be parsed. 
 
@@ -188,7 +188,7 @@ The temporary key is used during the [**Bluetooth**](https://www.arrow.com/en/ca
 
 Once the connection is encrypted with the short term key, the other keys are distributed.  The Long Term Key replaces the short term key to encrypt the connection. The Identity Resolving Key is used for privacy. The Connection Signature Key is used for authentication.
 
-## **FORTUNATELY, THERE IS AN EXCELLENT WAY TO CAPTURE BLUETOOTH TRAFFIC USING YOUR ANDROID DEVICE!**
+## **!FORTUNATELY, THERE IS AN EXCELLENT WAY TO CAPTURE BLUETOOTH TRAFFIC USING YOUR ANDROID DEVICE!**
 
 **On your Android phone**
 
@@ -217,7 +217,7 @@ Note: Typically, I’ll leave the option **Enable Bluetooth HCI snoop log** enab
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image3-4.png)
 
-## **WIRESHARK ANALYSIS**
+## **!WIRESHARK ANALYSIS**
 
 Importing the btsnoop\_hci.log into Wireshark, we can see the OTA encrypted packet exchanges. This, in conjunction with the Frida function hexdumps provides a valuable way to cross-reference the activity of the user session. From the massive number of sessions generated during my research of the KeyWe lock, I can confirm these packet exchanges follow the same sequence every session and never vary in the least. In the following example, we can see the opening key exchange, initiated by the App and followed by the Door.
 
@@ -251,7 +251,7 @@ Using the online AES-128 Cipher tool is a handy way to correlate the Wireshark s
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image26-2.png)
 
-## **REPLAY ATTACK**
+## **!REPLAY ATTACK**
 
 As can be seen by the screenshots \(above\), the entire Bluetooth session can be analyzed in Wireshark using the btsnoop\_hci.log \(capture\) and compared side by side against the data found using the Frida tools. Also notice that every one of the encrypted packets being sent over the air \(OTA\) can be decrypted by simply determining the transport direction \(App to Door or Door to App\) and using the appropriate key \(AppKey or DoorKey\) to decrypt.
 
