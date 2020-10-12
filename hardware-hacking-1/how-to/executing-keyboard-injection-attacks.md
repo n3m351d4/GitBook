@@ -50,11 +50,11 @@ _**Пример использования текстового редактор
 
 ![](https://lh6.googleusercontent.com/qI4CbSu4y4gghthMhw0EoZxRGdrdS7D46IDhv6RajbcBgmK-jvbSWIjhdhsKdh1V9tPdGHFPWstlMiG507Id4e6hegYJC1wz3oTNZtjoVjwCCZoLPl870AYJC8U1mX0kH6F9ySz_)
 
-* GUI r simulates holding the Windows key and clicking ‘r’ to open the Run Window
-* STRING notepad.exe obviously types notepad.exe in the Run Window, opening Notepad.
-* STRING Hello World! gets typed into the newly open Notepad page
+* **GUI r** имитирует зажатие клавиши Windows нажатие кнопки ‘r’, чтобы открыть окно "Run" \("Выполнить"\).
+* **STRING notepad.exe** набирает notepad.exe в окне "Run", открывая Блокнот.
+* **STRING Hello World!** вводит в открытом окне Блокнота текст "Hello World!"
 
-Note: Although some delays may be required to ensure reliable operation when using the Rubber Ducky USB dongle, such is not the case when implementing our attack using the CrazyRadio dongle. This is because we aren’t loading any USB drivers or trying to detect any USB dongle being plugged into the USB port. The delays in this case are for demonstration purposes. Ideally, we would want to execute our script and inject our payload as quickly as possible to avoid human detection, but also not at the risk reliable operation.
+**Примечание**. Для обеспечения надежной работы при использовании Rubber Ducky может потребоваться прописать в скрипте задержки. При реализации нашей атаки с использованием CrazyRadio задержки не потребуются. Это связано с тем, что мы не загружаем USB драйверы и не пытаемся обнаружить USB-донгл, вставленный в порт. Задержки в моем случае предназначены для демонстрационных целей. Если бы мы хотели выполнить наш сценарий и внедрить полезную нагрузку как можно быстрее, чтобы избежать обнаружения нашего воздействия человеком, то мы бы не использовали бы задержки.
 
 ## **Download JackIt:**
 
