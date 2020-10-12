@@ -32,9 +32,9 @@ description: Перевод @n3m351da @in51d3 2020
 
 Для этого проекта, получение информации FCC не является необходимостью, однако было полезно узнать, что оно предназначено для беспроводной работы в диапазоне WiFi на частотах в диапазоне 2,405–2,474 ГГц.
 
-## **Keyboard Injection Payload:**
+## **Полезная нагрузка для инъекции:**
 
-In preparation for our intended attack, we need to create a short text file based on the Rubber Ducky scripting language \(for more info: [https://github.com/hak5darren/USB-Rubber-Ducky/wiki](https://github.com/hak5darren/USB-Rubber-Ducky/wiki)\).  Using any text editor \(nano, vi, notepad, etc\), enter the following and save the file:
+При подготовке к атаке нам необходимо создать короткий текстовый файл на основе языка сценариев Rubber Ducky \([дополнительная информация](%20https://github.com/hak5darren/USB-Rubber-Ducky/wiki)\). Используя любой текстовый редактор \(nano, vi, блокнот и т. д.\), введите следующее и сохраните файл:
 
 ```text
 DELAY 500
@@ -46,7 +46,7 @@ DELAY 1000
 STRING Hello World! 
 ```
 
-_**Example using nano text editor**_
+_**Пример использования текстового редактора nano**_
 
 ![](https://lh6.googleusercontent.com/qI4CbSu4y4gghthMhw0EoZxRGdrdS7D46IDhv6RajbcBgmK-jvbSWIjhdhsKdh1V9tPdGHFPWstlMiG507Id4e6hegYJC1wz3oTNZtjoVjwCCZoLPl870AYJC8U1mX0kH6F9ySz_)
 
