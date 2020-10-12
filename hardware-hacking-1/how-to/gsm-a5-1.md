@@ -2,7 +2,7 @@
 description: Перевод @n3m351da @in51d3 2020
 ---
 
-# -Hardware Hacking: GSM и шифрование: поточный шифр A5/1
+# Hardware Hacking: GSM и шифрование: поточный шифр A5/1
 
 [Оригинальный текст](https://www.blackhillsinfosec.com/gsm-traffic-and-encryption-a5-1-stream-cipher/)
 

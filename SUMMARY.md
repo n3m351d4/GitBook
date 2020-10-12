@@ -13,7 +13,7 @@
     * [IMPORTOZAMESHENIE: как устройство училось говорить по-русски](hardware-hacking-1/articles/importozameshenie.md)
     * [Пошаговое руководство к поиску и эксплуатации Android-устройств](hardware-hacking-1/articles/poshagovoe-rukovodstvo-k-poisku-i-ekspluatacii-android-ustroistv-libo-otladochnykh-khostov-ispolzuyu.md)
   * [Hardware Hacking: Переводы](hardware-hacking-1/how-to/README.md)
-    * [-Hardware Hacking: GSM и шифрование: поточный шифр A5/1](hardware-hacking-1/how-to/gsm-a5-1.md)
+    * [Hardware Hacking: GSM и шифрование: поточный шифр A5/1](hardware-hacking-1/how-to/gsm-a5-1.md)
     * [Hardware Hacking: Введение в SDR и GSM/LTE](hardware-hacking-1/how-to/sdr-i-gsm-lte.md)
     * [Hardware Hacking: Основы работы с GNU Radio](hardware-hacking-1/how-to/gnu-radio.md)
     * [Hardware Hacking: Делаем дамп прошивки с помощью программатора CH341a](hardware-hacking-1/how-to/ch341a.md)
