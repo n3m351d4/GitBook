@@ -69,11 +69,15 @@ _Переменные:_
    * Сгенерированный KC используется с алгоритмом A5 для потокового шифрования или дешифрования данных.
    * Алгоритм A5 хранится в аппаратном обеспечении телефона и отвечает за шифрование и дешифрование данных в "режиме реального времени".
 
-## **Levels of Security:**
+## **Уровни безопасности:**
 
-_Algorithms_:
+_Алгоритмы_:
 
 ![](https://lh5.googleusercontent.com/2FWiU5_5C8mqcQSFv8HKHSFHCHnIfvO7R0g9MA_DsZ_q4T4mJkSmWstcpkd_4_zSB24V-Zuc9lMbnn3OAst6tnuzDk-NJDhBmk7JbjDdjN46Qts6d3fRTz10fdupMZOeb5_3HDLC)
+
+Обфускация IMSI: 
+
+Когда абонент впервые присоединяется к сети, Центр аутентификации \(AuC\) назначает TMSI \(временный IMSI\), который будет использоваться вместо IMSI абонента в дальнейшем. Я говорю «временный», но на самом деле TMSI хранится \(вместе с IMSI\) в VLR \(регистре местоположения посетителей\). Когда телефон выключен, телефон сохраняет TMSI на своей SIM-карте, обеспечивая его доступность при повторном включении. Каждое новое обновление \(роуминг, передача обслуживания и т.д.\) приводит к созданию нового TMSI. TMSI используется вместо IMSI для защиты личности подписчика.
 
 **IMSI Obfuscation**:
 
@@ -83,9 +87,9 @@ When the phone is switched off, the phone saves the TMSI on its SIM card, ensuri
 
 Every new update \(roaming, handoffs, etc\) results in a new TMSI being created. The TMSI is used in place of the IMSI to protect the subscriber’s identity.
 
-**Sample Packet Screenshots:**
+**Скриншоты с примерами пакетов:**
 
-_Location Updating Request \(TMSI not established yet\)_
+_Запрос на обновление местоположения \(TMSI еще не установлен\)_
 
 ![](https://lh5.googleusercontent.com/iyrdJ4LHWFUngtQXPYr_CQaA71NMgqbUjKxdzDXq5mEBmiPcEFq24snmvqbt4m_kMqeYMwSXyvdjGRF8TXatAhyOCC2O8F8DFVJec0IlldfvsmGXnUhXFPp2B1k2nU7zaAh1Oujy)
 
@@ -93,21 +97,17 @@ _Запрос на аутентификацию_
 
 ![](https://lh4.googleusercontent.com/c0W3atWxW7TU0i_MXO5twIBp9WSvX8opriwNtCmb2i01_R80pFFYb2duiW2iZ2F1wIc4KZW9K_-lluV9feBGNyUuqQKdzVjYuTYmp05f6UE0Fj1sulGSe3Q3pyvfTZOJajkfEIrT)
 
-_TMSI / A5/1 Algorithm Supported_
+_Поддерживаемый алгоритм TMSI / A5 / 1_
 
 ![](https://lh5.googleusercontent.com/amAB08uW_TOcCm0cQIRnhmSyw4Mp6uhH74tO5kD90v73h4s7tvRQLV7cwqWKy84tKwaaPDj8koeQayl5nPk0RMXwt93SolKVNVgb6adKC0KmbD73DXvj9wb3UoEAwFmwNWhxRA8D)
 
 ## **Summary**
 
-This write-up documents some of my follow-up research with regard to analyzing the GSM traffic packets I captured using Software Defined Radio. My attempt was to better understand the GSM mobile network protocols and procedures, with an emphasis on the authentication and ciphering algorithms being deployed.
+В этой статье описаны некоторые из моих исследований по анализу трафика GSM, который я записал с помощью SDR. Смысл этой работы в том, чтобы лучше понять протоколы и процедуры мобильной сети GSM с погрешностью на применяемые алгоритмы аутентификации и шифрования. 
 
-In my opinion, there is a huge demand for exploring this relatively untouched attack vector, especially as we move towards adopting 5G technologies. The A5/1 stream cipher algorithm, is still in use today on many GSM networks, has a prior history of being exploitable, and there are quite a few networks that do not even implement ciphering in their protocols \(SMS data completely exposed\).
+На мой взгляд, существует огромная потребность в изучении подобных материалов относительно затронутого вектора атаки, по мере того, как мы движемся к внедрению технологий 5G. Алгоритм потокового шифрования A5 / 1 до сих пор используется во многих сетях GSM, и помимо этого, существует довольно много сетей, которые вообще не реализуют шифрование в своих протоколах \(данные SMS полностью открыты\). 
 
-These vulnerabilities can potentially expose our private SMS messages, personal data, and even our GPS locations to the public if left unguarded. More research in this area is required to ensure our privacy remains secure. From an InfoSec perspective, the areas of concern might be MiTM attacks, network breaches, etc. The playing field is wide open.
-
-
-
-Резюме В этой статье описаны некоторые из моих последующих исследований в отношении анализа пакетов трафика GSM, которые я захватил с помощью программно-определяемого радио. Моя попытка заключалась в том, чтобы лучше понять протоколы и процедуры мобильной сети GSM с упором на применяемые алгоритмы аутентификации и шифрования. На мой взгляд, существует огромная потребность в изучении этого относительно нетронутого вектора атаки, особенно по мере того, как мы движемся к внедрению технологий 5G. Алгоритм потокового шифрования A5 / 1 до сих пор используется во многих сетях GSM, ранее использовался для использования, и есть довольно много сетей, которые даже не реализуют шифрование в своих протоколах \(данные SMS полностью открыты\). Эти уязвимости могут потенциально сделать наши частные SMS-сообщения, личные данные и даже наши местоположения GPS для общественности, если их оставить без защиты. Требуются дополнительные исследования в этой области, чтобы гарантировать безопасность нашей конфиденциальности. С точки зрения InfoSec областями, вызывающими беспокойство, могут быть атаки MiTM, нарушения сети и т. Д. Игровое поле широко открыто.
+Эти уязвимости подвергают угрозе наши SMS-сообщения, личные данные и даже местоположения GPS. Требуются дополнительные исследования в этой области, чтобы гарантировать безопасность нашей конфиденциальности. С точки зрения InfoSec поверхность атак на сотовые сети довольно широка это и атаки MiTM, и нарушения работы сети и т. д.
 
 ## **Ссылки**
 
