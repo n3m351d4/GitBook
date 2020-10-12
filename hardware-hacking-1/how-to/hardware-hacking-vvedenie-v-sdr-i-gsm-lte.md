@@ -150,10 +150,9 @@ sudo apt install gqrx-sdr
 sudo apt install hackrf 
 ```
 
-_Install Hackrf tools:_
+_Установка утилит для Hackrf:_
 
-Building HackRF tools from source  
-Prerequisites for Linux \(Debian/Ubuntu\):
+Сборка утилит для HackRF из исходников \(зависимости для Debian/Ubuntu\):
 
 ```text
 sudo apt-get install build-essential cmake libusb-1.0-0-dev pkg-config libfftw3-dev
@@ -170,9 +169,9 @@ sudo make install
 sudo ldconfig
 ```
 
-Kalibrate, or \`kal\`, can scan for GSM base stations in a given frequency band and can use those GSM base stations to calculate the local oscillator frequency offset.
+Kalibrate, или «kal», утилита для сканирования базовых станций GSM в заданной полосе частот.
 
-_Install Kalibrate-Hackrf \(kal\)**:** \[GSM Base Station Sniffer\]_
+_Установка Kalibrate-Hackrf \(kal\)**:**_ 
 
 ```text
 git clone https://github.com/scateu/kalibrate-hackrf.git
@@ -183,7 +182,7 @@ Make
 sudo make install
 ```
 
-_Install Wireshark: \[free and open-source packet analyzer\]_
+_Установка Wireshark: \[анализатор трафика\]_
 
 ```text
 sudo apt-get update
