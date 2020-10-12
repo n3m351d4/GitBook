@@ -20,13 +20,14 @@ description: Перевод @n3m351da @in51d3 2020
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image20.png)
 
-## **USEFUL INFORMATION**
+## **Полезная информация**
 
-Communications between the KeyWe \(lock\) and the \(mobile\) App are transported via Bluetooth Low Energy \(BLE\) packets, which are encrypted using the standard ECB AES-128 cipher in order to prevent third-party eavesdropping. The security of the message channel is based solely upon **3 secret keys** used for the encrypting and decrypting of the OTA \(over-the-air\) AES-128 packets.
+Связь между KeyWe \(замок\) и \(мобильным\) приложением поддерживается через пакеты Bluetooth с низким энергопотреблением \(BLE\), которые шифруются с использованием стандартного шифра ECB AES-128 для предотвращения стороннего перехвата. Безопасность канала сообщений основана исключительно на **3 секретных ключах**, используемых для шифрования и дешифрования пакетов AES-128 OTA \(передаваемых по беспроводной сети\). 
 
-* Common Key \(**CommonKey\)** used for the initial key exchange
+* Общий ключ \(**CommonKey**\), используется для первоначального обмена ключами.
+* Ключ приложения \(**AppKey**\), используется для шифрования пакетов, отправляемых приложением замку.
 * App Key  \(**AppKey**\) used to encrypt packets sent by the App to the Door
-* Door Key \(**DoorKey**\) used to encrypt packets sent by the Door to the App
+* Ключ двери \(**DoorKey**\), используется для шифрования пакетов, отправляемых дверью в приложение.
 
 ## **KEY GENERATION**
 
