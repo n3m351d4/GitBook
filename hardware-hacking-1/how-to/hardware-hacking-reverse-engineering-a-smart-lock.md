@@ -2,7 +2,7 @@
 description: Перевод @n3m351da @in51d3 2020
 ---
 
-# -Hardware Hacking: Reverse Engineering a Smart Lock
+# -Hardware Hacking: Обратная разработка умного замка
 
 ## 
 
@@ -12,9 +12,11 @@ description: Перевод @n3m351da @in51d3 2020
 
 Недавно мне представилась возможность изучить результаты исследований известной охранной фирмы \(F-Secure\), которая обнаружила уязвимость в Guardtec KeyWe Smart Lock. Специалисты F-Secure обнаружили, что злоумышленник может перехватить и расшифровать трафик, исходящий от владельца замка. Я нашел их блог чрезвычайно увлекательным и очень информативным. Вскоре у меня появился стимул посмотреть, смогу ли я продублировать их усилия, так как я понял, что F-Secure выпустила уведомление об уязвимости и что поставщику была предоставлена возможность уменьшить ее воздействие. К сожалению, их варианты действий были крайне ограничены из-за того, что у них не было функции обновления прошивки. Вместо этого они решили использовать обфускацию в своем приложении для Android, пытаясь скрыть наиболее важные разделы кода \(что они сделали довольно хорошо\).
 
-Although F-Secure had laid the groundwork, they were careful not to reveal too much information and even REDACTED some of their own tools, thereby retaining the ‘keys to the kingdom’ as they put it. During my journey, I found myself constantly going back to their blogs, especially as I discovered new and relevant information of my own. This blog is intended to, not only consolidate my notes and document my research but to maybe inform others of some pretty cool tools and methods for reverse engineering Android/iOS applications.
+Не смотря на то, что F-Secure заложили основу для этого исследования, они старались не раскрывать слишком много информации и даже ИЗМЕНЯЛИ некоторые из своих собственных инструментов. Во время своего исследования я обнаружил, что постоянно возвращаюсь к их блогам. 
 
-After receiving the shipment of my KeyWe Smart Lock and creating a test fixture to mount it, I downloaded the android app to my mobile phone and created my account. I got familiar with the functionality of the lock and the look and feel of the mobile app. I also ran my **Nordic nRF Connect** mobile app \(available for free on Google Play store\) to gain useful information about my lock, such as the Bluetooth address, primary service UUIDs, characteristics, etc. Note: Understanding Bluetooth Low Energy GATT and GAP is beyond the scope of this write-up, however, the BLE specifications are easily accessible here [https://www.bluetooth.com/specifications/](https://www.bluetooth.com/specifications/), should you want to read up.
+После получения моего KeyWe Smart Lock и создания тестового окружения для его настройки, я загрузил фирменное приложение для Android на свой мобильный телефон и создал свою учетную запись. Я познакомился с функциями замка и внешним видом мобильного приложения. Я также запустил мобильное приложение Nordic nRF Connect \(доступно бесплатно в магазине Google Play\), чтобы получить полезную информацию о моем замке - адрес Bluetooth, UUID и прочие характеристики. 
+
+**Примечание**. Спецификации BLE легко доступны [здесь](%20https://www.bluetooth.com/specifications/).
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image20.png)
 
