@@ -110,6 +110,10 @@ In my opinion, there is a huge demand for exploring this relatively untouched at
 
 These vulnerabilities can potentially expose our private SMS messages, personal data, and even our GPS locations to the public if left unguarded. More research in this area is required to ensure our privacy remains secure. From an InfoSec perspective, the areas of concern might be MiTM attacks, network breaches, etc. The playing field is wide open.
 
+
+
+Резюме В этой статье описаны некоторые из моих последующих исследований в отношении анализа пакетов трафика GSM, которые я захватил с помощью программно-определяемого радио. Моя попытка заключалась в том, чтобы лучше понять протоколы и процедуры мобильной сети GSM с упором на применяемые алгоритмы аутентификации и шифрования. На мой взгляд, существует огромная потребность в изучении этого относительно нетронутого вектора атаки, особенно по мере того, как мы движемся к внедрению технологий 5G. Алгоритм потокового шифрования A5 / 1 до сих пор используется во многих сетях GSM, ранее использовался для использования, и есть довольно много сетей, которые даже не реализуют шифрование в своих протоколах \(данные SMS полностью открыты\). Эти уязвимости могут потенциально сделать наши частные SMS-сообщения, личные данные и даже наши местоположения GPS для общественности, если их оставить без защиты. Требуются дополнительные исследования в этой области, чтобы гарантировать безопасность нашей конфиденциальности. С точки зрения InfoSec областями, вызывающими беспокойство, могут быть атаки MiTM, нарушения сети и т. Д. Игровое поле широко открыто.
+
 ## **Ссылки**
 
 [https://www.sans.org/reading-room/whitepapers/telephone/gsm-standard-an-overview-security-317](https://www.sans.org/reading-room/whitepapers/telephone/gsm-standard-an-overview-security-317)
