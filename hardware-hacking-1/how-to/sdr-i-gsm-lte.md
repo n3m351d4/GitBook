@@ -240,8 +240,6 @@ $ sudo wireshark
 
 ![](https://lh5.googleusercontent.com/3--Vs58vZB2od3kFGivU2N7hUyT2_QkLXpJZRP4aof4Kew0VDUd-tUwVqHCrW7EaptJWSNbSFPl1CBhe0PJxBsr7Jxzf6Nn75zQX6NsUPzINgQScGLmy1oPyHB-68yvOzIasgxL4)
 
-As expected, Source and Destination are localhost \(due to loop-back mode\), and from my limited research of packet types, I know that System Information Type 4 is a carrier beacon, providing pertinent information.
-
 Как и ожидалось, отправителем и получателем является localhost \(из-за режима loopback\), и из моего ограниченного исследования типов пакетов я знаю, что System Information Type 4 является обозначением несущей, предоставляющей соответствующую информацию.
 
 ![](https://lh6.googleusercontent.com/HzbpVh6HLeGEtHr9JSqmBDUEJUlEgF8iBhbob0GgcJjqwiKtpUQpL9hPhVGglA1axQrpa6TrUxniLrq5ICEKyuhdvkGd-osGhKioOKgK2Gs1JwZvM0wymnM-txVjjLycPIbz0O6V)
