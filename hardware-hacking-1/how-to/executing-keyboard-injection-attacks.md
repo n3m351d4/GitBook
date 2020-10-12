@@ -10,7 +10,7 @@ description: Перевод @n3m351da @in51d3 2020
 
 Я изучал работы [Bastille ](%20https://github.com/BastilleResearch/mousejack)и мне стало интересно проверить, реализуемы ли уязвимости методом инъекций в беспроводной интерфейс клавиатур. К моему удивлению, мне удалось воспроизвести такую атаку на недорогую клавиатуру Logitech, которая была у меня сравнительно давно. Эта клавиатура \(Logitech K400r\) все еще доступна в моем местном магазине Walmart по цене менее 20 долларов. К таким атакам наиболее уязвимы беспроводные устройства, использующие донгл-приемник Unifying.
 
-Из моих первоначальных исследований выяснилось, что данные о нажатии клавиш с беспроводной клавиатуры передаются в зашифрованном виде, чтобы предотвратить перехват трафика, и то, что движения мыши обычно отправляются в незашифрованном виде. Эксплойт MouseJack использует уязвимые электронные ключи, позволяя передавать незашифрованные нажатия клавиш в операционную систему целевого компьютера под видом легитимных пакетов.
+Из моих первоначальных исследований выяснилось, что данные о нажатии клавиш с беспроводной клавиатуры передаются в зашифрованном виде, чтобы предотвратить перехват трафика, и то, что движения мыши обычно отправляются в незашифрованном виде. Эксплойт MouseJack использует уязвимые электронные USB адаптеры, позволяя передавать незашифрованные нажатия клавиш в операционную систему целевого компьютера под видом легитимных пакетов.
 
 Сценарий подобной беспроводной атаки может быть реализован с помощью довольно недорогого радио-передатчика, крошечного скрипта и на расстоянии до 100 метров! 
 
@@ -56,49 +56,51 @@ _**Пример использования текстового редактор
 
 **Примечание**. Для обеспечения надежной работы при использовании Rubber Ducky может потребоваться прописать в скрипте задержки. При реализации нашей атаки с использованием CrazyRadio задержки не потребуются. Это связано с тем, что мы не загружаем USB драйверы и не пытаемся обнаружить USB-донгл, вставленный в порт. Задержки в моем случае предназначены для демонстрационных целей. Если бы мы хотели выполнить наш сценарий и внедрить полезную нагрузку как можно быстрее, чтобы избежать обнаружения нашего воздействия человеком, то мы бы не использовали бы задержки.
 
-## **Download JackIt:**
+## **Загружаем JackIt**
 
-* git clone[ https://github.com/insecurityofthings/jackit.git](https://github.com/insecurityofthings/jackit.git)
-* cd jackit
-* pip install -e .
+```text
+git clone https://github.com/insecurityofthings/jackit.git
+cd jackit
+pip install -e 
+```
 
-_**Run JackIt with payload script ‘hello.txt’**_
+_**Запускаем JackIt с полезной нагрузкой ‘hello.txt’**_
 
 ![](https://lh5.googleusercontent.com/jKNuX_GtIuWgg1GcsuVURPNpMFU5bxFmonxhIK94e2qzzcnFVgEDljcEQAALV8f9GagRJQ8onHreGSsfpUZYvAJgdxtyftsdw_zSi25TgnzvUb1zmsDrsIkzW1YnSy26kobx6u4U)
 
-_**Once target is identified, CTRL-C and select Target Key\(s\) to inject payload**_
+_**Когда целевое устройство найдено, нажимаем CTRL-C и вводим номер целевого устройства из списка для отправки на него полезной нагрузки**_
 
 ![](https://lh5.googleusercontent.com/uAr3qUqqWxC-tvHOF2CgTKzoc2ZzV44qjKWHTtuPyfthSwWye6m9_f_ioXpwJOOb6NZavu4iY5NK2RZS8cLXTSwks9Ikc5GhqoLZoGaB4yJgnDG0R7NmlBMSWivjgiWsj522CKd9)
 
-NOTE: Knowing the MAC address is not required to pull off this attack. All that is required is the target KEY and that the TYPE has a valid entry, Logitech HID, Microsoft HID, etc.  \(an empty field or ‘unknown’ will not work.\)
+**ПРИМЕЧАНИЕ:** Для проведения этой атаки не требуется знать MAC-адрес. Все, что требуется, - это целевой USB адаптер и наличие записи ТИПА - Logitech HID, Microsoft HID и т. д. \(Если сканирование не определит устройство - поле ТИП будет пустым, то скрипт не отработает\)
 
-**SUCCESS!!!**
+**УСПЕХ!!!** [Видео](https://www.blackhillsinfosec.com/wp-content/uploads/2020/03/Keyboard-Injection20200227.mp4)
 
 ![](https://lh3.googleusercontent.com/mf-5UF4Z9HegNSxGYVJlxayUfw9DhoSY1Kgt1Cgj42DsE79MQWytXaGFGuimOj7Lw7jtiJ0HZmuELDZxk7vw9__idxbpfY3UzKbRK8NvE-K5vd-grMLRvgFTQfoqXTudBxzG7oYZ)
 
-## **Cloud Based PowerShell Injection:**
+## **Облачная инъекция в PowerShell**
 
-Realizing that keyboard payload injection was now possible, my next step was to attempt injecting a PowerShell payload using this proven attack method.
+Поняв, что внедрение полезной нагрузки с помощью беспроводного интерфейса стало возможным, моим следующим шагом стала попытка внедрения полезной нагрузки PowerShell. Сначала я создал репозиторий github для размещения моего сценария инъекции в PowerShell.
 
-* First, I created a github repository to host my PowerShell injection script.
+* Сначала я создал репозиторий github для размещения моего сценария инъекции в PowerShell.
 
 ![](https://lh4.googleusercontent.com/w7hUB8NJm-DhNfm6_CKNUxx-Vb7FVn1euUmY2u1aDInxpGFKYN8dSkFJasECFJi7aVgOzxmq7X2G5CoCtRZDn0_BXZaREdR6vMlaPsHhCe_35q3ftD_Mw8YKhv1OHhtzqfRUIWzM)
 
-* Next, I modified my ‘hello.txt’ script to run PowerShell instead of notepad, and I changed the injection string from Hello World! to a PowerShell Invoke Expression \(IEX\) cmdlet that downloads a .ps1 script and executes it on the target computer.
+* Затем, я изменил свой сценарий «hello.txt» для запуска PowerShell вместо блокнота и изменил строку инъекции с Hello World! на командлет PowerShell Invoke Expression \(IEX\), который загружает сценарий PS1 и выполняет его на целевом компьютере.
 
 ![](https://lh5.googleusercontent.com/AWw7RYTGqKxzZzkhT7D_xRqlyt-mFeoj7U5xHEUPgEpXx2bvO6Sb8SBpysYEumbtsu-oA-Q9ZgSsdgo-QZ0zHuP3xga4QVHLAQZCCbShL18SNeiEGKVLCMkkZLqC7tlXEFogQwo7)
 
-* Running JackIt with the modified ‘hello.txt’ script now produced the desired results! I was clearly able to inject cloud based **PowerShell** execution using known vulnerabilities in a Logitech HID.
+* Запуск JackIt с модифицированным скриптом «hello.txt» дал желаемый результат! Я смог внедрить выполнение PowerShell из облака, используя известные уязвимости в Logitech HID.
 
 ![](https://lh6.googleusercontent.com/InmYBDggPb-QmQO8DskSBQohsBQJsDacwXeLtyMVaQLw3jp0NgxookzFHMlxhEoFres26qA95mwTpbWEVgKG41V0BeSXnGI2nhZPFUgg5EAHdqpyPv0-2qRagnxpOK0KoZUJLaK8)
 
-## **SUMMARY:**
+## **Заключение**
 
-I’m glad that I started with the vulnerable keyboard, as none of the mice in my possession could be injected, even though they’re clearly Logitech Unify receivers and had the orange star markings. I suspect this might be due to the fact that Logitech implements dongle firmware that can be updated, where as many of the mice already in the field use one-time programmable flash devices. 
+Я рад, что начал с уязвимой клавиатуры, поскольку эта атака не сработала ни с одной из имеющихся у меня мышей, хотя они явно являются приемниками Logitech Unify и имеют оранжевую звездочку на USB адаптерах. Я подозреваю, что это может быть связано с тем, что Logitech реализовали обновляемую прошивку USB адаптера, в то время как многие мыши используют одноразовую программируемую флэш память.
 
-Microsoft has issued a security update \([https://support.microsoft.com/en-us/help/3152550/microsoft-security-advisory-update-to-improve-wireless-mouse-input-fil](https://support.microsoft.com/en-us/help/3152550/microsoft-security-advisory-update-to-improve-wireless-mouse-input-fil)\) that checks to see if the communicated payload coming from the dongle is QWERTY and if the device TYPE is of a mouse, then the packet will be ignored. However, from what I can determine, this security update is basically optional. Based on this information, I have decided to order a few Microsoft mice and test these devices to continue my research.
+Microsoft выпустила [обновление безопасности](https://support.microsoft.com/en-us/help/3152550/microsoft-security-advisory-update-to-improve-wireless-mouse-input-fil), которое проверяет, есть ли передаваемая полезная нагрузка, поступающая от USB адаптера "QWERTY" и если ТИП устройства - мышь, то пакет будет проигнорирован. Однако, насколько я могу судить, это обновление безопасности не является обязательным. Основываясь на этой информации, я решил заказать несколько мышей Microsoft и протестировать эти устройства, чтобы продолжить свои исследования.
 
-Regardless, I suspect that there are hundreds of thousands of vulnerable keyboards and mice in the wild, and this often overlooked attack vector is one that needs to be taken seriously.  Most users might think, “oh, it’s just a keyboard … it’s just a mouse … what harm can they cause?” The fact is, a keystroke injection that simply displays “Hello World!” could have just as easily been a PowerShell injection that executes Metasploit, downloads Malware or a virus, exfiltrates sensitive data, elevates privileges, gains persistence, etc. 
+Тем не менее, я подозреваю, что в дикой природе существуют сотни тысяч уязвимых клавиатур и мышей, и к этому часто упускаемому из виду вектору атаки нужно относиться серьезно. Большинство пользователей могут подумать: «О, это просто клавиатура… это просто мышь… какой вред они могут причинить?». Дело в том, что инъекция нажатий клавиш, которая отображает «Hello World!» с легкостью может стать инъекцией PowerShell, которая запускает Metasploit, загружает вредоносное ПО или вирус, извлекает конфиденциальные данные, повышает привилегии, закрепляется в системе и т. д. 
 
-Possible mitigation could consist of using bluetooth or wired devices rather than wireless or removing the dongles when not in use, or getting firmware and security updates in a timely manner when they are available. Obviously, these options can take away from the overall ‘user experience’, so most or all of them may not be implemented at all.
+Возможное смягчение последствий может заключаться в использовании Bluetooth или проводных устройств или удалении USB адаптеров, в то время, когда они не используются, или своевременном получении обновлений прошивки и безопасности. Очевидно, что эти параметры могут ухудшить общий «пользовательский опыт», поэтому большинство из них могут быть не реализованы вообще.
 
