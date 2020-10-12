@@ -2,21 +2,19 @@
 description: Перевод @n3m351da @in51d3 2020
 ---
 
-# Executing Keyboard Injection Attacks
+# Инъекции в беспроводной интерфейс клавиатуры
 
 ## **Вступление**
 
 ![](https://lh6.googleusercontent.com/RHeMBmMnKTrsCxz3ZglUMxOGnynvvKb4KB3gqXzArvscfPVQdkNmqFPCJER_jmiCeK-aeCWv15KIl4fJu5LzkbJpZIJzckbRmeTGaf_6WLyubdzNPv_SW4OVlevuxmc-cw1BKmHx)
 
-Following the work of the Bastille Research Group \(See: [https://github.com/BastilleResearch/mousejack](https://github.com/BastilleResearch/mousejack)\), I was interested in knowing if these \(keyboard injection\) vulnerabilities were still valid. To my surprise, I was able to duplicate the attack on an inexpensive Logitech keyboard that I already had in my possession. This keyboard \(Logitech K400r\) is still available at my local Walmart for under $20. In particular, wireless devices using the Unifying receiver \(depicted with the orange star\) are particularly vulnerable.
+Я изучал работы [Bastille ](%20https://github.com/BastilleResearch/mousejack)и мне стало интересно проверить, реализуемы ли уязвимости методом инъекций в беспроводной интерфейс клавиатур. К моему удивлению, мне удалось воспроизвести такую атаку на недорогую клавиатуру Logitech, которая была у меня сравнительно давно. Эта клавиатура \(Logitech K400r\) все еще доступна в моем местном магазине Walmart по цене менее 20 долларов. К таким атакам наиболее уязвимы беспроводные устройства, использующие донгл-приемник Unifying.
 
-From my initial research, it appears that communication \(keystrokes\) from the wireless keyboard is encrypted to prevent eavesdropping and that mouse movements are usually sent unencrypted. The MouseJack exploit takes advantage of vulnerable dongles by allowing unencrypted keystrokes to be passed to the target computer’s operating system as legitimate packets.
+Из моих первоначальных исследований выяснилось, что данные о нажатии клавиш с беспроводной клавиатуры передаются в зашифрованном виде, чтобы предотвратить перехват трафика, и то, что движения мыши обычно отправляются в незашифрованном виде. Эксплойт MouseJack использует уязвимые электронные ключи, позволяя передавать незашифрованные нажатия клавиш в операционную систему целевого компьютера под видом легитимных пакетов.
 
-This wireless \(non-Bluetooth\) attack scenario can be accomplished with a fairly inexpensive radio dongle, a tiny script, and from a distance of up to 100 meters away! 
+Сценарий подобной беспроводной атаки может быть реализован с помощью довольно недорогого радио-передатчика, крошечного скрипта и на расстоянии до 100 метров! 
 
-I have outlined my process below.
-
-**Hardware:** _**Crazy Radio PA dongle**_
+**Оборудование:** _**Crazy Radio PA dongle**_
 
 ![](https://lh4.googleusercontent.com/vf8Walt_ReEBWCB8Q6CODBQNoSUW4eAYp1RuAZBkMsZafa12lcC9IL0NcYILwznMCDWsM0NmFujH77Jb8hA5_CzqCQ_TD8kk48UdnBjyconPfk0TN4s2QB1MVMwW0mzH9lm6AKVg)
 
@@ -24,7 +22,7 @@ I have outlined my process below.
 
 ![](https://lh3.googleusercontent.com/mEiOIA3KoR2fCO5qRIR5dlr8jxaobbwAo7ev5Y_BsBpbDpnED0mAETXFGjDVX9AsuJe5WRLciZkGODRvDkVKb-vMbkuqipsgAlZd9vGHqMhBjTMRfzpUSzec1KoZzsMH1g3crwBB)
 
-**Keyboard:** _**Logitech K400r**_
+**Клавиатура:** _**Logitech K400r**_
 
 ![](https://lh4.googleusercontent.com/OxIUAz4t8l3plqvnDRIk5AuRnYaRCDlTIkMb1iSkIfCdnAg5jGXphbiPljJuxyi6IHLuNo4-RrhEKZ418D_2GIlNqveEWKpAtquCAYpU-BAI_S8TNlThsZO1mK4YAwg6z07_Vg2a)
 
@@ -32,7 +30,7 @@ I have outlined my process below.
 
 ![](https://lh4.googleusercontent.com/cYy3lNGY-WtebMeMZS9W4Es47h5B3_rPVwnIodi6ukn04n60fxr72P_7mq551nIfD6S-2neetTCwJYQJvKOyqjvgDtASoFwGUVL6W_gKhYp0M8JlI4RQN_tMhiC5ADXmt2QgiBW-)
 
-Fortunately for this project, the FCC information pertaining to this device is not really all that necessary, however it is good to know that it is intended to operate wirelessly within the 2.405 – 2.474GHz WiFi range.
+Для этого проекта, получение информации FCC не является необходимостью, однако было полезно узнать, что оно предназначено для беспроводной работы в диапазоне WiFi на частотах в диапазоне 2,405–2,474 ГГц.
 
 ## **Keyboard Injection Payload:**
 
