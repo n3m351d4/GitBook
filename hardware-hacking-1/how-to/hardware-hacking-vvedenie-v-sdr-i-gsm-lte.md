@@ -230,9 +230,9 @@ sudo apt install wireshark-qt
 
 Также обратите внимание на большой объем байтов «2b» в потоке данных. Это явный признак того, что мы успешно перехватываем трафик сотовой сети, поскольку «2b» используется в качестве байта-заполнителя при построении пакетов.
 
-## **Using Wireshark to analyze the packets:**
+## **Использование Wireshark для анализа трафика:**
 
-During a follow-up GnuRadio-Companion session, I decided to open a new terminal to run Wireshark and analyze the streaming live data using the loop-back mode and a ‘gsmtap’ filter.  This needs to be done as root, so the command is:
+Я решил открыть новый терминал для запуска Wireshark и анализа потоковой передачи данных в реальном времени с использованием режима обратной связи \(loopback\) и фильтра «gsmtap». В таком случае нужно запускать Wireshark от имени пользователя root, поэтому команда запуска будет выглядеть следующим образом:
 
 ```text
 $ sudo wireshark
@@ -242,14 +242,16 @@ $ sudo wireshark
 
 As expected, Source and Destination are localhost \(due to loop-back mode\), and from my limited research of packet types, I know that System Information Type 4 is a carrier beacon, providing pertinent information.
 
+Как и ожидалось, отправителем и получателем является localhost \(из-за режима loopback\), и из моего ограниченного исследования типов пакетов я знаю, что System Information Type 4 является обозначением несущей, предоставляющей соответствующую информацию.
+
 ![](https://lh6.googleusercontent.com/HzbpVh6HLeGEtHr9JSqmBDUEJUlEgF8iBhbob0GgcJjqwiKtpUQpL9hPhVGglA1axQrpa6TrUxniLrq5ICEKyuhdvkGd-osGhKioOKgK2Gs1JwZvM0wymnM-txVjjLycPIbz0O6V)
 
-## **Summary:**
+## **Заключение**
 
-As far as I’m concerned, this has turned out to be a pretty rewarding project and I feel I’ve learned quite a bit in the process. Obviously, I’ve barely scratched the surface of what Software Defined Radio is capable of, but I’m now looking forward to continuing my research in this area.
+Как я и предполагал, этот проект оказался весьма полезным, и я чувствую, что многому научился в процессе. Очевидно, я едва прикоснулся к тому, на что способно Software Defined Radio и теперь я с нетерпением жду продолжения своих исследований в этой области. Далее я хотел бы разобрать те пакеты данных, которые удалось записать, узнать что они означают и как в целом работает вся «мобильная сеть». Я также хотел бы выполнить несколько пробных тестовых звонков с помощью своих личных телефонов \(так, чтобы это было законно\) и перехватить/декодировать свои личные SMS-сообщения «Hello World».  
 
-Next up, I would like to better understand those packets I captured, what they mean and how the whole ‘mobile network’ works in general. I’d also like to run some sample test calls using my personal phones \(to keep it legal\) and capture/decode my personal SMS \(‘Hello World’\) packets.  ![&#x1F609;](https://s.w.org/images/core/emoji/13.0.0/svg/1f609.svg)  
 
+![](https://s.w.org/images/core/emoji/13.0.0/svg/1f609.svg)
 
 
 
