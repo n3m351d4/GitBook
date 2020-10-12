@@ -1,3 +1,7 @@
+---
+description: Перевод @n3m351da @in51d3 2020
+---
+
 # -Hardware Hacking: Reverse Engineering a Smart Lock
 
 ## 
