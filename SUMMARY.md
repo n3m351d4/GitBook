@@ -37,6 +37,7 @@
   * [Проблема сознания в философии.](social-engeneering-and-osint-1/problema-soznaniya-v-filosofii..md)
   * [Старые добрые техники убеждения](social-engeneering-and-osint-1/starye-dobrye-tekhniki-ubezhdeniya.md)
   * [Переводы](social-engeneering-and-osint-1/perevody/README.md)
+    * [Критическая инфраструктура - разведка медицинских учреждений](social-engeneering-and-osint-1/perevody/kriticheskaya-infrastruktura-razvedka-medicinskikh-uchrezhdenii.md)
     * [Социальная инженерия. Угрозы и защита: литературный обзор](social-engeneering-and-osint-1/perevody/socialnaya-inzheneriya.-ugrozy-i-zashita-literaturnyi-obzor.md)
     * [Боевой OSINT s01e01 - OSINT & RDP](social-engeneering-and-osint-1/perevody/boevoi-osint-s01e01-osint-and-rdp.md)
     * [Боевой OSINT s01e02](social-engeneering-and-osint-1/perevody/untitled.md)
