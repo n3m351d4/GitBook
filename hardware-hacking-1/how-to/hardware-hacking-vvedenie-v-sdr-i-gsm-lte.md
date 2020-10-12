@@ -214,27 +214,21 @@ sudo apt install wireshark-qt
 
 ![](https://lh4.googleusercontent.com/8BJ2_teBP2YqUVXF1BiA6WiAdoKj3xJjJbHqV7XtFcLeXo_gZWya59jeKWnTofUixtVxrCoB6bLbqJQCxix6jQmuhFMdBmAnBlRhxvNK8J2OeTLvS-D4GLIYjvvAM8heG63i24XV)
 
-## **Using GnuRadio-Companion:**
+## **Использование GnuRadio-Companion:**
 
-A few years back, open-source ‘airprobe\_rtlsdr.grc’ \(Airprobe project\) was the “goto” block for live monitoring of traffic, while using GnuRadio-Companion. 
+Несколько лет назад схема «airprobe\_rtlsdr.grc» \(проект Airprobe\) была блоком «goto» для мониторинга трафика в реальном времени при использовании GnuRadio-Companion. В последние годы «airprobe\_rtlsdr.grc» заменяют на «grgsm\_livemon.grc». 
 
-As of recent years, ‘**airprobe\_rtlsdr.grc**‘ was replaced by “**grgsm\_livemon.grc**”  Special note: The _gr-gsm_ project is based on the _gsm-receiver_ written by Piotr Krysik \(also the main author of _gr-gsm_ for the _Airprobe_ project\).
-
-I changed directory to gr-gsm/apps
-
-Executed:  $ gnuradio-companion grgsm\_livemon.grc
-
-This brings up the GnuRadio-Companion GUI, and displays the grgsm\_livemon.grc block template.
+Я сменил каталог на `gr-gsm/apps` и выполнил команду: `$ gnuradio-companion grgsm_livemon.grc` для запуска графического интерфейса программы GnuRadio-Companion и открытия схемы grgsm\_livemon.grc.
 
 ![](https://lh4.googleusercontent.com/7jPAltEKbV7B9-xI2fzXF86gmli3DRFNTY1COgmJ331ApYScHpjOk82p9VuCiOLTx22alRMamEEvA5ewYrs4VVfgT495kjP4h52TcSbOb1LvhGVSdCDM0H8xrAyX5SgtBWf-IvWK)
 
-I then enabled the radio by clicking on the Start button \(top center of display\) and tuned to 1930.535MHz \(adjusted frequency determined using Gqrx SDR\). As soon as I locked into the frequency, I was presented with the following:
+Затем я запустил схему, нажав кнопку запуска \(вверху в центре дисплея\), и настроился на частоту 1930,535 МГц \(скорректированная частота была определена с помощью Gqrx SDR ранее\). Как только я зафиксировал частоту, я увидел следующее:
 
 ![](https://lh3.googleusercontent.com/hrkhUJiHBVSo6z15BNleiQXdhFdCsWj3HdniXmLnBa-htHOc22le9Y-2DT3tYN_-TnqEC8lyvFLRgmeKiQSjMbMxR5S2T8MkbHCDlYTE-ULcFcM-4It2x6z7S_XqYtytBUvmN7B3)
 
-It’s not obvious by the above image, but the data inside the console terminal is streaming at a very fast rate and will continue to stream until we click the stop button \(top center of Gnu Radio Companion display\).
+Из приведенного выше изображения неочевидно, что данные в консоли появляются с очень высокой скоростью и будут это делать, пока мы не нажмем кнопку остановки \(вверху в центре дисплея Gnu Radio Companion\). 
 
-Also, notice the high volume of “2b” bytes in the data stream. This is a strong indication that we are successfully capturing cellular traffic, as “2b” is used as a filler byte when constructing the packets.
+Также обратите внимание на большой объем байтов «2b» в потоке данных. Это явный признак того, что мы успешно перехватываем трафик сотовой сети, поскольку «2b» используется в качестве байта-заполнителя при построении пакетов.
 
 ## **Using Wireshark to analyze the packets:**
 
