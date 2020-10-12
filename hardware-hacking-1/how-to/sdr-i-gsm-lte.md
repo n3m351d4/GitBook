@@ -2,7 +2,7 @@
 description: Перевод @n3m351da @in51d3 2020
 ---
 
-# Hardware Hacking: Введение в SDR и GSM/LTE
+# -Hardware Hacking: Введение в SDR и GSM/LTE
 
 [Оригинальный текст](https://www.blackhillsinfosec.com/intro-to-software-defined-radio-and-gsm-lte/)
 
