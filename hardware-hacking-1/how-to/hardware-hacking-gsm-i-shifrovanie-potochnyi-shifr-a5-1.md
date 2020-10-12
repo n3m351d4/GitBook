@@ -39,13 +39,18 @@ _Переменные:_
 
 **Примечание**: данные шифруются с помощью алгоритма KC + A5 / 1
 
-## **Preliminary Information**:
+## Предварительная информация:
 
-Before proceeding to the encryption process, it may be helpful to know that although there are three different algorithms \(A3, A8, and A5/1\), we can simplify the overall process significantly by stating upfront, the following:
+Прежде чем приступить к процессу шифрования, нужно учесть, что, не смотря на то, что существует три разных алгоритма \(A3, A8 и A5 / 1\), мы можем значительно упростить общий процесс, зная следующее:
 
-* The A3 \(**authentication**\) **algorithm** is ‘only’ used to facilitate authenticating that the mobile station \(MS\) has permission to be on the network.
-* Once authenticated, the A8 \(**ciphering key generating**\) **algorithm** is ‘only’ used to create a unique key \(KC\), that ultimately will be used \(by the MS and the Network\) for encrypting/decrypting data using the **A5/1 stream cipher algorithm** on-the-fly.
-* The A3 algorithm, A8 algorithm, IMSI and Ki all exist on the MS \(phone\) SIM card and the A5/1 stream cipher algorithm exists in the MS \(phone\) hardware.
+**Алгоритм A3** используется «только» для облегчения аутентификации мобильной станции \(MС\) в сети. 
+
+* **После аутентификации алгоритм A8** \(генерация ключа шифрования\) используется «только» для создания уникального ключа \(KC\), который в конечном итоге будет использоваться \(МС и сетью\) для шифрования / дешифрования данных с использованием потокового шифра A5/1. 
+* Алгоритм A3, алгоритм A8, IMSI и Ki - все существуют на SIM-карте MS \(телефон\), а алгоритм потокового шифрования A5 / 1 существует в оборудовании MS \(телефона\). 
+* Кроме того, домашняя сеть \(HLR, VLR, MSC, AuC\) имеет доступ к той же информации через свои базы данных. Типичный процесс: диаграмма 01
+
+The A3 algorithm, A8 algorithm, IMSI and Ki all exist on the MS \(phone\) SIM card and the A5/1 stream cipher algorithm exists in the MS \(phone\) hardware.
+
 * Additionally, the Home Network \(HLR, VLR, MSC, AuC\), has access to the same information via its databases.
 
 **Typical Process**:**Diagram 01**
@@ -69,7 +74,7 @@ Before proceeding to the encryption process, it may be helpful to know that alth
    * The KC generated is used with the A5 \(stream ciphering\) algorithm to encipher or decipher the data.
    * The A5 algorithm is stored in the phone’s hardware and is responsible for encrypting and decrypting data on the fly.
 
-**Levels of Security:**
+## **Levels of Security:**
 
 _Algorithms_:
 
