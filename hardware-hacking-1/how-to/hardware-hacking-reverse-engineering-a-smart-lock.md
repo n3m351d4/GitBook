@@ -56,11 +56,11 @@ The following diagram demonstrates the order of events of a typical user session
 
 It should be noted that all of these packets are transmitted OTA at the beginning of every user session, and all 13 of these packets are encrypted with either the **AppKey** or the **DoorKey** depending upon the transport direction.
 
-## **REVERSING THE ANDROID APK**
+## **Реверс Android приложения**
 
-All mobile applications are downloaded as APK \(Android Application Package\) files. APK files are saved in ZIP format and are typically downloaded directly to Android devices, usually by way of the Google Play store, but can also be found on other websites. When reverse engineering android APKs, I find that it is often helpful to use third party sites to search for older versions of the APK in question.  A favorite of mine is [https://apkpure.com/](https://apkpure.com/).
+Все мобильные приложения загружаются в виде файлов APK \(Android Application Package\). Файлы APK сохраняются в формате ZIP и загружаются непосредственно на устройства Android, обычно через магазин Google Play, но их можно найти и на других веб-сайтах. При обратной разработке APK-файлов Android я обнаружил, что часто полезно использовать сторонние сайты для поиска более старых версий рассматриваемого APK. Мой любимый - [https://apkpure.com/](https://apkpure.com/).
 
-**Software Requirements**
+**Требования к программному обеспечению**
 
 Java version 1.8.0\_251
 
@@ -74,15 +74,15 @@ Jadx version 1.1.0
 
 Frida version 12.8.9
 
-**Hardware Requirement**
+**Требования к оборудованию**
 
-Rooted android phone
+Телефон на андроид с привилегиями пользователя root
 
-A typical APK contains some very useful content, such as an AndroidManifest.xml, classes.dex, and resource.arsc file; as well as a Meta-INF and res folder. There are a few different ways to open an APK residing on your PC. Obviously, because it is a ZIP file, any of the various UNZIP extractors will work just fine, however using tools like Dex2Jar, Apktool, and Jadx \(to name a few\) offer additional advantages such as converting .dex files to java code for better readability and GUI support for ease of navigating the code.
+Обычный APK-файл содержит очень полезный контент, например, файлы AndroidManifest.xml, classes.dex и resource.arsc; а также папку Meta-INF и res. Есть несколько способов открыть APK, хранящийся на вашем компьютере. Очевидно, что поскольку это ZIP-файл, любой из различных экстракторов UNZIP сработает, однако использование инструментов, таких, как Dex2Jar, Apktool и Jadx, представит дополнительные преимущества, например, преобразование файлов .dex в код Java для удобочитаемости и поддержка графического интерфейса для простоты навигации по коду.
 
-DEX files \(Dalvik executable files\) are developer files used to initialize and execute applications for the Android mobile platform. Tools like Apktool can decompile the DEX \(machine language\) files into Smali \(assembly language source\) files. We can also use tools like dex2jar to convert DEX files to JAR \(java\) files and use jadx GUI to open the JAR file as java source code.  Java source code can be a lot easier to read than Smali source. There are many options available to navigate the Android APK, including a favorite of mine, APKStudio.
+Файлы DEX \(исполняемые файлы Dalvik\) - это файлы разработчика, используемые для инициализации и исполнения приложений мобильной платформы Android. Такие инструменты, как Apktool, могут декомпилировать файлы DEX \(машинный язык\) в файлы Smali \(исходный язык ассемблера\). Также, можно использовать такие инструменты, как dex2jar, для преобразования файлов DEX в файлы JAR \(java\) и использовать графический интерфейс jadx для открытия файла JAR как исходного кода java. Исходный код Java может быть намного проще для чтения, чем исходный код Smali. Существует множество вариантов навигации по APK-файлу, мой любимый -  APKStudio.
 
-With the many options available, it would be beyond the scope of this write-up to describe the various steps involved with implementing any one of these tools. I would suggest downloading them and experimenting with several techniques to find your best fit. There are plenty of helpful tutorials out there.
+Описание любого из вышеперечисленных инструментов, выходит за рамки данной статьи. Я бы посоветовал загрузить их и поэкспериментировать с разными утилитами, чтобы найти наиболее подходящие и почитать соответствующие руководства.
 
 ## **USING FRIDA** 
 
