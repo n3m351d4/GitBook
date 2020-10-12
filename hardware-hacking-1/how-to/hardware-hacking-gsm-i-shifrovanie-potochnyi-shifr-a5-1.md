@@ -75,17 +75,13 @@ _Алгоритмы_:
 
 ![](https://lh5.googleusercontent.com/2FWiU5_5C8mqcQSFv8HKHSFHCHnIfvO7R0g9MA_DsZ_q4T4mJkSmWstcpkd_4_zSB24V-Zuc9lMbnn3OAst6tnuzDk-NJDhBmk7JbjDdjN46Qts6d3fRTz10fdupMZOeb5_3HDLC)
 
-Обфускация IMSI: 
+**Обфускация IMSI:** 
 
-Когда абонент впервые присоединяется к сети, Центр аутентификации \(AuC\) назначает TMSI \(временный IMSI\), который будет использоваться вместо IMSI абонента в дальнейшем. Я говорю «временный», но на самом деле TMSI хранится \(вместе с IMSI\) в VLR \(регистре местоположения посетителей\). Когда телефон выключен, телефон сохраняет TMSI на своей SIM-карте, обеспечивая его доступность при повторном включении. Каждое новое обновление \(роуминг, передача обслуживания и т.д.\) приводит к созданию нового TMSI. TMSI используется вместо IMSI для защиты личности подписчика.
+Когда абонент впервые подключается к сети, Центр аутентификации \(AuC\) назначает TMSI \(временный IMSI\), который будет использоваться вместо IMSI абонента в дальнейшем. Я говорю «временный», но на самом деле TMSI хранится \(вместе с IMSI\) в VLR \(регистре местоположения абонентов\). 
 
-**IMSI Obfuscation**:
+Когда телефон выключен, телефон сохраняет TMSI на своей SIM-карте, обеспечивая его доступность при повторном включении. 
 
-The first time a subscriber joins the network, the Authentication Center \(AuC\) assigns a TMSI \(temporary IMSI\) which will be used in place of the subscribers IMSI going forward. I say “temporary”, but in fact, the TMSI is stored \(along with the IMSI\) in the VLR \(visitor location register\).
-
-When the phone is switched off, the phone saves the TMSI on its SIM card, ensuring it is available when switched on again.
-
-Every new update \(roaming, handoffs, etc\) results in a new TMSI being created. The TMSI is used in place of the IMSI to protect the subscriber’s identity.
+Каждое новое обновление \(роуминг, передача обслуживания и т.д.\) приводит к созданию нового TMSI. TMSI используется вместо IMSI для защиты конфиденциальности абонента.
 
 **Скриншоты с примерами пакетов:**
 
@@ -101,7 +97,7 @@ _Поддерживаемый алгоритм TMSI / A5 / 1_
 
 ![](https://lh5.googleusercontent.com/amAB08uW_TOcCm0cQIRnhmSyw4Mp6uhH74tO5kD90v73h4s7tvRQLV7cwqWKy84tKwaaPDj8koeQayl5nPk0RMXwt93SolKVNVgb6adKC0KmbD73DXvj9wb3UoEAwFmwNWhxRA8D)
 
-## **Summary**
+## **Заключение**
 
 В этой статье описаны некоторые из моих исследований по анализу трафика GSM, который я записал с помощью SDR. Смысл этой работы в том, чтобы лучше понять протоколы и процедуры мобильной сети GSM с погрешностью на применяемые алгоритмы аутентификации и шифрования. 
 
