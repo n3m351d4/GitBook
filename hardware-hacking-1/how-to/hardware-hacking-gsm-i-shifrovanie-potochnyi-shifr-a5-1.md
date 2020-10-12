@@ -45,34 +45,29 @@ _Переменные:_
 
 **Алгоритм A3** используется «только» для облегчения аутентификации мобильной станции \(MС\) в сети. 
 
-* **После аутентификации алгоритм A8** \(генерация ключа шифрования\) используется «только» для создания уникального ключа \(KC\), который в конечном итоге будет использоваться \(МС и сетью\) для шифрования / дешифрования данных с использованием потокового шифра A5/1. 
-* Алгоритм A3, алгоритм A8, IMSI и Ki - все существуют на SIM-карте MS \(телефон\), а алгоритм потокового шифрования A5 / 1 существует в оборудовании MS \(телефона\). 
-* Кроме того, домашняя сеть \(HLR, VLR, MSC, AuC\) имеет доступ к той же информации через свои базы данных. Типичный процесс: диаграмма 01
+* **После аутентификации алгоритм A8** используется «только» для создания уникального ключа \(KC\), который в конечном итоге будет использоваться \(МС и сетью\) для шифрования / дешифрования данных с использованием потокового шифра A5/1. 
+* **Алгоритм A3, алгоритм A8, IMSI и Ki** - записаны на SIM-карте МС \(телефона\), а алгоритм потокового шифрования A5 / 1 заложен в аппаратном обеспечении МС \(телефона\). 
+* Кроме того, домашняя сеть **\(HLR, VLR, MSC, AuC\)** имеет доступ к той же информации через свои базы данных. 
 
-The A3 algorithm, A8 algorithm, IMSI and Ki all exist on the MS \(phone\) SIM card and the A5/1 stream cipher algorithm exists in the MS \(phone\) hardware.
-
-* Additionally, the Home Network \(HLR, VLR, MSC, AuC\), has access to the same information via its databases.
-
-**Typical Process**:**Diagram 01**
+**Диаграмма 1**
 
 ![](https://lh4.googleusercontent.com/5r2_aCvjL8dFFSL_tdoJvBPR_HBV7ssS-lBkjcfWSaJhCdmF4MGnHXyLVNhTBy_Wq8Q6dP6oTqvPdjpRUeJCjl4fjIc4A5Sqd8H71o9iBCVz9mjlnSnJdV4iOYA9lZHGCwAiQplm)
 
-**Process:** \(follow diagram-01\)
+**Процесс:** \(диаграмма 1\)
 
-1. Mobile station \(MS\) requests access to the network,  MS sends its IMSI to the Network Subsystem \(NSS\) via the BSC / BTS.
-2. The IMSI sent by the MS is forwarded to the MSC on the network, and the MSC passes that IMSI on to the HLR and requests authentication.
-3. The HLR checks its database to make sure the IMSI belongs to the network.
-   * If valid, The HLR forwards the authentication request and IMSI to the Authentication Center \(AuC\).
-   * The AuC will access its database to search for the Ki that is paired with the given IMSI.
-   * The Auc will generate a 128-bit random number \(RAND\).
-   * The RAND and Ki will be passed into the A3 \(authentication\) algorithm, creating a 32-bit SRES \(signed response\) for the challenge-response method.
-   * The RAND is transmitted \(via the BSC / BTS\) to the mobile station \(MS\).
-4. The RAND received by the MS, together with the SIM card-Ki are passed into the SIM card-A3 \(authentication\) algorithm, generating the phones SRES response.
-5. The phones SRES response is transmitted \(via the BSC / BTS\) back to the AuC on the network.
-6. The AuC compares the sent SRES with the received SRES for a match. If they match, then the authentication is successful. The subscriber \(MS\) joins the network.
-7. The RAND, together with the SIM card-Ki are passed into the SIM card-A8 \(ciphering key\) algorithm, to produce a ciphering key \(KC\).
-   * The KC generated is used with the A5 \(stream ciphering\) algorithm to encipher or decipher the data.
-   * The A5 algorithm is stored in the phone’s hardware and is responsible for encrypting and decrypting data on the fly.
+1. Мобильная станция \(МС\) запрашивает доступ к сети, МС отправляет свой IMSI в сетевую подсистему \(NSS\) через BSC / BTS.
+2. IMSI, отправленный МС, отправляется MSC сети, и MSC передает IMSI в HLR и запрашивает аутентификацию.
+3. HLR проверяет свою базу данных, чтобы убедиться, что IMSI принадлежит данной сети.
+   * Если IMSI принадлежит данной сети, HLR пересылает запрос аутентификации и IMSI в Центр аутентификации \(AuC\).
+   *  AuC обращается к своей базе данных для поиска Ki, который связан с данным IMSI.
+   * Auc генерирует 128-битное случайное число \(RAND\). 
+   * RAND и Ki обрабатываются алгоритмом A3 \(аутентификация\), создавая 32-битный SRES \(подписанный ответ\). RAND передается \(через BSC / BTS\) на мобильную станцию ​​\(МС\). 
+4.  RAND, полученный МС, вместе с ключом Ki SIM-карты передаются в алгоритм SIM-карты-A3 \(аутентификация\), генерируя ответ SRES. 
+5. Ответ SRES передается \(через BSC / BTS\) обратно в AuC сети. 
+6. AuC сравнивает отправленный SRES с полученным SRES. Если они совпадают, значит аутентификация прошла успешно. Абонент \(МС\) подключается к сети. 
+7. RAND вместе с ключом Ki SIM-карты передаются в алгоритм SIM-карты-A8  для создания ключа шифрования \(KC\):
+   * Сгенерированный KC используется с алгоритмом A5 для потокового шифрования или дешифрования данных.
+   * Алгоритм A5 хранится в аппаратном обеспечении телефона и отвечает за шифрование и дешифрование данных в "режиме реального времени".
 
 ## **Levels of Security:**
 
