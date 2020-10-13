@@ -4,8 +4,6 @@ description: Перевод @n3m351da @in51d3 2020
 
 # -Hardware Hacking: Инъекции в беспроводной интерфейс клавиатуры
 
-Оригинальный текст
-
 ## **Вступление**
 
 ![](https://lh6.googleusercontent.com/RHeMBmMnKTrsCxz3ZglUMxOGnynvvKb4KB3gqXzArvscfPVQdkNmqFPCJER_jmiCeK-aeCWv15KIl4fJu5LzkbJpZIJzckbRmeTGaf_6WLyubdzNPv_SW4OVlevuxmc-cw1BKmHx)
