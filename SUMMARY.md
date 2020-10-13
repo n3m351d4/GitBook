@@ -5,6 +5,7 @@
   * [Видео](blog/video-2020.md)
   * [Статьи для DC7495](blog/dc7495.md)
 * [Hardware Hacking](hardware-hacking-1/README.md)
+  * [Basics of hardware hacking](hardware-hacking-1/basics-of-hardware-hacking.md)
   * [Hardware Hacking: Статьи](hardware-hacking-1/articles/README.md)
     * [Информационная безопасность в системах подвижной связи. Доклад.](hardware-hacking-1/articles/informacionnaya-bezopasnost-v-sistemakh-podvizhnoi-svyazi.-doklad..md)
     * [Пассивный IMSI Cather для сетей GSM: еще проще.](hardware-hacking-1/articles/imsi-gsm-simple.md)
