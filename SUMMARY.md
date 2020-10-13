@@ -29,7 +29,7 @@
     * [-Hardware Hacking:How to Hack Hardware using UART](hardware-hacking-1/how-to/untitled-1.md)
     * [-Hardware Hacking:Promiscuous Wireless Packet Sniffer Project](hardware-hacking-1/how-to/untitled.md)
     * [-Hardware Hacking: Реверс умного замка](hardware-hacking-1/how-to/hardware-hacking-reverse-engineering-a-smart-lock.md)
-    * [-Hardware Hacking: Инъекции в беспроводной интерфейс клавиатуры](hardware-hacking-1/how-to/executing-keyboard-injection-attacks.md)
+    * [Hardware Hacking: Инъекции в беспроводной интерфейс клавиатуры](hardware-hacking-1/how-to/executing-keyboard-injection-attacks.md)
     * [Hardware Hacking: GSM и шифрование: поточный шифр A5/1](hardware-hacking-1/how-to/gsm-a5-1.md)
     * [Hardware Hacking: Введение в SDR и GSM/LTE](hardware-hacking-1/how-to/sdr-i-gsm-lte.md)
     * [Hardware Hacking: Основы работы с GNU Radio](hardware-hacking-1/how-to/gnu-radio.md)
