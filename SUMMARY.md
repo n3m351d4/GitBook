@@ -9,6 +9,8 @@
     * [Welcome!](hardware-hacking-1/basics-of-hardware-hacking/welcome.md)
     * [Timing is key](hardware-hacking-1/basics-of-hardware-hacking/timing-is-key.md)
     * [Getting the data capture](hardware-hacking-1/basics-of-hardware-hacking/getting-the-data-capture.md)
+    * [How does a serial protocol work?](hardware-hacking-1/basics-of-hardware-hacking/how-does-a-serial-protocol-work.md)
+    * [Performing a timing attack](hardware-hacking-1/basics-of-hardware-hacking/performing-a-timing-attack.md)
   * [Hardware Hacking: Статьи](hardware-hacking-1/articles/README.md)
     * [Информационная безопасность в системах подвижной связи. Доклад.](hardware-hacking-1/articles/informacionnaya-bezopasnost-v-sistemakh-podvizhnoi-svyazi.-doklad..md)
     * [Пассивный IMSI Cather для сетей GSM: еще проще.](hardware-hacking-1/articles/imsi-gsm-simple.md)
