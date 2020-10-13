@@ -1,2 +1,2 @@
-# Курс: Basics of hardware hacking
+# -Курс: Basics of hardware hacking
 
