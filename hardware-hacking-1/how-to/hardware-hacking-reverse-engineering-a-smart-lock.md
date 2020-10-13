@@ -192,32 +192,34 @@ The temporary key is used during the [**Bluetooth**](https://www.arrow.com/en/ca
 
 Once the connection is encrypted with the short term key, the other keys are distributed.  The Long Term Key replaces the short term key to encrypt the connection. The Identity Resolving Key is used for privacy. The Connection Signature Key is used for authentication.
 
-## **!FORTUNATELY, THERE IS AN EXCELLENT WAY TO CAPTURE BLUETOOTH TRAFFIC USING YOUR ANDROID DEVICE!**
+## СПОСОБ ПЕРЕХВАТА ТРАФИКА BLUETOOTH С ПОМОЩЬЮ УСТРОЙСТВА НА ОС ANDROID!**!**
 
-**On your Android phone**
+**В вашем телефоне Android**
 
-* Go to settings
-* If developer options is not enabled, enable it now
-* Go to **developer options**
-* Enable the option **Enable Bluetooth HCI snoop log**
-* Perform the actions which need to be captured \(session\)
-* Disable the option **Enable Bluetooth HCI snoop log**
-* Copy the file to PC using ADB \(Android Debug Bridge\)
-* The file of interest is **btsnoop\_hci.log**
+* Откройте настройки
+* Включите режим разработчика
+* Зайдите в настройки разработчика
+* Включите опцию **Enable Bluetooth HCI snoop log \(**Включить журнал Bluetooth HCI**\)**
+* Выполните манипуляции, которые необходимо отследить
+* Выключите опцию **Enable Bluetooth HCI snoop log \(**Включить журнал Bluetooth HCI**\)**
+* Скопируйте файл с логам на ПК через ADB \(Android Debug Bridge\)
+* Необходимый файл называется **btsnoop\_hci.log**
 
 Note: Typically, I’ll leave the option **Enable Bluetooth HCI snoop log** enabled, as it’s on my rooted test phone
 
-**Obtain btsnoop\_hci.log of complete bluetooth session**
+Примечание: Обычно я оставляю опцию **Enable Bluetooth HCI snoop log** включенной, поскольку использую тестовый телефон с правами пользователя root.
 
-**Listed android files**
+### **Получение btsnoop\_hci.log о сеансе Bluetooth**
+
+**Файлы Android**
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image13-2.png)
 
-**Pulled btsnoop\_hci log files**
+**Записанные файлы btsnoop\_hci log** 
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image14.png)
 
-**Renamed btsnoop\_hci.log to btsnoop\_hci-07-31-20.log \(appended with my session date\)**
+**Переименуем btsnoop\_hci.log в btsnoop\_hci-07-31-20.log**
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image3-4.png)
 
