@@ -29,15 +29,15 @@ description: Перевод @n3m351da @in51d3 2020
 * App Key  \(**AppKey**\) used to encrypt packets sent by the App to the Door
 * Ключ двери \(**DoorKey**\), используется для шифрования пакетов, отправляемых дверью в приложение.
 
-## **!KEY GENERATION**
+## **Генерация ключа**
 
-The **CommonKey** is based entirely on a static 16-byte value which is simply enumerated with the last 5 bytes of the device’s Bluetooth address as follows:
+**CommonKey** основан на статическом 16-байтовом значении, которое начинается с последних 5 байт Bluetooth адреса устройства:
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image22.png)
 
-Upon further examination of the CommonKey on multiple KeyWe devices, it appears the only difference between all devices examined were the last two bytes of the device Bluetooth address! In my case, the values 4C and 93 were unique to my device. This suggests that the CommonKey is highly predictable and based solely on two bytes within a 16-byte static value per device!
+После изучения CommonKey на нескольких устройствах KeyWe выяснилось, что во всех устройствах различаются только последние два байта адреса Bluetooth! Для моего устройства уникальными были значения 4C и 93. Это говорит о том, что CommonKey предсказуем и основан исключительно на двух байтах! 
 
-The **AppKey** and **DoorKey** are created from two algorithms \(and heavily obfuscated\) methods **makeAppKey** and **makeDoorKey**. The F-Secure people created a nice tool that generates the three secret keys by simulating the action of these two methods \(although they REDACTED and obfuscated their work, rendering it generally harmless\). After some considerable time, however, I was able to reverse engineer the functionality of these two methods myself working with a handy open-source tool called Frida \(more on this later\).
+**AppKey** и **DoorKey** создаются при помощи двух сильно запутанных алгоритмов и методов makeAppKey и makeDoorKey. Сотрудники F-Secure создали инструмент, который генерирует три секретных ключа, моделируя действие этих двух методов. Однако по прошествии значительного времени я смог самостоятельно перепроектировать функциональность этих методов, работая с удобным инструментом с открытым исходным кодом под названием Frida \(подробнее об этом позже\).
 
 **AppKey** and **DoorKey** creation consists of passing two arguments to the **makeAppKey** and **makeDoorKey** functions. These two arguments are **AppNumber** and **DoorNumber** respectively.
 
