@@ -4,7 +4,7 @@ description: Перевод @n3m351da @in51d3 2020
 
 # -Hardware Hacking: Реверс умного замка
 
-## 
+[Оригинальный текст](https://www.blackhillsinfosec.com/reverse-engineering-a-smart-lock/)
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image24.png)
 
@@ -55,13 +55,15 @@ AppNumber - статическое \(жестко закодированное\)
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image18.png)
 
-## **!APPLICATION FLOW DIAGRAM**
+## **Схема работы**
 
-Now that we have generated and exchanged AppKey and DoorKey, each side can now encrypt/decrypt packets sent or received. All packets transmitted by the App will be encrypted using the **AppKey** and all packets transmitted by the Door will be encrypted using the DoorKey. Both sides know each other’s encryption scheme and can, therefore, decrypt the packet.
+Теперь, когда мы сгенерировали и обменялись ключами AppKey и DoorKey, обе стороны может шифровать / дешифровать отправленные или полученные пакеты. Все пакеты, передаваемые приложением, будут зашифрованы с использованием ключа приложения **AppKey**, а все пакеты, передаваемые дверью, будут зашифрованы с помощью ключа двери. Обе стороны знают схемы шифрования друг друга и поэтому могут расшифровать пакет.
 
-The following diagram demonstrates the order of events of a typical user session:![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image25.png)
+Следующая диаграмма демонстрирует порядок событий типичного сеанса:
 
-It should be noted that all of these packets are transmitted OTA at the beginning of every user session, and all 13 of these packets are encrypted with either the **AppKey** or the **DoorKey** depending upon the transport direction.
+![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image25.png)
+
+Следует отметить, что все эти пакеты передаются OTA в начале каждого пользовательского сеанса, и все 13 из этих пакетов зашифрованы либо **AppKey**, либо **DoorKey** в зависимости от того устройства, которому они предназначены.
 
 ## **Реверс Android приложения**
 
@@ -91,58 +93,68 @@ Frida version 12.8.9
 
 Описание любого из вышеперечисленных инструментов, выходит за рамки данной статьи. Я бы посоветовал загрузить их и поэкспериментировать с разными утилитами, чтобы найти наиболее подходящие и почитать соответствующие руководства.
 
-## **!USING FRIDA** 
+## **Использование FRIDA** 
 
-The F-Secure researchers stated in their blog that they were able to intercept function calls in the android app using a tool called Frida. I was not aware of this tool, so I decided to check it out. This tool is amazing! Understanding how to implement Frida is beyond the scope of this write-up. However, suffice to say, Frida allows a researcher the ability to attach to existing functions within an application and dynamically dump the arguments and return values. This is most definitely worth checking out! [https://frida.re/docs/home/](https://frida.re/docs/home/)
+Исследователи F-Secure написали в своем блоге, что им удалось перехватить вызовы функций в приложении для Android с помощью инструмента под названием Frida. Я не знал об этом инструменте, поэтому решил изучить его. Эта утилита просто потрясающая! Понимание того, как использовать Frida, выходит за рамки этой статьи. Однако достаточно сказать, что Frida позволяет исследователю подключаться к существующим функциям в приложении и динамически выгружать аргументы и возвращаемые значения. Это определенно стоит попробовать! [https://frida.re/docs/home/](https://frida.re/docs/home/)
 
-**Frida w/toolkit installation**
+**Установка Frida**
 
-* pip install frida
-* pip install frida-tools
+```text
+pip install frida
+pip install frida-tools
+```
 
-**Requirements:**
+**Необходимо**
 
-* frida-server and adb \(android debug bridge\)
-* rooted android phone for debugging apk \(I used an old Samsung GS5\)
+* frida-server и ****adb \(android debug bridge\)
+* Телефон на андроид с привилегиями пользователя root
 
-**Install frida-server on rooted phone**
+**Установка frida-server на телефон**
 
-To install the server, navigate to [https://github.com/frida/frida/releases](https://github.com/frida/frida/releases) and download the appropriate file for the specific phone platform being used.
+Чтобы установить сервер, перейдите по адресу [https://github.com/frida/frida/releases](https://github.com/frida/frida/releases) и загрузите подходящий файл к вашей платформе.
 
-\(If you are not sure of the phone’s architecture, download and run **Droid Hardware Info** \(from Google Play store\)![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image23.png)
+Если вы не знаете архитектуру своего телефона, то скачайте и запустите приложение **Droid Hardware Info** \(из Google Play\)
 
-* Copy the downloaded file to your project directory
-* Navigate to your project directory
-* Unzip the .xz file with : **xz -d -k frida-server-12.9.8-android-arm.xz**
-* Using adb \(android debug bridge\) tool push the extracted file to the rooted phone:
+![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image23.png)
 
-INITIAL SETUP: \(installs frida-server on rooted phone\)
+* Скопируйте загруженный файл в директорию своего проекта
+* Откройте эту директорию
+* Разархивируйте файл .xz: **xz -d -k frida-server-12.9.8-android-arm.xz**
+* Используя adb \(android debug bridge\) отправьте извлеченный файл на свой телефон
 
-* $ adb push frida-server-12.9.4-android-arm /data/local/tmp
-* $ adb shell     \#\#\# shell into phone
-* $ su                                    \#\#\# root level user
-* \# cd /data/local/tmp
-* \# chmod 777 frida-server
-* \# ./frida-server &               \#\#\# start frida-server daemon
+**Начальная настройка**: \(установка frida-server на телефон\)
 
-Once the frida-server is installed on the rooted phone, begin a new session as follows:
+```text
+$ adb push frida-server-12.9.4-android-arm /data/local/tmp
+$ adb shell     ### shell into phone
+$ su                                    
+# cd /data/local/tmp
+# chmod 777 frida-server
+# ./frida-server &              
+```
 
-* $ adb shell
-* $ su
-* \# cd /data/local/tmp
-* \# ./frida-server &
+Как только frida-server установлен на телефоне, запустите новый сеанс следующим образом:
 
-Initially, I had a difficult time coordinating the learning of a new tool \(Frida\), with the added burden of trying to find the same function calls that the F-Secure people referenced in their blogs. Due to the F-Secure advisory, the vendor heavily obfuscated the latest releases, meaning no more ‘makeAppKey’ or ‘makeDoorKey’ functions to attach to. I also discovered that the vendor incorporated security measures to prevent running the KeyWe application on rooted phones. The F-Secure researchers created a cool tool using python and a Frida javascript to attach to the offending method and injected java code to always return false to ‘isRooted’.
+```text
+$ adb shell
+$ su
+# cd /data/local/tmp
+# ./frida-server &
+```
+
+Изначально мне было трудно изучать Frida и пытаться найти вызовы функций, на которые F-Secure ссылались в своих блогах. Из-за рекомендаций F-Secure поставщик сильно обфусцировал последние версии приложения, что означало отсутствие функций **makeAppKey** или **makeDoorKey**. Я также обнаружил, что поставщик включил меры безопасности для предотвращения запуска приложения **KeyWe** на телефонах с доступом к root. Исследователи F-Secure создали классный инструмент используя Python и javascript Frida для присоединения к  методу вызывающему ошибку и внедрили код Java, чтобы всегда возвращать false для **isRooted**.
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image12-2.png)
 
 Unfortunately, due to the heavy obfuscation of my newer version of the Android APK, the ‘RootTool’ class did not exist and I was forced to search my APK code in an attempt to find it’s equivalent class. After a considerable amount of time searching the code, I eventually located the root check methods.  It turned out the ‘RootTool’ class was now referenced as ‘n’, and the ‘iSRooted’ function is now referenced as function ‘b’.
 
-**Modified F-Secure’s KeyWe-Tooling script according to my search findings**
+К сожалению, из-за сильной обфускации нового Android приложения класс «RootTool» не существовал, и мне пришлось искать в коде эквивалентный класс. После долгого поиска нужного кода я в конце концов нашел методы проверки наличия привилегий root. Оказалось, что класс «RootTool» теперь упоминается как «n», а функция «iSRooted» теперь упоминается как функция «b».
+
+**Модифицированный скрипт F-Secure’s KeyWe-Tooling** 
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image7-2.png)
 
-**Resulted in successfully evading the root detection!**
+**Успешный обход детектирования наличия root прав**
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image1-4.png)
 
