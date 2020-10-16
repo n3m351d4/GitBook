@@ -190,11 +190,9 @@ C:\Users\rayfe\keywe-tooling\frida&gt;**keywe\_inject.py trace\_java\_functions.
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image19.png)
 
-## **!BTSNOOP \(ANDROID BLUETOOTH HCI LOGGER\)**
+## **BTSNOOP \(ANDROID BLUETOOTH логгер\)**
 
-Ultimately, BTSNOOP has to be one of my greatest finds when wanting to capture a complete Bluetooth session between central \(phone\) and peripheral \(lock\), I attempted various methods to capture my OTA Bluetooth sessions, including Nordic’s nRF Sniffer development board nRF52840-DK, Sena’s UD100 dongle, the Ubertooth-One and Texas Instruments CC2540 dongle. The problem with all of these approaches is they couldn’t follow the connection due to Bluetooth Low Energy \(BLE\) channel hopping. The Nordic nRF52840-DK came close when using it together with Wireshark and Nordic’s BLE sniffer plugin, but unfortunately, the packet captures were at the Link Layer \(rather than the host controller interface layer\) resulting in encrypted data that was unable to be parsed. 
-
-Being that it was not captured at the HCI layer, meant that it was susceptible to built in CCM AES-128 BLE security key exchange protocol handshakes. From what I could determine, this meant if the nRF52840-DK was not sniffing at the time of the pairing , it would miss the security handshake entirely, resulting in no decryption of the packets. 
+BTSNOOP одна из моих лучших находок, для захвата сеанса Bluetooth между телефона и периферией, я пытался это делать различными методами, например, платами nRF Sniffer Nordic nRF52840-DK, Sena UD100, ключ Ubertooth-One и ключ Texas Instruments CC2540. Проблема всех этих подходов в том, что они не могли отслеживать соединение из-за переключения каналов Bluetooth Low Energy \(BLE\). Nordic nRF52840-DK приблизился при использовании его вместе с Wireshark и плагином сниффера BLE от Nordic, но, к сожалению, захват пакетов происходил на канальном уровне, в результате чего зашифрованные данные не могли быть проанализированы.
 
 **IMPORTANT:  NRF SNIFFER SHORTCOMING!**
 
