@@ -44,7 +44,7 @@
 * [Networks](networks-1/README.md)
   * [Throwing Star LAN Tap](networks-1/throwing-star-lan-tap.md)
   * [Networks: Переводы](networks-1/translations/README.md)
-    * [Tor 0day: Краш Tor-сети](networks-1/translations/tor-0day-krash-tor-seti.md)
+    * [Tor 0day: Краш Tor-сети](networks-1/translations/tor-0day.md)
     * [MQTT – Нервная Система IoT](networks-1/translations/mqtt-nervnaya-sistema-iot.md)
     * [Изучение MQTT с использованием Wireshark](networks-1/translations/izuchenie-mqtt-s-ispolzovaniem-wireshark.md)
 * [Social Engeneering & OSINT](social-engeneering-and-osint-1/README.md)
