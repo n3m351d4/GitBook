@@ -32,7 +32,7 @@ SDR: [https://t.me/sdradio](https://t.me/sdradio)
 
 Музыка: [https://t.me/in51d3\_mu51c](https://t.me/in51d3_mu51c)
 
-Помочь покушать, чтобы был контент: [https://www.donationalerts.com/r/n3m351d4](https://www.donationalerts.com/r/n3m351d4) - бот запостит ваше сообщение на канал Inside! 
+Помочь покушать, чтобы был контент:
 
 btc: 1Ldv7999XzE5NUTyQFKcZAbQkbVVdbr31R
 
