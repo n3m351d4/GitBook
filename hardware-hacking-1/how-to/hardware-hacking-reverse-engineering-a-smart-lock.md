@@ -235,7 +235,7 @@ Note: Typically, I’ll leave the option **Enable Bluetooth HCI snoop log** enab
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image3-4.png)
 
-## **!WIRESHARK ANALYSIS**
+## Анализ при помощи Wireshark
 
 Importing the btsnoop\_hci.log into Wireshark, we can see the OTA encrypted packet exchanges. This, in conjunction with the Frida function hexdumps provides a valuable way to cross-reference the activity of the user session. From the massive number of sessions generated during my research of the KeyWe lock, I can confirm these packet exchanges follow the same sequence every session and never vary in the least. In the following example, we can see the opening key exchange, initiated by the App and followed by the Door.
 
