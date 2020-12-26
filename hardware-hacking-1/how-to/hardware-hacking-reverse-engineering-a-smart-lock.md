@@ -277,23 +277,23 @@ _Примечание_. Обмен ключами безопасности CCM A
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image9-2.png)
 
-Apparently, my modified keys.py correctly determined the CommonKey,  AppKey and DoorKey, but failed at the eKeyVerify stage.
+Мой скрипт keys.py правильно определил CommonKey, AppKey и DoorKey, но не смог провести верификацию ключа \(eKeyVerify\).
 
-Without getting too deep into F-Secure’s coding, the open\_from\_pcap python script calls a function in another script \(decode\_from\_pcap\) which supposedly retrieves the eKey from the session pcap. Unfortunately, that did not work properly for me. Maybe it was related to a difference in format structure of their pcap file versus my btsnoop\_hci.log file \(saved as pcap from within a Wireshark session\), Regardless, I decided to forego the deciphering of their code and instead modified the ‘open\_from\_pcap’ file to use my hardcoded eKey rather than trying to retrieve it. 
+Если не углубляться в код F-Secure, программа open\_from\_pcap вызывает функцию из другого скрипта \(decode\_from\_pcap\), которая предположительно извлекает eKey из pcap файла записанного во время сеанса передачи данных. К сожалению, у меня это не получилось. Возможно, это было связано с разницей в структуре их файла pcap и моего файла btsnoop\_hci.log \(сохраненного как pcap из Wireshark\). Тем не менее, я решил отказаться от чтения и разбора их кода и вместо этого я записал мой eKey непосредственно в их программу open\_from\_pcap, заменив этим процесс его получения в коде.
 
-By the way, the reason that the F-Secure people needed to retrieve the key from the pcap, is because the eKey is stored online when the account is created and not present in any OTA transmissions. It is however detectable using Frida, by injecting a javascript into the eKeyVerify function which provides a hexdump of the return value \(see below\).
+Причина, по которой сотрудникам F-Secure требовалось получать ключ из pcap файла, заключается в том, что eKey хранится в сети при создании учетной записи и не присутствует ни в каких OTA трафике . Однако его можно обнаружить с помощью Frida, вставив javascript в функцию eKeyVerify, которая предоставляет шестнадцатеричный дамп.
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image11-2.png)
 
-As you can see from the screenshot above, as part of my testing, I decided to delete my \(OLD\) KeyWe account and create a \(NEW\) account. By doing so, I might be able to determine what changes occur from one user account to another, and if the eKey might be predictable. From what I can see, there are no obvious detectable patterns. The eKey \(also known as the User password\) is generated when the owner creates their account, so it makes sense that the key is totally randomized and potentially derived from the User Password during account setup. Also, when I created the new account, I  intentionally changed only one character in the original password. My intention here was that this might help me determine if the eKey was derived solely from the User Password. In my opinion, it appears it was not.
+Как вы можете видеть на скриншоте выше, я удалил свою учетную запись KeyWe и создал учетную запись, для того, что узнать, какие изменения происходят при переходе от одной учетной записи пользователя к другой, и может ли eKey быть предсказуемым. Насколько я могу судить, очевидных закономерностей нет. EKey \(также известный как пароль пользователя\) генерируется, когда владелец создает свою учетную запись, поэтому ключ может быть как полностью случайным, так и может быть получен из пароля пользователя во время настройки учетной записи. Поэтому, когда я создавал новую учетную запись, я намеренно изменил только один символ в исходном пароле. Я хотел определить, был ли eKey получен исключительно из пароля пользователя. На мой взгляд, похоже, что это не так.
 
-From the screenshot above, it seems pretty clear that the eKeyVerify function was called by the App and the argument passed was a 6-byte value \(eKey\). The returned value can be assumed to be a modified resultant eKey to be sent by the App  \(encrypted with the AppKey\) to the Door. Without digging deeper into the code, I can only assume that the 6-byte value \(eKey\) provides a link to the actual \(modified\) eKey stored away. Regardless, this 6-byte eKey is all that’s required to complete the replay session.
+Из приведенного выше снимка экрана кажется довольно очевидным, что функция eKeyVerify была вызвана приложением, а переданный аргумент был 6-байтовым значением \(eKey\). Можно предположить, что возвращаемое значение является измененным eKey, который отправляется приложением \(и зашифровывается с помощью AppKey\) двери. Не углубляясь в код, я могу только предположить, что 6-байтовое значение \(eKey\) предоставляет ссылку на фактический \(измененный\) eKey. Тем не менее, этот 6-байтовый eKey - это все, что требуется для сеанса воспроизведения.
 
-Hard-coding the eKey into the replay.py script resulted in the following replay session:
+Запись eKey в скрипте replay.py привело к следующему результату:
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image10-2.png)
 
-**SUCCESS!!** [**https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/replay-1-1-1-1.mp4**](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/replay-1-1-1-1.mp4)\*\*\*\*
+**Успех!!** [**https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/replay-1-1-1-1.mp4**](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/replay-1-1-1-1.mp4)\*\*\*\*
 
 This replay was successful because I was able to obtain the eKey \(used for authentication and authorization\) by extracting it from my rooted phone using Frida. As it stands right now, this replay attack would not work in the wild due to the fact that the eKey of a legitimate owner is not accessible in this manner. Likewise, as I stated earlier, the eKey is not transmitted OTA.
 
