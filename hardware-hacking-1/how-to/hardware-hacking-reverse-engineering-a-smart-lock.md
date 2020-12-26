@@ -267,13 +267,13 @@ _Примечание_. Обмен ключами безопасности CCM A
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image26-2.png)
 
-## **!REPLAY ATTACK**
+## **Атака повторного воспроизведения**
 
-As can be seen by the screenshots \(above\), the entire Bluetooth session can be analyzed in Wireshark using the btsnoop\_hci.log \(capture\) and compared side by side against the data found using the Frida tools. Also notice that every one of the encrypted packets being sent over the air \(OTA\) can be decrypted by simply determining the transport direction \(App to Door or Door to App\) and using the appropriate key \(AppKey or DoorKey\) to decrypt.
+Как видно из скриншотов \(выше\), весь сеанс передачи данных можно проанализировать в Wireshark и сравнить с данными, полученными с помощью Frida. Также обратите внимание, что каждый из зашифрованных пакетов \(OTA\), можно расшифровать, просто определив направление транспортировки \(от приложения к двери или от двери к приложению\), используя соответствующий ключ \(AppKey или DoorKey\) для их расшифровки.
 
-Now that we have the keys and know how to interpret all of the data, we can attempt to operate the lock with a replay attack. Again, F-Secure provided a nice tool in their Github that they called ‘open\_from\_pcap’. Based upon information in their pre-recorded pcap session, this tool allowed them to replay the session and operate the lock. Of course, this tool was rendered harmless when they REDACTED their keys.py script. However, as I stated earlier, I was eventually able to reverse engineer the functionality. So, by swapping F-Secure’s REDACTED keys.py with my own version, it allowed me to implement the ‘open\_from\_pcap’ tool on my btsnoop\_hci.log capture.
+Теперь у нас есть ключи и мы знаем, как интерпретировать данные и мы можем задействовать блокировку с помощью атаки методом повторного воспроизведения пакетов. F-Secure выложили в своем Github инструмент, который они назвали «open\_from\_pcap». Основываясь на информации записанном в их pcap, этот инструмент позволил им воспроизвести сеанс и получить управление над замком. Конечно, этот инструмент перестал быть вредоносным, после того, как они УДАЛИЛИ свой скрипт keys.py. Однако, в результате данного исследования функции данного удаленного скрипта удалось восстановить. Заменив keys.py компании F-Secure своей версией этого скрипта, я смог использовать инструмент «open\_from\_pcap».
 
-Using my Sena UD100 Bluetooth USB adapter, the first result of running the ‘open\_from\_pcap’ script appears below:
+Я использовал USB-адаптер Bluetooth Sena UD100 и первый результат выполнения программы open\_from\_pcap показан на скриншоте ниже:
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image9-2.png)
 
