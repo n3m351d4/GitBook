@@ -217,8 +217,6 @@ _Примечание_. Обмен ключами безопасности CCM A
 * Скопируйте файл с логам на ПК через ADB \(Android Debug Bridge\)
 * Необходимый файл называется **btsnoop\_hci.log**
 
-Note: Typically, I’ll leave the option **Enable Bluetooth HCI snoop log** enabled, as it’s on my rooted test phone
-
 Примечание: Обычно я оставляю опцию **Enable Bluetooth HCI snoop log** включенной, поскольку использую тестовый телефон с правами пользователя root.
 
 ### **Получение btsnoop\_hci.log о сеансе Bluetooth**
@@ -237,35 +235,35 @@ Note: Typically, I’ll leave the option **Enable Bluetooth HCI snoop log** enab
 
 ## Анализ при помощи Wireshark
 
-Importing the btsnoop\_hci.log into Wireshark, we can see the OTA encrypted packet exchanges. This, in conjunction with the Frida function hexdumps provides a valuable way to cross-reference the activity of the user session. From the massive number of sessions generated during my research of the KeyWe lock, I can confirm these packet exchanges follow the same sequence every session and never vary in the least. In the following example, we can see the opening key exchange, initiated by the App and followed by the Door.
+Открыв btsnoop\_hci.log в Wireshark, мы можем увидеть обмен пакетами, зашифрованными OTA. Совмещая изучение файла в Wireshark с функцией hexdumps ПО Frida мы можем перекрестно изучить работу пользовательского сеанса. Из огромного количества сеансов, сгенерированных во время моего исследования замка KeyWe, стало ясно, что обмен пакетами происходит в одной и той же последовательности в каждом сеансе. В следующем примере мы можем увидеть обмен ключами, инициированный приложением, за которым следует открытие двери.
 
-**EXAMPLE 1:  APP sends AppNumber  —** **DOOR returns DoorNumber  —**  **DOOR sends Hello**
+**Пример 1:  Приложение отправляет AppNumber  — дверь возвращает DoorNumber  —  дверь отправляет Hello**
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image16.png)
 
-**Interesting note:** \(in the screenshot above\):  fb2b28c68b3f99c514b98fada4bf0b89  \(transmission \#2\) can be decrypted with the CommonKey to reproduce the DoorNumber!
+**Примечание:** \(на скриншоте выше\): **fb2b28c68b3f99c514b98fada4bf0b89** \(передача №2\) расшифровывается с помощью CommonKey для воспроизведения DoorNumber!
 
-This can be verified by using the free online AES-128 Cipher tool here: [http://aes.online-domain-tools.com/](http://aes.online-domain-tools.com/)
+Это можно проверить с помощью бесплатного инструмента дешифровки AES-128 здесь:: [http://aes.online-domain-tools.com/](http://aes.online-domain-tools.com/)
 
-Enter the encrypted packet **fb2b28c68b3f99c514b98fada4bf0b89**  and enter the secret key \(CommonKey\) **c88ff4150f4a4c27934a6c5e6741efac** followed by clicking **Decrypt**
+Введите зашифрованный пакет **fb2b28c68b3f99c514b98fada4bf0b89** и секретный ключ \(CommonKey\) **c88ff4150f4a4c27934a6c5e6741efac**, затем нажмите «Расшифровать».
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image8-2.png)
 
-Using the online AES-128 Cipher tool is a handy way to correlate the Wireshark session data with the Frida hexdump data. The next few screenshots show examples of how the various Bluetooth OTA traffic coincides with the known function calls of the App. This provides us with an enormous amount of information regarding program flow and execution.
+Использование онлайн-инструмента AES-128 Cipher - один из удобнейших способов сопоставления данных из Wireshark с данными из Frida. На следующих скриншотах показаны примеры того, как различный трафик Bluetooth OTA совпадает с известными вызовами функций приложения. Из этого можно извлечь много информации о работе программы.
 
-**Example 2:** **APP sends Welcome**  **—**  **DOOR sends START  —  APP and DOOR both exchange doorMode**
+**Пример 2:** **Приложение отправляет Welcome**  **—**  **дверь отправляет START  —  приложение и дверь обмениваются doorMode**
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image17.png)
 
-**Example 3:** **APP sends eKey  —**  **DOOR sends eKey** **\(authentication and authorization\)** 
+**Пример 3:** **Приложение отправляет eKey  —**  **дверь отправляет eKey** **\(аутентификация и авторизация\)** 
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image5-3.png)
 
-**Example 4: DOOR STATUS  —  doorTimeSet exchanges**
+**Пример 4: Получение статуса двери  — обмен doorTimeSet** 
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image6-2.png)
 
-**Example 5: DOOR STATUS exchanges**
+**Пример 5: Получение статуса двери**
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image26-2.png)
 
