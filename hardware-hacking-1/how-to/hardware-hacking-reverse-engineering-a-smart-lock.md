@@ -295,23 +295,23 @@ _Примечание_. Обмен ключами безопасности CCM A
 
 **Успех!!** [**https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/replay-1-1-1-1.mp4**](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/replay-1-1-1-1.mp4)\*\*\*\*
 
-This replay was successful because I was able to obtain the eKey \(used for authentication and authorization\) by extracting it from my rooted phone using Frida. As it stands right now, this replay attack would not work in the wild due to the fact that the eKey of a legitimate owner is not accessible in this manner. Likewise, as I stated earlier, the eKey is not transmitted OTA.
+Атака прошла успешно, за счет того, что я смог получить eKey \(используемый для аутентификации и авторизации\), путем его извлечения из своего телефона \(с доступом к учетной записи пользователя root\) с помощью Frida. В настоящее время эта атака методом повторного воспроизведения не будет работать в реальных условиях из-за того, что eKey законного владельца недоступен подобным образом, так как eKey не передается по OTA.
 
-Well, that statement is not entirely true! 
+Но утверждение выше оказалось частично не верным! 
 
-Consider the following snippet captured by my phone’s btsboop\_hci.log and the corresponding Frida hexdump of the eKeyVerify function:
+Рассмотрим следующий фрагмент, записанный в btsboop\_hci.log и соответствующий шестнадцатеричный дамп Фриды функции eKeyVerify:
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image2-4.png)
 
-The Wireshark capture shows the opening packet transfers \(key exchanges, handshakes, etc\). Pay close attention to the 8th packet in this session. It shows the encrypted packet sent by the App containing the modified eKey value. From the Frida hexdump, notice also that the 6-byte eKey value is enumerated into bytes \(5:11\) of the modified eKey value.
+Wireshark показывает начало передачи пакетов \(обмен ключами, рукопожатия и т. д.\). Обратите особое внимание на 8-й пакет в этом сеансе. Он показывает зашифрованный пакет, отправленный приложением, содержащий измененное значение eKey. Обратите внимание, что в шестнадцатеричном дампе Frida что 6-байтовое значение eKey содержится в байтах \(5:11\) измененного значения eKey.
 
-Based upon our learned knowledge of how this packet is encrypted before transmission, we know that it will be an AES-128 cipher using the AppKey as the secret key. 
+Основываясь на данных, полученных нами ранее, этот пакет шифруется перед передачей AES-128, используя AppKey в качестве секретного ключа.
 
-Using the online AES-128 Cipher tool to decrypt the 8th **OTA** encrypted packet:  **46402315a85a72e66e9671d044b513af** using the **AppKey**:  **e022c1193ebb3882efc9cf79b6e557d1** as the secret key, we would get the decrypted modified eKey.  And as we know, the 6 byte eKey value is enumerated into bytes \(5:11\) of the decrypted modified eKey value. \(See below\)
+Используя онлайн-инструмент AES-128 Cipher для дешифровки 8-го зашифрованного пакета OTA: **46402315a85a72e66e9671d044b513af** и AppKey: **e022c1193ebb3882efc9cf79b6e557d1** в качестве секретного ключа, мы получили расшифрованный и модифицированный eKey. И, как мы знаем, 6-байтовое значение eKey содержится в байтах \(5:11\) расшифрованного модифицированного значения eKey. \(Ниже\)
 
 ![](https://www.blackhillsinfosec.com/wp-content/uploads/2020/08/image21.png)
 
-This little exercise clearly shows that if we can do an OTA capture of the opening packet exchange of a legitimate owner in the wild, we would have everything we need \(including their User Password – eKey\) to compromise their home security and unlock their door!
+Этот опыт наглядно показывает, что перехват OTA трафика в реальных условиях - возможен и может дать все необходимое \(включая пароль пользователя - eKey\), для чтобы поставить под угрозу домашнюю безопасность и открыть дверь!
 
 ## **Вывод**
 
