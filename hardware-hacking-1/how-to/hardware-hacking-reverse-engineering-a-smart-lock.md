@@ -1,5 +1,5 @@
 ---
-description: Перевод @n3m351da @in51d3 2020 (Спасибо Славе за редактуру!)
+description: Перевод @n3m351da @in51d3 2020 (Редактировали Слава и Inside Chat)
 ---
 
 # Hardware Hacking: Реверс умного замка
