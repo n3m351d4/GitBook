@@ -179,7 +179,7 @@ C:\Users\rayfe\keywe-tooling\frida&gt;**keywe\_inject.py trace\_java\_functions.
 
 ## **BTSNOOP \(ANDROID BLUETOOTH логгер\)**
 
-BTSNOOP одна из моих лучших находок, для захвата сеанса Bluetooth между телефоном и периферией, я пытался это делать различными методами, например, платами nRF Sniffer Nordic nRF52840-DK, Sena UD100, донглом Ubertooth-One и Texas Instruments CC2540. Проблема всех этих подходов состоит в том, что они не могли отслеживать соединение из-за переключения каналов Bluetooth Low Energy \(BLE\).
+BTSNOOP одна из моих лучших находок для захвата сеанса Bluetooth между телефоном и периферией, я пытался это делать различными методами, например, платами nRF Sniffer Nordic nRF52840-DK, Sena UD100, донглом Ubertooth-One и Texas Instruments CC2540. Проблема всех этих подходов состоит в том, что они не могли отслеживать соединение из-за переключения каналов Bluetooth Low Energy \(BLE\).
 
 **НЕИСПРАВНОСТЬ NRF SNIFFER!** 
 
