@@ -35,5 +35,3 @@ SDR: [https://t.me/sdradio](https://t.me/sdradio)
 
 btc: 1Ldv7999XzE5NUTyQFKcZAbQkbVVdbr31R
 
-
-
