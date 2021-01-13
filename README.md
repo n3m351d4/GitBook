@@ -31,7 +31,7 @@ SDR: [https://t.me/sdradio](https://t.me/sdradio)
 
 Музыка: [https://t.me/in51d3\_mu51c](https://t.me/in51d3_mu51c)
 
-Помочь покушать, чтобы был контент:
+Добровольные пожертвования:
 
 btc: 1Ldv7999XzE5NUTyQFKcZAbQkbVVdbr31R
 
