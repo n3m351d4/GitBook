@@ -1,5 +1,5 @@
 ---
-description: 'Текст переводили  @N3M351DA t.me/in51d3 и @beh1ndy0urback. December 04, 2019.'
+description: 'Текст @N3M351DA t.me/in51d3 и @beh1ndy0urback. December 04, 2019.'
 ---
 
 # Безопасность и конфиденциальность в Интернете вещей.
