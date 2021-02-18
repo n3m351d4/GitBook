@@ -6,7 +6,7 @@
 
 `sudo mv terraform /bin/`
 
-  Версия:
+  Версия: 
 
 `terraform --version`
 
