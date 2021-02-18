@@ -43,7 +43,7 @@
   * [RFID vs NFC Cheatsheet](hardware-hacking-1/cheat-sheets.md)
 * [Networks](networks-1/README.md)
   * [Конспект: Terraform с нуля](networks-1/konspekt-terraform-s-nulya/README.md)
-    * [2](networks-1/konspekt-terraform-s-nulya/2.md)
+    * [2 Создание ресурсов](networks-1/konspekt-terraform-s-nulya/2.md)
     * [1 Введение и Установка Terraform](networks-1/konspekt-terraform-s-nulya/1-vvedenie-i-ustanovka-terraform.md)
   * [Throwing Star LAN Tap](networks-1/throwing-star-lan-tap.md)
   * [Networks: Переводы](networks-1/translations/README.md)
