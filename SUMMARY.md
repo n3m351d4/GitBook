@@ -46,6 +46,8 @@
     * [1 Введение и Установка Terraform](networks-1/konspekt-terraform-s-nulya/1-vvedenie-i-ustanovka-terraform.md)
     * [2 Создание ресурсов](networks-1/konspekt-terraform-s-nulya/2.md)
     * [3 Создание Web сервера](networks-1/konspekt-terraform-s-nulya/3-sozdanie-web-servera.md)
+    * [4 Динамичные блоки](networks-1/konspekt-terraform-s-nulya/4-dinamichnye-bloki.md)
+    * [5 ZeroDownTime](networks-1/konspekt-terraform-s-nulya/5-zerodowntime.md)
   * [Throwing Star LAN Tap](networks-1/throwing-star-lan-tap.md)
   * [Networks: Переводы](networks-1/translations/README.md)
     * [Tor 0day: Краш Tor-сети](networks-1/translations/tor-0day.md)
