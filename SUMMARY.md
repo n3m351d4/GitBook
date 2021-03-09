@@ -49,6 +49,7 @@
     * [4 Динамичные блоки](networks-1/konspekt-terraform-s-nulya/4-dinamichnye-bloki.md)
     * [5 ZeroDownTime](networks-1/konspekt-terraform-s-nulya/5-zerodowntime.md)
     * [6 Вывод](networks-1/konspekt-terraform-s-nulya/6-vyvod.md)
+    * [7 Порядок создания ресурсов](networks-1/konspekt-terraform-s-nulya/7-poryadok-sozdaniya-resursov.md)
   * [Throwing Star LAN Tap](networks-1/throwing-star-lan-tap.md)
   * [Networks: Переводы](networks-1/translations/README.md)
     * [Tor 0day: Краш Tor-сети](networks-1/translations/tor-0day.md)

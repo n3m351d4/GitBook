@@ -1,2 +1,2 @@
-# Конспект: Terraform
+# Конспект: Terraform с нуля
 
