@@ -25,7 +25,6 @@
     * [Пошаговое руководство к поиску и эксплуатации Android-устройств](hardware-hacking/articles/poshagovoe-rukovodstvo-k-poisku-i-ekspluatacii-android-ustroistv-libo-otladochnykh-khostov-ispolzuyu.md)
     * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](hardware-hacking/articles/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
   * [Hardware Hacking: Переводы](hardware-hacking/how-to/README.md)
-    * [-IMP4GT: IMPersonation Attacks in 4G NeTworks](hardware-hacking/how-to/imp4gt-impersonation-attacks-in-4g-networks.md)
     * [-Hardware Hacking:Promiscuous Wireless Packet Sniffer Project](hardware-hacking/how-to/untitled.md)
     * [Hardware Hacking: Ломаем железо с помощью UART](hardware-hacking/how-to/uart.md)
     * [Hardware Hacking: Реверс умного замка](hardware-hacking/how-to/hardware-hacking-reverse-engineering-a-smart-lock.md)
