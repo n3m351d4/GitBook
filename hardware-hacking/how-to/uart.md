@@ -4,7 +4,7 @@ description: 2021 @in51d3
 
 # Hardware Hacking: Ломаем железо с помощью UART
 
-> Перевела @ZzzNein \(безграничную благодарность можно выразить [ЗДЕСЬ](https://yasobe.ru/na/na_perevody_i_kontent)\), проверила @N3M351DA. [Оригинальный текст](https://www.blackhillsinfosec.com/gnu-radio-primer/) - Реймонд Фелч‌
+> Перевела @ZzzNein \(безграничную благодарность можно выразить [ЗДЕСЬ](https://yasobe.ru/na/na_perevody_i_kontent)\), проверила @N3M351DA. [Оригинальный текст](https://www.blackhillsinfosec.com/how-to-hack-hardware-using-uart/) - Реймонд Фелч‌
 
 ## **Предисловие**
 
