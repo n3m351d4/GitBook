@@ -27,7 +27,7 @@
   * [Hardware Hacking: Переводы](hardware-hacking-1/how-to/README.md)
     * [-IMP4GT: IMPersonation Attacks in 4G NeTworks](hardware-hacking-1/how-to/imp4gt-impersonation-attacks-in-4g-networks.md)
     * [-Hardware Hacking:Promiscuous Wireless Packet Sniffer Project](hardware-hacking-1/how-to/untitled.md)
-    * [-Hardware Hacking:How to Hack Hardware using UART](hardware-hacking-1/how-to/untitled-1.md)
+    * [Hardware Hacking: Ломаем железо при помощи UART](hardware-hacking-1/how-to/uart.md)
     * [Hardware Hacking: Реверс умного замка](hardware-hacking-1/how-to/hardware-hacking-reverse-engineering-a-smart-lock.md)
     * [Hardware Hacking: Инъекции в беспроводной интерфейс клавиатуры](hardware-hacking-1/how-to/executing-keyboard-injection-attacks.md)
     * [Hardware Hacking: GSM и шифрование: поточный шифр A5/1](hardware-hacking-1/how-to/gsm-a5-1.md)
