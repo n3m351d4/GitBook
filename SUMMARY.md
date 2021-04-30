@@ -137,7 +137,4 @@
   * [Piracetam Changes your Personality](biohacking-1/piracetam-changes-your-personality.md)
   * [Добавки Бета-Аланина для солдат боевых подразделений.](biohacking-1/beta-alanin.md)
   * [Активаторы метаболизма мозга](biohacking-1/metabolizm.md)
-* [Urban Exploration](stalking-and-netstalking-1/README.md)
-  * [Убежища](stalking-and-netstalking-1/go.md)
-  * [Утренняя прогулка](stalking-and-netstalking-1/utrennyaya-progulka.md)
 
