@@ -138,7 +138,6 @@
   * [Добавки Бета-Аланина для солдат боевых подразделений.](biohacking-1/beta-alanin.md)
   * [Активаторы метаболизма мозга](biohacking-1/metabolizm.md)
 * [Urban Exploration](stalking-and-netstalking-1/README.md)
-  * [Welcome to Yamantau \(CIA\)](stalking-and-netstalking-1/welcome-to-yamantau-cia.md)
   * [Проект Кобра и ГХК](stalking-and-netstalking-1/proekt-kobra-i-odna-nasha-podzemnaya-laboratoriya.md)
   * [Убежища](stalking-and-netstalking-1/go.md)
   * [Утренняя прогулка](stalking-and-netstalking-1/utrennyaya-progulka.md)
