@@ -90,7 +90,7 @@
       * [ПР4 Алгоритмы приближенных вычислений наличия в программах разрушающих программных средств](infosec-1/zakonodatelstvo-etc/audit-ib/algoritmy-priblizhennykh-vychislenii-nalichiya-v-programmakh-razrushayushikh-programmnykh-sredstv.md)
       * [ПР6 Методология обследования и проектирования защищенных информационных \(автоматизированных\) систем.](infosec-1/zakonodatelstvo-etc/audit-ib/pr6-metodologiya-obsledovaniya-i-proektirovaniya-zashishennykh-informacionnykh-avtomatizirovannykh-s.md)
 * [IOT](iot/README.md)
-  * [Защита IoT-устройств от распределенных атак типа «отказ в обслуживании».](iot/zashita-iot-ustroistv-ot-raspredelennykh-atak-tipa-otkaz-v-obsluzhivanii-..md)
+  * [Защита IoT-устройств от распределенных атак типа «отказ в обслуживании».](iot/iotddos.md)
   * [Исследование конфиденциальной информации, обрабатываемой умными устройствами](iot/confidentional-iot.md)
   * [Сумбурный ман по обслуживанию и ремонту роботов пылесосов.](iot/remont.md)
   * [Безопасность и конфиденциальность в Интернете вещей.](iot/bezopasnost-i-konfidencialnost-v-internete-veshei..md)
