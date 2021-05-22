@@ -22,7 +22,6 @@
     * [Пассивный IMSI Cather для сетей GSM: еще проще.](hardware-hacking/articles/imsi-gsm-simple.md)
     * [Защита устройств Интернета вещей от распределенных атак типа «отказ в обслуживании».](hardware-hacking/articles/iot-ddos.md)
     * [IMPORTOZAMESHENIE: как устройство училось говорить по-русски](hardware-hacking/articles/importozameshenie.md)
-    * [Пошаговое руководство к поиску и эксплуатации Android-устройств](hardware-hacking/articles/poshagovoe-rukovodstvo-k-poisku-i-ekspluatacii-android-ustroistv-libo-otladochnykh-khostov-ispolzuyu.md)
     * [Туда-обратная разработка. Веселее, чем б\*тпл\*г, полезнее, чем STM](hardware-hacking/articles/tuda-obratnaya-razrabotka.-veselee-chem-b-tpl-g-poleznee-chem-stm.md)
   * [Hardware Hacking: Переводы](hardware-hacking/how-to/README.md)
     * [-Hardware Hacking:Promiscuous Wireless Packet Sniffer Project](hardware-hacking/how-to/untitled.md)
