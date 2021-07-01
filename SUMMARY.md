@@ -5,7 +5,7 @@
   * [Видео](blog/video-2020.md)
   * [Статьи для DC7495](blog/dc7495.md)
 * [Hardware Hacking](hardware-hacking/README.md)
-  * [-Курс: Basics of hardware hacking](hardware-hacking/basics-of-hardware-hacking/README.md)
+  * [Hardware hacking. Основы.](hardware-hacking/basics-of-hardware-hacking/README.md)
     * [Welcome!](hardware-hacking/basics-of-hardware-hacking/welcome.md)
     * [Timing is key](hardware-hacking/basics-of-hardware-hacking/timing-is-key.md)
     * [Getting the data capture](hardware-hacking/basics-of-hardware-hacking/getting-the-data-capture.md)
