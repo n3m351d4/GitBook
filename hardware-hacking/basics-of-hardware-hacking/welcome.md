@@ -1,7 +1,5 @@
 # Welcome!
 
-\*\*\*\*
-
 This course shows basics of hardware in a completely hands-off way. You only need a computer running Linux, macOS or Windows. You do **NOT** need additional hardware or experience with hardware or hacking. All of the examples are based on Arduino Uno and if you have this board you can replicate the tasks, but there’s no need for it. I promise you will still have a bit of fun.
 
 Before we start make sure to download and install the [Logic software from Saleae](https://www.saleae.com/downloads/) and make yourself a cup of tea \(or any other beverage of your choice – it doesn’t need to come in a cup!\).

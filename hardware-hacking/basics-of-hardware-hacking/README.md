@@ -1,4 +1,2 @@
-# Hardware hacking. Основы.
-
-[**Источник**](https://maldroid.github.io/hardware-hacking/)\*\*\*\*
+# -Курс: Basics of hardware hacking
 
