@@ -1,5 +1,5 @@
 ---
-description: 'Перевод: @beh1ndy0urback 06/07/2021'
+description: 'Перевод: @beh1ndy0urback 07/2021'
 ---
 
 # Добро пожаловать!

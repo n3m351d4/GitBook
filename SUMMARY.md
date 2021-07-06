@@ -30,7 +30,7 @@
     * [SDR: Собираем пассивный IMSI Catcher](hardware-hacking/how-to/sobiraem-passivnyi-imsi-catcher.md)
   * [RFID vs NFC Cheatsheet](hardware-hacking/cheat-sheets.md)
   * [Untitled](hardware-hacking/untitled/README.md)
-    * [Timing is key](hardware-hacking/untitled/timing-is-key.md)
+    * [Расчет времени – это ключ](hardware-hacking/untitled/timing-is-key.md)
     * [Getting the data capture](hardware-hacking/untitled/getting-the-data-capture.md)
     * [How does a serial protocol work?](hardware-hacking/untitled/how-does-a-serial-protocol-work.md)
     * [Performing a timing attack](hardware-hacking/untitled/performing-a-timing-attack.md)

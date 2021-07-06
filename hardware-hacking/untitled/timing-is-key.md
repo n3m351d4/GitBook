@@ -1,6 +1,12 @@
-# Timing is key
+---
+description: 'Перевод: @beh1ndy0urback 07/2021'
+---
 
-The `checkPass` method takes longer to validate the password if some characters are correct. Take a look at step-by-step `checkPass` verification of two password guesses below – one with all characters incorrect and one with one correct character.
+# Расчет времени – это ключ
+
+Метод `checkPass` займет больше времени для проверки, если некоторые символы будут введены корректно и совпадут с легитимным паролем.
+
+Взгляните на пошаговую проверку двух паролей: в одном все символы неверны, а во втором - один правильный:
 
 | `xxxxx` | `pxxxx` |
 | :--- | :--- |
@@ -16,19 +22,19 @@ The `checkPass` method takes longer to validate the password if some characters 
 | - | `compare two values` |
 | - | `return false` |
 
-As you can see in the first case the `checkPass` `for` loop does only one iteration \(since the first character is incorrect\) and in the second case it does two \(since the first character is correct, but the second one is incorrect\). This is the whole purpose of returning from the method sooner - to make it run shorter and use less resources.
+Как вы можете видеть, в первом случае цикл `for` выполняет только одну итерацию \(поскольку первый символ неверен\), а во втором случае - две \(поскольку первый символ правильный, а второй неверный\). В этом весь смысл более быстрого возврата из метода - чтобы он работал быстрее и потреблял меньше ресурсов.
 
-So can we detect this timing difference if we have access to the hardware? Let’s first set up our experiment.
-
-We will be using an Arduino Uno board, which uses an ATMega328 CPU, like the one pictured below.
+А можем ли мы обнаружить эту разницу во времени выполнения, если у нас есть доступ к оборудованию? Давайте сначала настроим тестовую среду.  
+  
+Мы будем использовать плату Arduino Uno, в которой используется процессор ATMega328, как на изображении ниже:
 
 ![ATMega328 CPU](https://maldroid.github.io/hardware-hacking/assets/atmega328p-pu.jpg)
 
-The board also has some additional elements responsible for making sure that the power flow is stable \(capacitors\), that we can communicate with a computer \(the USB socket\) that we can power the board using external power source and so on. Picture below shows the main components of the board.
+На плате также есть элементы, отвечающие за обеспечение стабильности питания \(конденсаторы\), за соединение с компьютером \(разъем USB\) и за возможность подачи питания от внешнего источника. На рисунке ниже показаны основные компоненты платы:
 
 ![Annotated Arduino Uno board](https://maldroid.github.io/hardware-hacking/assets/arduino_uno_annotated.jpg)
 
-The CPU can be programmed with our password checking routine using Arduino IDE. Once we paste the code we can compile it and upload it to the board. Then we just connect using a serial console to the board and we can see the password prompt, like the one below.
+ЦП можно запрограммировать на проверку пароля с помощью Arduino IDE. После вставки кода мы можем скомпилировать его и загрузить на плату. Затем мы просто подключаемся к плате с помощью консоли и видим запрос пароля, как показано ниже:
 
 ```text
 $ picocom /dev/ttyACM0 -b 115200
@@ -47,11 +53,11 @@ Terminal ready
 Password:
 ```
 
-We now have access to the board with our code running on it. How will we measure the time it takes to validate the password? We can create a script which takes time measurements when we send out a password guess and when we receive the response, but there’s so much latency in that communication that the results will be useless.
+Теперь у нас есть доступ к плате, на которой работает наш код. Как мы будем измерять время, необходимое для проверки пароля? Мы можем создать скрипт, который измеряет время, когда пароль был отправлен и когда получен результат проверки, но между временем фактического получения результата и временем получения сообщения есть разница, которая влияет на точность такого измерения. 
 
-Instead, we can use a logic analyser from [Saleae](https://www.saleae.com/). Logic analyser is a piece of hardware which can intercept and record the digital communication from the board. ATMega328 CPU uses serial communication, as does the USB \(“S” stands for “serial”\). It means that there are two wires – one to send the data \(TX\) and one to receive the data \(RX\). These are exposed through two pins of the ATMega328 CPU.
+Вместо этого мы можем использовать логический анализатор от [Saleae](https://www.saleae.com/). Логический анализатор - это аппаратное обеспечение, которое может перехватывать и записывать цифровые данные с платы. ЦП ATMega328 использует последовательную связь, как и USB \(«S» означает «последовательный»\). Это означает, что есть два контакта - один для отправки данных \(TX\) и один для приема данных \(RX\). Они доступны через два пина ATMega328:
 
 ![Annotated ATMega CPU](https://maldroid.github.io/hardware-hacking/assets/atmega_annotated.jpg)
 
-These pins are exposed on the board in the upper right corner \(see the pictures of the board above\). They are even convieniently labeled with “RX” and “TX”. This is the same data that is sent through USB to a serial terminal running on the computer. Let’s connect logic analyser to these two pins and record the whole communication.
+Эти контакты видны на плате в правом верхнем углу \(см. изображение платы выше\). Они даже имеют удобную маркировку «RX» и «TX». Это те же данные, которые отправляются через USB на последовательный терминал, работающий на компьютере. Подключим к этим двум выводам логический анализатор и запишем весь процесс коммуникации.
 
