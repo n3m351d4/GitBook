@@ -1,3 +1,7 @@
+---
+description: 'Перевод: @beh1ndy0urback 06/07/2021'
+---
+
 # Добро пожаловать!
 
 [**Источник**](https://maldroid.github.io/hardware-hacking/)\*\*\*\*
