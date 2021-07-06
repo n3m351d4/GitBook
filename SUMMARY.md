@@ -6,7 +6,7 @@
   * [Статьи для DC7495](blog/dc7495.md)
 * [Hardware Hacking](hardware-hacking/README.md)
   * [Hardware hacking. Основы.](hardware-hacking/basics-of-hardware-hacking/README.md)
-    * [Welcome!](hardware-hacking/basics-of-hardware-hacking/welcome.md)
+    * [Добро пожаловать!](hardware-hacking/basics-of-hardware-hacking/welcome.md)
     * [Timing is key](hardware-hacking/basics-of-hardware-hacking/timing-is-key.md)
     * [Getting the data capture](hardware-hacking/basics-of-hardware-hacking/getting-the-data-capture.md)
     * [How does a serial protocol work?](hardware-hacking/basics-of-hardware-hacking/how-does-a-serial-protocol-work.md)
