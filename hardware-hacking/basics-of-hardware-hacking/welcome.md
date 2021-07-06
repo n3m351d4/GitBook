@@ -1,18 +1,18 @@
-# Welcome!
+# Добро пожаловать!
 
-This course shows basics of hardware in a completely hands-off way. You only need a computer running Linux, macOS or Windows. You do **NOT** need additional hardware or experience with hardware or hacking. All of the examples are based on Arduino Uno and if you have this board you can replicate the tasks, but there’s no need for it. I promise you will still have a bit of fun.
+[**Источник**](https://maldroid.github.io/hardware-hacking/)\*\*\*\*
 
-Before we start make sure to download and install the [Logic software from Saleae](https://www.saleae.com/downloads/) and make yourself a cup of tea \(or any other beverage of your choice – it doesn’t need to come in a cup!\).
+Этот курс демонстрирует основы в области аппаратного обеспечения. Всё, что вам нужно - компьютер под управлением Linux, macOS или Windows. Дополнительного оборудования, особых навыков или опыта **НЕ** требуется. Все примеры демонстрируются на плате Arduino Uno, и если у вас она есть - можете воспроизвести примеры самостоятельно, но в этом нет необходимости. Обещаю будет немножко весело.
 
-> Tip: some of the images may appear to be too small to read. If that’s the case then simply right click on them and choose “open image in a new tab” – the images are usually much larger than github makes you think!
+Перед началом скачайте и установите анализатор [Logic от Saleae](https://www.saleae.com/downloads/) и сделайте себе кружку чая \(или любого другого напитка на свой вкус, даже не обязательно в кружке\).
 
-### Password verification <a id="password-verification"></a>
+> Совет: если какие-то изображения покажутся вам слишком мелкими для чтения, просто кликните по ним правой кнопкой мыши и выберите «открыть изображение в новой вкладке».
 
-Our task is simple. We have an Arduino Uno board with a 16MHz CPU. We assume that the memory \(including the code running on the device\) is inaccessible to the attacker.
+## **Проверка пароля.**
 
-We have to write a password checking method which takes a string as an argument and returns `true` if the string matches a hardcoded 5 character password and `false` otherwise. The password is hardcoded instead of being hashed, but all the methods presented here are generic enough that they work in various configurations.
+Наша задача проста. У нас есть плата Arduino Uno с процессором 16 МГц. Мы предполагаем, что память \(включая код, работающий на этом устройстве\) недоступна для атакующего.
 
-Our first try would probably be something like this \(`loop` in Arduino is similar to `main` in regular C\):
+Нам нужно написать метод проверки пароля, который в качестве аргумента принимает строку и возвращает `true`, если строка соответствует жестко установленному паролю из 5 символов, и `false` в противном случае. Пароль жестко запрограммирован и не хеширован, но все методы, представленные здесь, являются достаточно обобщенными, чтобы работать в различных конфигурациях. ****Наша первая попытка, вероятно, будет примерно такой \(`loop` в Arduino аналогичен `main` в обычном C\):
 
 ```text
 String PASSWORD = "passw";
@@ -40,15 +40,15 @@ void loop() {
 }
 ```
 
-Let’s take a look at the code and figure out what it does. First it prints a password prompt and then tries to read as many bytes as is the password length. Once it does that it runs the `checkPass` method. This method goes over the password byte by byte. If one of the bytes of the input doesn’t match the actual password the method returns `false` and the `Incorrect password!` message is printed.
+Давайте разберемся, что делает этот код. Сначала он запрашивает пароль, затем пытается прочитать столько байтов, сколько составляет длина пароля. После этого запускается метод `checkPass` - он перебирает байт за байтом пароля. Если один из байтов ввода не соответствует фактическому паролю, метод возвращает `false` и сообщение “`Incorrect password!`”.
 
-If, on the other hand, every byte of the input matches the password the `checkPass` method returns `true` and we get the `Password correct!` message.
+Если же каждый введенный байт соответствует паролю, метод `checkPass` возвращает `true`, и мы получаем сообщение "`Password correct!`".
 
-The password is 5 characters long and CPU runs at 16 MHz, which makes brute-forcing infeasible, as it would take years. One password try takes approximately 62.5 microseconds. So in total we would get:
+Пароль состоит из 5 символов, а процессор работает на частоте 16 МГц, что делает брутфорс практически невозможным, так как на него потребуются годы. Одна попытка подбора занимает примерно 62,5 микросекунды. Итого мы получим:
 
-![](https://render.githubusercontent.com/render/math?math=256^5\times%2062.5\mu%20s%20=%2068,719,476.7s%20=%202.17%20years)
+![&#x427;&#x443;&#x442;&#x44C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x434;&#x432;&#x443;&#x445; &#x43B;&#x435;&#x442;.](https://render.githubusercontent.com/render/math?math=256^5\times%2062.5\mu%20s%20=%2068,719,476.7s%20=%202.17%20years)
 
-If that doesn’t convince you, brute-force is just plain boring. All in all this code, theoreticaly, should work just fine. However this course is all about hardware hacking, so this brings us to the first question…
+Если вы все еще сомневаетесь, то перебор это просто долго и скучно. В целом этот код теоретически должен работать нормально. Однако этот курс посвящен взлому оборудования и мы подходим к первому вопросу:
 
-What’s wrong with this code from the hardware hacking perspective? How can having a physical access to the device make cracking the password easier?
+Что не так с этим кодом с точки зрения взлома оборудования? Как физический доступ к устройству может облегчить взлом пароля?
 
