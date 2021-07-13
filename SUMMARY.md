@@ -7,7 +7,7 @@
 * [Hardware Hacking](hardware-hacking/README.md)
   * [Hardware hacking. Основы.](hardware-hacking/basics-of-hardware-hacking/README.md)
     * [Добро пожаловать!](hardware-hacking/basics-of-hardware-hacking/welcome.md)
-    * [Тайминги](hardware-hacking/basics-of-hardware-hacking/timing-is-key.md)
+    * [Тайминги](hardware-hacking/basics-of-hardware-hacking/timing.md)
   * [Hardware Hacking: Статьи](hardware-hacking/articles/README.md)
     * [Информационная безопасность в системах подвижной связи. Доклад.](hardware-hacking/articles/informacionnaya-bezopasnost-v-sistemakh-podvizhnoi-svyazi.-doklad..md)
     * [Пассивный IMSI Cather для сетей GSM: еще проще.](hardware-hacking/articles/imsi-gsm-simple.md)
