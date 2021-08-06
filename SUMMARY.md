@@ -78,6 +78,7 @@
     * [Иллюстрация отношений между ключевыми вопросами](infosec-1/arcticles/4.md)
     * [Актуальность - технические приемы](infosec-1/arcticles/5.md)
     * [Примеры определения объекта и предмета исследования](infosec-1/arcticles/6.md)
+    * [Типовые ошибки при ответах на ключевые вопросы](infosec-1/arcticles/7.md)
     * [Untitled](infosec-1/arcticles/untitled.md)
   * [Кибер-криминология как академическая дисциплина: ее история, влияние и вклад](infosec-1/kiber-kriminologiya-kak-akademicheskaya-disciplina-ee-istoriya-vliyanie-i-vklad.md)
   * [Законодательство, etc](infosec-1/zakonodatelstvo-etc/README.md)
