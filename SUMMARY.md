@@ -71,6 +71,8 @@
   * [Переводы](pentest-1/perevody/README.md)
     * [Мануал по установке MaltegoXL](pentest-1/perevody/manual-po-kryakingu-maltegoxl.md)
 * [InfoSec](infosec/README.md)
+  * [Technical writing](infosec/technical-writing/README.md)
+    * [Untitled](infosec/technical-writing/untitled.md)
   * [Написание научных статей](infosec/arcticles/README.md)
     * [Основные вопросы](infosec/arcticles/main/README.md)
       * [Иллюстрация процесса подготовки статьи](infosec/arcticles/main/1.md)
