@@ -10,7 +10,7 @@
     * [Тайминги](hardware-hacking/basics-of-hardware-hacking/timing.md)
     * [Запись данных](hardware-hacking/basics-of-hardware-hacking/getting-the-data-capture.md)
     * [Как работает протокол последовательной передачи данных?](hardware-hacking/basics-of-hardware-hacking/uart.md)
-    * [Атака по времени](hardware-hacking/basics-of-hardware-hacking/performing-a-timing-attack.md)
+    * [Атака по времени](hardware-hacking/basics-of-hardware-hacking/timing-attack.md)
   * [Hardware Hacking: Статьи](hardware-hacking/articles/README.md)
     * [Информационная безопасность в системах подвижной связи. Доклад.](hardware-hacking/articles/informacionnaya-bezopasnost-v-sistemakh-podvizhnoi-svyazi.-doklad..md)
     * [Пассивный IMSI Cather для сетей GSM: еще проще.](hardware-hacking/articles/imsi-gsm-simple.md)
