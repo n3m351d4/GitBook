@@ -4,6 +4,8 @@ description: 'Перевод: @beh1ndy0urback 07/2021'
 
 # Запись данных
 
+[**Источник**](https://maldroid.github.io/hardware-hacking/)
+
 Мы будем использовать красную версию анализатора Saleae \(потому что красный быстрее черного\). Поскольку мы хотим перехватить RX и TX, мы подключим канал 0 к RX, а канал 1 к TX, как показано ниже. Мы также должны убедиться, что Arduino Uno подключена к заземлению логического анализатора, делается это с помощью черного провода.
 
 ![Logic analyser connected to the Arduino board](https://maldroid.github.io/hardware-hacking/assets/saleae_uno.jpg)
