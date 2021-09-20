@@ -2,7 +2,7 @@
 
 _Перевод: @N3M351DA_
 
-_Источник:_ [_http://blog.catchpoint.com/201_](http://blog.catchpoint.com/201)\_\_
+_Источник:_ [_https://www.catchpoint.com/blog/wireshark-mqtt_](https://www.catchpoint.com/blog/wireshark-mqtt)\_\_
 
 ![http://blog.catchpoint.com/wp-content/uploads/2017/06/MQTT-Wireshark.jpg](http://dc7495.org/aybbtu/uploads/2020/04/http-blog-catchpoint-com-wp-content-uploads-2017-1.jpeg)
 
