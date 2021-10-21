@@ -1,4 +1,4 @@
-# Викторина 1 RPi \(Ответы\)
+# Викторина 1 RPi (Ответы)
 
 1. **Which component is not contained on the Raspberry Pi B+ board?**
 
@@ -22,7 +22,7 @@ A processor whose design is similar to that of an ARM processor.
 
 **+A processor which contains a core designed by ARM Ltd.**
 
-\*\*\*\*
+****
 
 **3. Which of the following is not a task of an operating system?**
 
@@ -78,11 +78,10 @@ true
 
 **+ false**
 
-\*\*\*\*
+****
 
 **8.** **The Raspberry Pi can be configured to boot directly to the desktop.**
 
 **+true**
 
 false
-

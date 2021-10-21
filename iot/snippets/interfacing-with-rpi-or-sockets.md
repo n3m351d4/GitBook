@@ -1,20 +1,19 @@
-# Interfacing with RPi \| Sockets
+# Interfacing with RPi | Sockets
 
-![](../../.gitbook/assets/image%20%28262%29.png)
+![](<../../.gitbook/assets/image (252).png>)
 
-![](../../.gitbook/assets/image%20%28261%29.png)
+![](<../../.gitbook/assets/image (253).png>)
 
-![](../../.gitbook/assets/image%20%28264%29.png)
+![](<../../.gitbook/assets/image (254).png>)
 
-![](../../.gitbook/assets/image%20%28251%29.png)
+![](<../../.gitbook/assets/image (255).png>)
 
-![](../../.gitbook/assets/image%20%28259%29.png)
+![](<../../.gitbook/assets/image (256).png>)
 
-![](../../.gitbook/assets/image%20%28242%29.png)
+![](<../../.gitbook/assets/image (257).png>)
 
-![](../../.gitbook/assets/image%20%28253%29.png)
+![](<../../.gitbook/assets/image (258).png>)
 
-![](../../.gitbook/assets/image%20%28252%29.png)
+![](<../../.gitbook/assets/image (259).png>)
 
-![](../../.gitbook/assets/image%20%28243%29.png)
-
+![](<../../.gitbook/assets/image (260).png>)
