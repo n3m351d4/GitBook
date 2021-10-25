@@ -1,21 +1,22 @@
-# Client and Server | Ethernet and Wi-fi (Arduino)
+# Client and Server \| Ethernet and Wi-fi \(Arduino\)
 
-![](<../../.gitbook/assets/image (258).png>)
+![](../../.gitbook/assets/image%20%28258%29.png)
 
-![](<../../.gitbook/assets/image (257).png>)
+![](../../.gitbook/assets/image%20%28257%29.png)
 
-![](<../../.gitbook/assets/image (249).png>)
+![](../../.gitbook/assets/image%20%28249%29.png)
 
-![](<../../.gitbook/assets/image (244).png>)
+![](../../.gitbook/assets/image%20%28244%29.png)
 
-![](<../../.gitbook/assets/image (260).png>)
+![](../../.gitbook/assets/image%20%28260%29.png)
 
-![](<../../.gitbook/assets/image (248).png>)
+![](../../.gitbook/assets/image%20%28248%29.png)
 
-![](<../../.gitbook/assets/image (246).png>)
+![](../../.gitbook/assets/image%20%28246%29.png)
 
-![](<../../.gitbook/assets/image (250).png>)
+![](../../.gitbook/assets/image%20%28250%29.png)
 
-![](<../../.gitbook/assets/image (254).png>)
+![](../../.gitbook/assets/image%20%28254%29.png)
 
-![](<../../.gitbook/assets/image (245).png>)
+![](../../.gitbook/assets/image%20%28245%29.png)
+

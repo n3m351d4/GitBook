@@ -12,7 +12,7 @@
     * [Как работает протокол последовательной передачи данных?](hardware-hacking/basics-of-hardware-hacking/uart.md)
     * [Атака по времени](hardware-hacking/basics-of-hardware-hacking/timing-attack.md)
     * [Обработка VCD файла](hardware-hacking/basics-of-hardware-hacking/processing-the-vcd-file.md)
-    * [Fixing the password check(?)](hardware-hacking/untitled/fixing-the-password-check.md)
+    * [Улучшение проверки пароля](hardware-hacking/untitled/fixing-the-password-check.md)
   * [Hardware Hacking: Статьи](hardware-hacking/articles/README.md)
     * [Информационная безопасность в системах подвижной связи. Доклад.](hardware-hacking/articles/informacionnaya-bezopasnost-v-sistemakh-podvizhnoi-svyazi.-doklad..md)
     * [Пассивный IMSI Cather для сетей GSM: еще проще.](hardware-hacking/articles/imsi-gsm-simple.md)

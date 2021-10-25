@@ -1,8 +1,8 @@
-# Fixing the password check(?)
+# Улучшение проверки пароля
 
 [**Источник**](https://maldroid.github.io/hardware-hacking/)
 
-The easiest fix is to not optimise the for loop and just check every character of the password like so:
+Самое простое решение - не оптимизировать цикл for, а проверять каждый символ пароля следующим образом:
 
 ```
 bool checkPass(String buffer) {
@@ -16,9 +16,9 @@ bool checkPass(String buffer) {
 }
 ```
 
-Well, there’s still a bit of problem. Now depending on how many password characters are false the check will take longer (the `result` variable has to be updated). So if we have one character correct and rest of them incorrect the password validation will be faster than if all of the characters are incorrect.
+Здесь нас ожидает небольшая проблема: в зависимости от того, сколько символов пароля неверны, проверка займет больше времени (с учетом необходимости обновления переменной `result`). Таким образом, если у нас есть один правильный символ, а остальные неправильные, проверка пароля будет быстрее, чем если бы все символы были неправильными.
 
-However, can we really measure that very small difference? Trying to repeat the same procedure, but this time looking for the fastest password validation, gives us very inconclusive results:
+Cможем ли мы измерить эту очень разницу? Попытка повторить процедуру в поисках самой быстрой проверки пароля, дает неубедительные результаты:
 
 ```
 63370.0 16 
@@ -28,28 +28,26 @@ However, can we really measure that very small difference? Trying to repeat the 
 63268.5 0
 ```
 
-Not only `p` isn’t on the list, but the differences between the different byte values are small and there’s no one, clear outlier. So it means that the problem is solved and our password checking routine is secure!
+P отсутствует в списке и различия между байтовыми значениями невелики. Значит, проблема решена и наша процедура проверки пароля безопасна!
 
-Well, not really.
+Но не совсем.&#x20;
 
-Saleae logic analyser also has analog channels, which makes it a bit like an oscilloscope (don’t yell at me, it’s a course that deals with basics, I can make this simplification!). It means that some channels can be used not only to measure whether the voltage is “high” or “low” (aka binary) but also the actual value of the voltage. Why is this important?
+Логический анализатор Saleae имеет аналоговые каналы, что делает его немного похожим на осциллограф (это упрощение!). Это означает, что некоторые каналы могут быть использованы не только для считывания логического уровня напряжения, но и для измерения фактического значения напряжения. Почему это важно?
 
-Different CPU instructions have different power usage. Intuitively (again, this is simplification) changing two bits of a variable will produce a different power drain than changing just one bit. Similarly setting the boolean value to false will produce a different power usage than not setting it (this should be pretty obvious). So maybe we can just record the power usage and see if it’s any different when we try `xxxxx` and `pxxxx`? Let’s do that!
+Различные инструкции ЦП имеют разное энергопотребление. Интуитивно (опять же, это упрощение) изменение двух битов будет сопровождаться меньшим потреблением энергии, чем изменение одного бита. Точно так же установка логического значения false приведет к изменению потребления энергии, чем не установка (это должно быть довольно очевидно). Так что, может быть, мы можем просто записать потребление энергии и посмотреть, изменится ли оно, когда попробуем `xxxxx` и `pxxxx`? &#x20;
 
-First we have to make sure that the power measurement is as accurate as possible. In order to do that we need to take the ATMega328 CPU chip out of the board socket, put it on a breadboard and measure the power usage of the CPU itself and not of the whole board. The reason for that is that the board contains capacitors (as shown at the beginning of this course) and those capacitors are meant to stabilise the current. This can influence our readings.
+Сначала мы должны убедиться, что измерение мощности является максимально точным. Для этого нам нужно вынуть микросхему ATMega328, расположить ее на макетной плате и измерить ее энергопотребление, а не всей платы. Причина в том, что плата содержит конденсаторы (как показано в начале этого курса), и эти конденсаторы предназначены для стабилизации тока. Это может повлиять на наши показания.&#x20;
 
-So the first thing to do is to take out the CPU and put it on the breadboard and reconnect all the CPU pins back to the board. This will allow us to interface with the CPU conveniently using the same USB socket we’ve used before. The picture below shows what the CPU connected back to the board looks like.
+Итак, первое, что нужно сделать, это вынуть ЦП, положить его на макетную плату и снова подключить все выводы ЦП к плате. Это позволит нам удобно взаимодействовать с процессором, используя тот же USB-разъем, который мы использовали раньше.
 
-![ATMega CPU connected to the board](https://maldroid.github.io/hardware-hacking/assets/atmega-breadboard.jpg)
+![](https://maldroid.github.io/hardware-hacking/assets/atmega-breadboard.jpg)
 
-What you can see above is that I didn’t connect all the pins back to the socket, only some of them. That is because we don’t need all the pins - some of them are responsible for digital or analog inputs from external sources, which we do not use.
+На фотографии видно, что я подключил не все контакты обратно к плате. Нам не нужны все контакты - некоторые из них отвечают за цифровые или аналоговые входы от внешних источников, которые мы не используем. Нам нужны:&#x20;
 
-The ones we need are:
-
-* Reset (so that we can use the reset button and reboot the CPU) - first one on the upper left
-* RX and TX to communicate with the CPU - next two on the upper left (as you may remember from the previous pictures)
-* Power and ground (chip has to be powered somehow) - next two
-* Clock (so that the CPU knows when to execute instructions) - next two
+* Сброс (чтобы мы могли использовать кнопку сброса и перезагрузить ЦП)&#x20;
+* &#x20;RX и TX (для связи с ЦП)
+* Питание и заземление ( чип должен быть как-то запитан)&#x20;
+* Clock (чтобы ЦП знал, когда выполнять инструкции)
 
 … and that’s all. In total that’s 7 pins connected back to the board. You can find out which ones are which by looking at the [ATMega328p datasheet](https://maldroid.github.io/hardware-hacking/assets/atmega-datasheet.pdf) - take a look at the upper right corner of page 2.
 
