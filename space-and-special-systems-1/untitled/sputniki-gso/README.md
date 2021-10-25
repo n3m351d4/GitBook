@@ -1,8 +1,8 @@
 # Серия лекций: Спутники ГСО
 
-![](<../../../.gitbook/assets/image (5).png>)
+![](<../../../.gitbook/assets/image (44).png>)
 
-![](<../../../.gitbook/assets/image (16).png>)
+![](<../../../.gitbook/assets/image (28).png>)
 
 1\.           Условия эксплуатации радиоэлектронной аппаратуры и приборов
 
