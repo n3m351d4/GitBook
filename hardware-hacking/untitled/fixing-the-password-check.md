@@ -45,34 +45,38 @@ P отсутствует в списке и различия между байт
 На фотографии видно, что я подключил не все контакты обратно к плате. Нам не нужны все контакты - некоторые из них отвечают за цифровые или аналоговые входы от внешних источников, которые мы не используем. Нам нужны:&#x20;
 
 * Сброс (чтобы мы могли использовать кнопку сброса и перезагрузить ЦП)&#x20;
-* &#x20;RX и TX (для связи с ЦП)
+* RX и TX (для связи с ЦП)
 * Питание и заземление ( чип должен быть как-то запитан)&#x20;
 * Clock (чтобы ЦП знал, когда выполнять инструкции)
 
-… and that’s all. In total that’s 7 pins connected back to the board. You can find out which ones are which by looking at the [ATMega328p datasheet](https://maldroid.github.io/hardware-hacking/assets/atmega-datasheet.pdf) - take a look at the upper right corner of page 2.
+… и все. Всего к плате должно быть подключено 7 контактов. Вы можете узнатьо них больше, посмотрев техническое описание [ATMega328p ](https://maldroid.github.io/hardware-hacking/assets/atmega-datasheet.pdf)- взгляните на верхний правый угол страницы 2.&#x20;
 
-Now that it’s all connected back we run into another small problem. The logic analyser, much like the oscilloscope, can only measure voltage, not current. However, the CPU power usage will alter current and not voltage - voltage stays more or less the same.
+Теперь, когда все подключено, мы сталкиваемся с еще одной небольшой проблемой. Логический анализатор, как и осциллограф, может измерять только напряжение, но не ток, в то время как потребление энергии процессором изменит ток, а не напряжение - напряжение останется более менее неизменным.&#x20;
 
-It’s a bit like the pressure in your water tap (voltage) and the actual water flow from your tap (current). When you wash your hands (and please do it often!) you’re turning the tap on and the water (current) starts to flow, because you want to use the water. Pressure stays more or less the same.
+Напряжение похоже на давление в водопроводном кране, а ток - на фактический расход воды из крана. Когда вы моете руки (делайте это чаще!), вы открываете кран, и вода (ток) начинает течь, а давление остается прежним.&#x20;
 
-So we have to measure the power current, but we can only measure the voltage. How can we do that? Well, there are rather expensive current probes which you can buy and they use [the Hall Effect phenomenon](https://en.wikipedia.org/wiki/Hall\_effect) to measure the current by clamping over the wire. However, there’s also a cheaper solution - using a small resistor.
+Итак, нам нужно измерить ток питания, но мы можем измерить только напряжение. Как это? Для этих целей существуют токовые пробники, которые вы можете купить, они используют эффекта Холла для измерения тока. Однако есть и более дешевое решение - использовать резистор.&#x20;
 
-According to [Ohm’s law](https://en.wikipedia.org/wiki/Ohm's\_law) the current is simply a voltage divided by resistance or, if you rearrange the variables, voltage is current times resistance.
+Согласно закону Ома ток - это напряжение, деленое на сопротивление, а напряжение равно току, умноженному на сопротивление.
 
 ![](https://render.githubusercontent.com/render/math?math=V%20=%20I%20\*%20R)
 
-If the resistance is fixed (e.g. over a resistor with a fixed value) then any changes in current will result in changes in voltage multiplied by that resistance. So, if we have an 1 Ohm resistor every change in current (in amps) will result in the same numerical change in voltage (in volts).
+Если сопротивление фиксировано (например, резистор с фиксированным значением), то любые изменения тока приведут к изменениям напряжения, умноженным на это сопротивление. Итак, если у нас есть резистор на 1 Ом, каждое изменение тока (в амперах) будет приводить к числовому изменению напряжения (в вольтах).&#x20;
 
-If we have a resistor with a higher resistance then every small change in the current will result in an amplified change in voltage. However, if the resistance is too high the CPU won’t be able to draw the power needed to perform the operations. The CPU runs at a specific voltage (in this case 5V) and if any change in current results in a change in voltage then at some point there won’t be enough voltage to make that change and the CPU will power down.
+Если у нас есть резистор с более высоким сопротивлением, то каждое небольшое изменение тока приведет к усиленному изменению напряжения. Однако, если сопротивление слишком велико, ЦП не сможет потреблять мощность, необходимую для выполнения операций. ЦП работает при определенном напряжении (в данном случае 5 В), и если изменение тока приводит к изменению напряжения, в какой-то момент напряжения не будет достаточно для этого изменения, и ЦП отключится.&#x20;
 
-It seems like we have to choose the resistor carefully. Fortunately ATMega328 is a rather indestructible CPU and we can choose a rather high value. In fact we will be using the resistor below. Can you figure out what the resistance value is just by looking at the resistor? Try looking for the “resistor colour code” on Google.
+####
 
-![Resistor used to measure the current value](https://maldroid.github.io/hardware-hacking/assets/resistor.jpg)
+Похоже, нужно тщательно выбирать резистор. К счастью, ATMega328 - довольно надежный процессор, и мы можем выбрать довольно высокое значение. Фактически мы будем использовать резистор, указанный ниже. Можете ли вы определить значение сопротивления, взглянув на этот резистор? Попробуйте поискать «цветовой код резистора» в Google.
+
+![](https://maldroid.github.io/hardware-hacking/assets/resistor.jpg)
 
 The way to read the resistance value is to look at the colourful bands and compare them with the chart below. Our resistor has 5 bands: yellow, violet, black, gold and red. [Digikey provides a very convenient resistor colour code calculator](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-resistor-color-code-5-band) where you can enter the colour values and you will get the resistance value. In our case it’s 47 Ohms.
 
-![Digikey calculated resistance](https://maldroid.github.io/hardware-hacking/assets/digikey-resistance.png)
+Чтобы узнать значение сопротивления, посмотрите на цветные полосы и сравните их с таблицей ниже. У нашего резистора 5 полос: желтая, фиолетовая, черная, золотая и красная. Digikey предоставляет очень удобный [калькулятор цветового](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-resistor-color-code-5-band), где вы можете ввести значения цвета и получить значение сопротивления. В нашем случае это 47 Ом.
 
-So every change in current will be multiplied by 47 and result in that change in the voltage. Now that everything is ready, the only thing left to do is to connect our resistor on the CPU ground wire, connect logic analyser to RX, TX and to the resistor (in order to measure voltage) and gather the data!
+![](https://maldroid.github.io/hardware-hacking/assets/digikey-resistance.png)
 
-![Circuit to measure the current](https://maldroid.github.io/hardware-hacking/assets/power-analysis-circuit.png)
+Каждое изменение тока будет умножено на 47, что приведет к изменению напряжения. Теперь, когда все готово, остается только подключить наш резистор к проводу заземления ЦП, подключить логический анализатор к RX, TX и резистору (для измерения напряжения) и собрать данные!
+
+![](https://maldroid.github.io/hardware-hacking/assets/power-analysis-circuit.png)
