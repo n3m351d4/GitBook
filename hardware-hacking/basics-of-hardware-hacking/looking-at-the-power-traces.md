@@ -1,10 +1,8 @@
-# Looking at the power traces
+# Анализ потребляемой мощности
 
 [**Источник**](https://maldroid.github.io/hardware-hacking/)
 
 Загрузите файл и откройте его в программе [Logic](https://maldroid.github.io/hardware-hacking/assets/power\_analysis.logicdata.7z). Вы должны увидите запись длиной одну секунду с 5 попытками ввода пароля. Отправляемые пароли содержат все больше  правильных символов, вплоть до самого пароля. Под каналами TX и RX записан аналоговый канал, который фиксирует напряжение на резисторе, соответствующее потребляемой мощности ЦП.
-
-If you zoom in on the period between the first password guess and the first response you should see something similar to the screenshot below (notice how the blue boxes on the top are positioned).
 
 Если вы увеличите масштаб, то между первой отправкой пароля и первым ответом, вы должны увидеть что-то похожее на рисунок ниже (обратите внимание, как расположены синие поля вверху).
 
@@ -22,7 +20,7 @@ If you zoom in on the period between the first password guess and the first resp
 
 ![Two power traces for two different password guesses](https://maldroid.github.io/hardware-hacking/assets/matplotlib-power-traces.png)
 
-Синяя  график питания - запрос без правильных символов пароля, а оранжевай показывает график питания, где первые три символа верны. Увидеть разницу достаточно трудно, поэтому давайте отобразим разницу между графиками мощности.
+Синяя  график питания - запрос без правильных символов пароля, а оранжевый показывает график питания, где первые три символа верны. Увидеть разницу достаточно трудно, поэтому давайте отобразим разницу между графиками мощности.
 
 ![The difference between power traces](https://maldroid.github.io/hardware-hacking/assets/matplotlib-differences.png)
 
