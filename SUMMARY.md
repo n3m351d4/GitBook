@@ -170,4 +170,5 @@
   * [Активаторы метаболизма мозга](biohacking-1/metabolizm.md)
 * [Industrial security](industrial-security/README.md)
   * [Исследование технологий безопасной передачи информации по радиоканалам](industrial-security/issledovanie-tekhnologii-bezopasnoi-peredachi-informacii-po-radiokanalam/README.md)
-    * [1. Анализ безопасности передачи информации по проприетарным радиоканалам](industrial-security/issledovanie-tekhnologii-bezopasnoi-peredachi-informacii-po-radiokanalam/1.-analiz-bezopasnosti-peredachi-informacii-po-proprietarnym-radiokanalam.md)
+    * [1. Анализ безопасности передачи информации по проприетарным радиоканалам](industrial-security/issledovanie-tekhnologii-bezopasnoi-peredachi-informacii-po-radiokanalam/1.-analiz-bezopasnosti-peredachi-informacii-po-proprietarnym-radiokanalam/README.md)
+      * [1.1 Виды атак](industrial-security/issledovanie-tekhnologii-bezopasnoi-peredachi-informacii-po-radiokanalam/1.-analiz-bezopasnosti-peredachi-informacii-po-proprietarnym-radiokanalam/1.1-vidy-atak.md)
