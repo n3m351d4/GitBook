@@ -168,3 +168,5 @@
   * [Piracetam Changes your Personality](biohacking-1/piracetam-changes-your-personality.md)
   * [Добавки Бета-Аланина для солдат боевых подразделений.](biohacking-1/beta-alanin.md)
   * [Активаторы метаболизма мозга](biohacking-1/metabolizm.md)
+* [Industrial security](industrial-security/README.md)
+  * [Исследование технологий безопасной передачи информации по радиоканалам для IOT – решений встраиваемы](industrial-security/issledovanie-tekhnologii-bezopasnoi-peredachi-informacii-po-radiokanalam-dlya-iot-reshenii-vstraivae.md)
