@@ -66,6 +66,7 @@
     * [Боевой OSINT s01e02](social-engeneering-and-osint-1/perevody/untitled.md)
   * [Эффект Вертера или откуда вываливаются школьники](social-engeneering-and-osint-1/verter.md)
 * [Pentest](pentest-1/README.md)
+  * [CompTIA Pentest+ (002) Notes](pentest-1/comptia-pentest+-002-notes.md)
   * [Writeup xss-game.appspot.com](pentest-1/xss-game.appspot.com.md)
   * [DC7495 Wireless Quest](pentest-1/dc7495-wireless-quest.md)
   * [Переводы](pentest-1/perevody/README.md)
