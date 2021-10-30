@@ -20,7 +20,7 @@
 
 ![Two power traces for two different password guesses](https://maldroid.github.io/hardware-hacking/assets/matplotlib-power-traces.png)
 
-Синяя  график питания - запрос без правильных символов пароля, а оранжевый показывает график питания, где первые три символа верны. Увидеть разницу достаточно трудно, поэтому давайте отобразим разницу между графиками мощности.
+Синий  график питания - запрос без правильных символов пароля, а оранжевый - запрос, где первые три символа верны. Увидеть разницу достаточно трудно, поэтому давайте отобразим разницу между графиками мощности.
 
 ![The difference between power traces](https://maldroid.github.io/hardware-hacking/assets/matplotlib-differences.png)
 
