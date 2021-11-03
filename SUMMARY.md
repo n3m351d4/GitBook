@@ -123,7 +123,7 @@
   * [Защита IoT-устройств от распределенных атак типа «отказ в обслуживании».](iot/iotddos.md)
   * [Исследование конфиденциальной информации, обрабатываемой умными устройствами](iot/confidentional-iot.md)
   * [Сумбурный ман по обслуживанию и ремонту роботов пылесосов.](iot/remont.md)
-  * [Безопасность и конфиденциальность в Интернете вещей.](iot/bezopasnost-i-konfidencialnost-v-internete-veshei..md)
+  * [Безопасность и конфиденциальность в Интернете вещей.](iot/konfidencialnost.md)
   * [IOT. Предметная область: Исследование технологий защищенности от компьютерных атак для IOT – решений](iot/iot.-predmetnaya-oblast-issledovanie-tekhnologii-zashishennosti-ot-kompyuternykh-atak-dlya-iot-reshe.md)
   * [Snippets](iot/snippets/README.md)
     * [Exeptions | Socket client | Socket server](iot/snippets/exeptions-or-socket-client-or-socket-server.md)
