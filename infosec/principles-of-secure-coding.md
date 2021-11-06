@@ -4,7 +4,7 @@ description: note
 
 # Principles of Secure Coding
 
-## Week 1
+## Week 1 Secure Programming Philosophy
 
 > Now, there are many different models for developing software. We won't go into them, other than to say, "For example, Agile is the one that's currently the most popular. It's a form of rapid prototyping. Waterfall model is a more traditional one. It's slower. From the security point of view, Waterfall model is probably the one that will give you the most assurance because you're doing a lot of reviews on the way. With Agile, the focus is getting it out the door quickly, and getting it the way the customer wants. Programs that are developed using Agile programming can be very secure,but typically, the security checking is done after the fact or at the very end whereas with the waterfall model and other many other models, you can build security and as you go along. But regardless of which model you use, of developments you use, underlying all this is the quality of code, the quality of the programming. When programmers program, they make assumptions. They make assumptions about input, output, environment, services they're going to use, and so forth. Herein lies the problem.
 
@@ -14,5 +14,5 @@ description: note
 
 > The easiest way incidentally to make sure this policy is followed, it's simply to remove all networking hardware from the system. If you don't have a wireless card, you can't turn it on. If you don't have ethernet cards or networking cards, you can't connect to a network. That solves the problem right there. Let's go on to the next. For that one, I should add also, you'll have to be careful if people put in USB sticks with wireless on them. So it's also a good idea to remove all networking software as well. So even if they do put something like that in, they won't be able to use it.
 
-## Week 2
+## Week 2 Secure Programming Design Principles
 
