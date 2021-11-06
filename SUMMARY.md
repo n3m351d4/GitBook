@@ -72,6 +72,7 @@
   * [Переводы](pentest/perevody/README.md)
     * [Мануал по установке MaltegoXL](pentest/perevody/manual-po-kryakingu-maltegoxl.md)
 * [InfoSec](infosec/README.md)
+  * [Principles of Secure Coding](infosec/principles-of-secure-coding.md)
   * [Technical writing](infosec/technical-writing/README.md)
     * [What is technical writing?](infosec/technical-writing/untitled.md)
     * [How to choose vocabulary wisely](infosec/technical-writing/how-to-choose-vocabulary-wisely.md)
