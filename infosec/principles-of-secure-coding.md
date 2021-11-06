@@ -16,3 +16,20 @@ description: note
 
 ## Week 2 Secure Programming Design Principles
 
+> Now, there's another principle that's closely related to this. It's called POLA, Principle of Least Authority. Now, POLA and least privilege are often seen as exactly the same things. However, some people do make a distinction and the distinction is quite interesting. Principle of least privilege speaks to permissions. It says, what can I do to an object, a file? Doesn't say anything about, what can I have you do to it? It's all very direct. What can I do? Authority controls what influence I have over other subjects. So, in other words, can I control how you interact with that object, for example, or can I control how something indirectly affects that file? Play video starting at :2:25 and follow transcript2:25 In that case, authority is slightly different than permission, and so POLA would speak to the authority and least privilege to the permissions. That distinction is not widely recognized yet. So, if you hear POLA and you think least privilege, you're either dead on or very close, close enough for our practical purposes unless you're a system developer.
+
+* Principle of Least Privilege
+* Fail-Safe Defaults
+* Principle of Economy of Mechanism
+* Principle of Complete Mediation
+* Separation of Privilege Principle
+* Principle of Open Design
+* Principle of Least Common Mechanism
+* Principle of Least Astonishment
+
+> Now, one other thing, it's popularly believed or widely believed that this means source code should be made public or things should be made public. No. All this is saying is that your security should not depend solely on secrecy of design or implementation. It's perfectly fair to have that as one of a number of characteristics. But you need to be sure that if someone does discover the design or the implementation, that you're so secure. That's all it means.
+
+> The idea here is to hide the complexity that security mechanisms introduce. So as an example, pretty much everyone nowadays is used to typing the password, that's expected. You go to a web server like a bank's web server something or you log in to your home system and it says log in ID and password. But suppose one day it suddenly said login ID, urine specimen for analysis so we can use your DNA to be sure you're who you claim to be. That would be astonishment because that never happens, at least as far as I know, I've never seen it. So that's an example of what Least Astonishment means. Don't surprise the user is the bottom line.
+
+## Week 3 Robust Programming
+
