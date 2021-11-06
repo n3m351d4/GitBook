@@ -1,5 +1,5 @@
 ---
-description: '5∆17Ø November 16, 2019 Специально для каналов @Freedom_Fox и @in51d3'
+description: '@beh1ndy0urback November 16, 2019'
 ---
 
 # Qiling Framework
@@ -48,7 +48,7 @@ Qiling Framework может работать поверх Windows/MacOS/Linux/Fr
 * _Аппаратное обеспечение: X86-64_
 * _ОС: Ubuntu 18.04 64bit_
 
-### **Демо \#1: Ловим kill switch Wannacry**
+### **Демо #1: Ловим kill switch Wannacry**
 
 Qiling Framework выполняет двоичный файл Wannacry, перехватывая адрес 0x40819a, чтобы перехватить URL killerswitch
 
@@ -56,7 +56,7 @@ Qiling Framework выполняет двоичный файл Wannacry, пере
 
 #### **Образец кода**
 
-```text
+```
 from qiling import *
 
 def stopatkillerswtich(ql):
@@ -70,7 +70,7 @@ if __name__ == "__main__":
 
 #### **Вывод**
 
-```text
+```
 0x1333804: __set_app_type(0x2)
 0x13337ce: __p__fmode() = 0x500007ec
 0x13337c3: __p__commode() = 0x500007f0
@@ -84,13 +84,13 @@ if __name__ == "__main__":
 0x126f0f1: InternetOpenUrlA(0x0, "http://www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com", "", 0x0, 0x84000000, 0x0)
 ```
 
-### **Демо \#2: Эмуляция прошивки роутера ARM на Ubuntu X64**
+### **Демо #2: Эмуляция прошивки роутера ARM на Ubuntu X64**
 
 Хот-патч с помощью Qiling Framework и эмуляция /usr/bin/httpd ARM роутера на X86-64, Ubuntu
 
 [https://youtu.be/Nxu742-SNvw](https://youtu.be/Nxu742-SNvw)
 
-```text
+```
 from qiling import *
 
 def my_sandbox(path, rootfs):
@@ -105,7 +105,7 @@ if __name__ == "__main__":
     my_sandbox(["rootfs/tendaac15/bin/httpd"], "rootfs/tendaac15")
 ```
 
-### **Демо \#3: хот-патч crackme в Windows**
+### **Демо #3: хот-патч crackme в Windows**
 
 Использование Qiling Framework для хот-патча crackme в Windows, чтоб он всегда отображал диалоговое окно «Congratulation»
 
@@ -113,7 +113,7 @@ if __name__ == "__main__":
 
 #### **Образец кода**
 
-```text
+```
 from qiling import *
 
 def force_call_dialog_func(ql):
@@ -147,7 +147,7 @@ if __name__ == "__main__":
 
 #### **Вывод**
 
-```text
+```
 0x10cae10: GetStartupInfo(0xffffdf40)
 0x1121fa7: GetStdHandle(0xfffffff6) = 0xfffffff6
 0x111fbc4: GetFileType(0xfffffff6) = 0x2
@@ -183,4 +183,3 @@ Input DlgItemText :
 0x1033ba3: EndDialog(0x00, 0x00) = 1
 0x1124d12: ExitProcess(0x01)
 ```
-
