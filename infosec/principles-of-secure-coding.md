@@ -14,3 +14,5 @@ description: note
 
 > The easiest way incidentally to make sure this policy is followed, it's simply to remove all networking hardware from the system. If you don't have a wireless card, you can't turn it on. If you don't have ethernet cards or networking cards, you can't connect to a network. That solves the problem right there. Let's go on to the next. For that one, I should add also, you'll have to be careful if people put in USB sticks with wireless on them. So it's also a good idea to remove all networking software as well. So even if they do put something like that in, they won't be able to use it.
 
+## Week 2
+
