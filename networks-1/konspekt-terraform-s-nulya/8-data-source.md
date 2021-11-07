@@ -2,7 +2,7 @@
 
 Получение данных от провайдера, использование их в конфигурации.
 
-```text
+```
 provider "aws" {}
 
 
@@ -73,4 +73,3 @@ output "data_aws_region_description" {
   value = data.aws_region.current.description
 }
 ```
-

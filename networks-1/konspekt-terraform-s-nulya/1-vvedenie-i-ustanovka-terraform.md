@@ -6,11 +6,10 @@
 
 `sudo mv terraform /bin/`
 
-  Версия: 
+&#x20; Версия:&#x20;
 
 `terraform --version`
 
 {% embed url="https://atom.io/" %}
 
 Установить: linter-terraform-syntax
-

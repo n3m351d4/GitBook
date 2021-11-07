@@ -1,6 +1,6 @@
 # 4 Динамичные блоки
 
-```text
+```
 provider "aws" {
   region = "eu-central-1"
 }
@@ -38,6 +38,4 @@ resource "aws_security_group" "my_webserver" {
   }
 }
 ```
-
-
 

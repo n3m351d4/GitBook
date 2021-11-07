@@ -2,7 +2,7 @@
 
 
 
-```text
+```
 provider "aws" {
   region = "eu-central-1"
 }
@@ -72,19 +72,19 @@ ingress - входящий трафик
 
 egress - исходящий
 
-В &lt;&lt;EOF EOF можно записать скрипт, который будет выполняться при запуске
+В <\<EOF EOF можно записать скрипт, который будет выполняться при запуске
 
 /\* ЫЫЫ \*/ - комментарий
 
 Скрипт можно держать в отдельном файле:
 
-```text
+```
 user_data = file("user_data.sh")
 ```
 
 Скрипты могут быть динамичными:
 
-```text
+```
 user_data = templatefile("user_data.sh.tpl"), {
     f_name = "Name",
     l_name = "1Name",
@@ -93,7 +93,7 @@ user_data = templatefile("user_data.sh.tpl"), {
 
 Тогда, в скрипте:
 
-```text
+```
 #!/bin/bash
 yum -y update
 yum -y install httpd
@@ -115,4 +115,3 @@ EOF
 ```
 
 _terraform console_ - можно отправить команду templatefile с содержимым и посмотреть результат работы шаблона без разворачивания.
-

@@ -2,7 +2,7 @@
 
 Задается после создания чего создается ресурс. Depends\_on.
 
-```text
+```
 resource "aws_instance" "my_server_web" {
   ami                    = "ami-03a71cec707bfc3d7"
   instance_type          = "t3.micro"
@@ -16,4 +16,3 @@ resource "aws_instance" "my_server_web" {
 
 
 ```
-

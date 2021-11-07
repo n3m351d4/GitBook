@@ -1,6 +1,6 @@
 # 5 ZeroDownTime
 
-```text
+```
 provider "aws" {
   region = "ca-central-1"
 }
@@ -69,7 +69,6 @@ resource "aws_security_group" "my_webserver" {
 
 lifecycle {prevent\_destroy = true}- не удаляется при обновлении параметров
 
-lifecycle {ignore\_changes = \["ami", "user\_data"\]} - не пересоздает ресурс при изменении параметров
+lifecycle {ignore\_changes = \["ami", "user\_data"]} - не пересоздает ресурс при изменении параметров
 
 lifecycle {create\_before\_destroy = true} - горячая замена сервера - поднимает новый - меняет IP и потом выключает старый.
-

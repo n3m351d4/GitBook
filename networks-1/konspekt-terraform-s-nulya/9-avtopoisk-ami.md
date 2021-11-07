@@ -2,7 +2,7 @@
 
 
 
-```text
+```
 
 #----------------------------------------------------------
 # My Terraform
@@ -84,4 +84,3 @@ output "latest_ubuntu_ami_name" {
   value = data.aws_ami.latest_ubuntu.name
 }
 ```
-

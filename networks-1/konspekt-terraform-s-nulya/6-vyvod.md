@@ -4,7 +4,7 @@
 
 Вынести в другой файл outputs.tf
 
-```text
+```
 output "my_web_site_ip" {
   description = "Elatic IP address assigned to our WebSite"
   value       = aws_eip.my_static_ip.public_ip
@@ -27,4 +27,3 @@ output "my_sg_id" {
 ```
 
 terraform output - печатает вывод
-
