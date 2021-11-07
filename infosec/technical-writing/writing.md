@@ -2,6 +2,7 @@
 cover: >-
   https://images.unsplash.com/photo-1501504905252-473c47e087f8?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw0fHx3cml0aW5nfGVufDB8fHx8MTYzNjI4MzM5Ng&ixlib=rb-1.2.1&q=85
 coverY: 0
+description: Notes from course (2021)
 ---
 
 # What is technical writing?
@@ -18,8 +19,7 @@ Some examples of technical writing include:
 * User manuals
 * Reports of analysis
 * Instructions for assembling a product
-* A summarization of a long report that highlights and shortens the most important element\
-
+* A summarization of a long report that highlights and shortens the most important element
 
 **Why do the companies as well as freelance software developers need to simplify their written language?**\
 As companies worldwide increasingly need to deal with people speaking different languages, while products and processes become more and more complex, there is an evident need for clear and effective communication and documentation.\
@@ -34,7 +34,6 @@ As companies worldwide increasingly need to deal with people speaking different 
 
 In other words, with technical writing nobody needs to be Dostoevskiy. It's even better to stop thinking in complex structures and ambiguous words at all. The main rule here is to think about the target audience, make it short, precise and clear for anybody to read.&#x20;
 
-\
 That's where Simplified Technical English (STE) comes in really handy. Since STE has been widely used in many industries, it has lead to its application in software development as well.\
 **What is STE?**\
 \
@@ -42,7 +41,6 @@ A clear unambiguous language for technical documents.\
 **What are its direct or indirect benefits for companies and their employees?**\
 It saves considerable translation costs representing an excellent basis for computer-aided or automated translation. Moreover, any specialist, e.g.  whose L1 (first language) is not English, will be able to understand the ideas behind it.
 
-\
 **What is the basis of STE ?**\
 English language, a  defined set  of grammar and syntax ( punctuation and text arrangement) rules as well as restricted vocabulary are considered to be the foundations of STE.\
 \
