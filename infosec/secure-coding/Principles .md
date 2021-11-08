@@ -36,3 +36,13 @@ coverY: 0
 
 ## Week 3 Robust Programming
 
+> During this module, we will see examples of incorporating paranoia, stupidity, dangerous implements, and magical thinking, and what happens when you don't use them. It should be fun. At the end of this lesson, you'll be able to explain the issues that can arise from fragile programming. You'll also be able to discuss how design issues drive implementation and distinguish between robust and fragile code. Finally, you'll be able to explain what can go wrong in fragile code and write a robust version of fragile code.
+
+> Robust programming has four principles. The first one is paranoia. Basically if you don't generate something, don't trust it. Assume that they really are out to get you.
+>
+> The second one is stupidity, which we already mentioned. Basically, assume the user hasn't read anything, including how to use the program, and handle cases where the program is just completely misused, where rather the inputs are bad or things like that.
+>
+> The third part is dangerous implements. Don't hand out dangerous implements.
+
+> The lessons from this. Always check that the perimeter refers to a valid data structure and design your parameters so you can do this. Second, when you delete information, clean up. Overwrite it with no bytes if it's a string, make it null If it's a pointer, and so forth. That way it'll prevent errors later on because if you try to use it or reference it, you're either going to get an error or the program will crash and believe me it's a lot better for the program to crush and go on functioning correctly.
+
