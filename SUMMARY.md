@@ -139,7 +139,7 @@
   * [Переводы](iot/translations/README.md)
     * [Qiling Framework](iot/translations/qiling-framework.md)
     * [Internet of Things and Embedded Systems](iot/translations/internet-of-things-and-embedded-systems.md)
-    * [IOT. Исследование технологий защищенности от компьютерных атак для IOT – решений](iot/translations/iot.-issledovanie-tekhnologii-zashishennosti-ot-kompyuternykh-atak-dlya-iot-reshenii.md)
+    * [IOT. Исследование технологий защищенности от компьютерных атак для IOT – решений](iot/translations/iot-reshenii.md)
 * [Space and Special systems](space-and-special-systems-1/README.md)
   * [Radio](space-and-special-systems-1/radio/README.md)
     * [Картинки про создание диплома](space-and-special-systems-1/radio/kartinki-pro-sozdanie-diploma.md)
