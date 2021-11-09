@@ -2,9 +2,6 @@
 description: >-
   Исследование технологий безопасной передачи информации по радиоканалам для IOT
   – решений встраиваемых систем управления промышленного предприятия
-cover: >-
-  https://images.unsplash.com/photo-1592919347498-69564e361791?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw0fHx3aXJlbGVzc3xlbnwwfHx8fDE2MzY0NzA2NzY&ixlib=rb-1.2.1&q=85
-coverY: 0
 ---
 
 # Исследование технологий безопасной передачи информации по радиоканалам
