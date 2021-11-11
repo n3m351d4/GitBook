@@ -46,8 +46,3 @@ coverY: 0
 
 > The lessons from this. Always check that the perimeter refers to a valid data structure and design your parameters so you can do this. Second, when you delete information, clean up. Overwrite it with no bytes if it's a string, make it null If it's a pointer, and so forth. That way it'll prevent errors later on because if you try to use it or reference it, you're either going to get an error or the program will crash and believe me it's a lot better for the program to crush and go on functioning correctly.
 
-## Week 4 Methods for Robustness
-
-> Formal methods for our purposes have three things. You begin with the specification of what the program is to do. You then design it and show that your design matches the specifications, or satisfies the specifications, to use the correct term. You then do the implementation and show that your implementation satisfies the design. By transitivity, that means it satisfies the specifications. Now, there is more beyond this, deployment and so forth, where formal methods really become somewhat informal themselves. So we're not going to focus on them because now we're only focusing on the program.
-
-> In the 1960s when IBM 360s were being marketed, people found all sorts of undocumented instructions and relied on them. But the undocumented instructions were also often changed in the next release, because since they were undocumented, IBM said, well, we can make these meaningful and do something or changed them and have something documented and it messed up a lot of people. Same thing here. If the library functions descriptions don't say it does something, don't assume it does it.
