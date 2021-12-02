@@ -5,7 +5,7 @@ description: '2020'
 # SDR: Собираем пассивный IMSI Catcher
 
 _Перевод: @N3M351DA_\
-_Источник: _[_https://harrisonsand.com/imsi-catcher/ _](https://harrisonsand.com/imsi-catcher/)__
+_Источник:_ [_https://harrisonsand.com/imsi-catcher/_ ](https://harrisonsand.com/imsi-catcher/)__
 
 В этой статье рассматривается процесс создания пассивного IMSI Catcher’a. Данный пост – образовательный, он создан чтобы подчеркнуть простоту, с которой подобные утилиты могут быть развернуты и показать, как легко поставить под угрозу конфиденциальность.
 

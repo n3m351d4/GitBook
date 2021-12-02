@@ -9,7 +9,7 @@ description: Notes from course (2021)
 
 '**Technical writing'** is any written form of writing or drafting [technical communication](https://en.wikipedia.org/wiki/Technical\_communication) used in a variety of technical and occupational fields, such as [computer hardware](https://en.wikipedia.org/wiki/Computer\_hardware) and [software](https://en.wikipedia.org/wiki/Software), [engineering](https://en.wikipedia.org/wiki/Engineering), [chemistry](https://en.wikipedia.org/wiki/Chemistry), [aeronautics](https://en.wikipedia.org/wiki/Aeronautics), [robotics](https://en.wikipedia.org/wiki/Robotics), [finance](https://en.wikipedia.org/wiki/Finance), [consumer electronics](https://en.wikipedia.org/wiki/Consumer\_electronics), and [biotechnology](https://en.wikipedia.org/wiki/Biotechnology). IT encompasses the largest sub-field within technical communication.
 
-Technical writing is sometimes defined as _simplifying the complex_. A significant subset of the broader field of _technical communication_,** technical writing involves communicating complex information to those who need it to accomplish some task or goal.**
+Technical writing is sometimes defined as _simplifying the complex_. A significant subset of the broader field of _technical communication_, **technical writing involves communicating complex information to those who need it to accomplish some task or goal.**
 
 Some examples of technical writing include:
 
@@ -23,7 +23,7 @@ Some examples of technical writing include:
 
 **Why do the companies as well as freelance software developers need to simplify their written language?**\
 As companies worldwide increasingly need to deal with people speaking different languages, while products and processes become more and more complex, there is an evident need for clear and effective communication and documentation.\
-**What are the main features of technical writing? **
+**What are the main features of technical writing?**&#x20;
 
 * brevity
 * clarity

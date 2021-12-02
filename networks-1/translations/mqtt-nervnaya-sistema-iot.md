@@ -2,7 +2,7 @@
 
 _Перевод: @N3M351DA_
 
-_ Источник: _[_https://www.catchpoint.com/blog/mqtt-iot_](https://www.catchpoint.com/blog/mqtt-iot)__
+&#x20;_Источник:_ [_https://www.catchpoint.com/blog/mqtt-iot_](https://www.catchpoint.com/blog/mqtt-iot)__
 
 ![http://blog.catchpoint.com/wp-content/uploads/2017/05/MQTT-internet-of-things.jpg](http://dc7495.org/aybbtu/uploads/2020/04/http-blog-catchpoint-com-wp-content-uploads-2017.jpeg)
 

@@ -21,7 +21,7 @@ E.g. follow (verb):\
 
 3\. Use the shortest word possible.Shorter words are more conversational, save space on screen, and are easier to scan . Plain words are often easier for non-native English speakers and can reduce translation and localization costs.
 
-E.g. This section **also** shows you . . .   **In addition**, this section shows you . . . Digital cameras **use** tiny microchips . . . Digital cameras** utilize** tiny microchips . . .\
+E.g. This section **also** shows you . . .   **In addition**, this section shows you . . . Digital cameras **use** tiny microchips . . . Digital cameras **utilize** tiny microchips . . .\
 \
 4\. Avoid needless complexity: ﻿e.g. functionality(n\*) - feature, facilitate(v\*\*) - cause, individualized( adj.\*\*\*) - individual, heretofore (adj.) - previous\
 \
@@ -39,7 +39,7 @@ E.g. This section **also** shows you . . .   **In addition**, this section shows
 
 11\. Don’t invent words or apply new meanings to standard words .Assume that users are more familiar with a word’s established meaning than with a special meaning given to it by the technology industry . When an industry term is required, provide an in-context definition. Avoid jargon, but remember that some expressions specific to computer use, such as hacker, are already part of everyday speech.
 
-E.g.: Use a real verb like** categorize** or **group** . Don’t create a fake verb like bucketize from the noun bucket .
+E.g.: Use a real verb like **categorize** or **group** . Don’t create a fake verb like bucketize from the noun bucket .
 
 You can always look up in a reliable dictionary to check whether the word exists or not.
 

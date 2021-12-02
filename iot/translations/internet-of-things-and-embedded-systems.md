@@ -9,7 +9,7 @@ coverY: 322.9604709840202
 
 [Introduction to the Internet of Things and Embedded Systems](https://telegra.ph/Introduction-to-the-Internet-of-Things-and-Embedded-Systems-spojlery-07-10)
 
-## **Week 1. **
+## **Week 1.**&#x20;
 
 ![](https://camo.githubusercontent.com/15e401839ef2501858121f9ff324aaa8988905df818aa6f398c50caf823a9e61/68747470733a2f2f74656c656772612e70682f66696c652f6131333664353138623933303639663664373137352e706e67)
 

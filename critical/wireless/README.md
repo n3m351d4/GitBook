@@ -19,11 +19,11 @@ coverY: 0
 
 **APT** – advanced persistent threat,
 
-**UART TTL **– Universal Asynchronous Receiver-Transmitter Transistor-transistor logic,
+**UART TTL** – Universal Asynchronous Receiver-Transmitter Transistor-transistor logic,
 
 **RFID** – Radio Frequency Identification,
 
-**3GPP ETSI **– 3rd Generation Partnership Project European Telecommunications Standards Institute,
+**3GPP ETSI** – 3rd Generation Partnership Project European Telecommunications Standards Institute,
 
 **IETF** – Internet Engineering Task Force.
 

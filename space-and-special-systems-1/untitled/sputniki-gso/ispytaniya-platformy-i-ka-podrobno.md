@@ -1,6 +1,6 @@
 # Испытания платформы и КА подробно
 
-#### Испытания космического аппарата: последовательность испытаний платформы (подробно), назначение каждого вида испытаний <a href="ispytaniya-kosmicheskogo-apparata-posledovatelnost-ispytanii-platformy-podrobno-naznachenie-kazhdogo" id="ispytaniya-kosmicheskogo-apparata-posledovatelnost-ispytanii-platformy-podrobno-naznachenie-kazhdogo"></a>
+#### Испытания космического аппарата: последовательность испытаний платформы (подробно), назначение каждого вида испытаний <a href="#ispytaniya-kosmicheskogo-apparata-posledovatelnost-ispytanii-platformy-podrobno-naznachenie-kazhdogo" id="ispytaniya-kosmicheskogo-apparata-posledovatelnost-ispytanii-platformy-podrobno-naznachenie-kazhdogo"></a>
 
 входной контроль оборудования – соответствие основным требованиям оборудование.
 
@@ -22,7 +22,7 @@
 
 &#x20;_(Это –гостовские бредни, никто в таком порядке ничего не делает, взаимоисключающие испытания можно и не проводить по ГОСТУ,)_
 
-#### Испытания космического аппарата: последовательность испытаний КА (подробно), назначение каждого вида испытаний <a href="ispytaniya-kosmicheskogo-apparata-posledovatelnost-ispytanii-ka-podrobno-naznachenie-kazhdogo-vida-i" id="ispytaniya-kosmicheskogo-apparata-posledovatelnost-ispytanii-ka-podrobno-naznachenie-kazhdogo-vida-i"></a>
+#### Испытания космического аппарата: последовательность испытаний КА (подробно), назначение каждого вида испытаний <a href="#ispytaniya-kosmicheskogo-apparata-posledovatelnost-ispytanii-ka-podrobno-naznachenie-kazhdogo-vida-i" id="ispytaniya-kosmicheskogo-apparata-posledovatelnost-ispytanii-ka-podrobno-naznachenie-kazhdogo-vida-i"></a>
 
 **По порядку:**
 
@@ -46,7 +46,7 @@ _2. Тепловые_ испытания
 
 4\. **Монтаж** МУ БС (_механических двигателей раскрытия батареи, что очень странно, ведь он их уже испытал в предыдущем пункте, будем считать, что он их сначала без спутника испытал_)
 
-5\. **Измерение массовых **характеристик и положения центра масс.
+5\. **Измерение массовых** характеристик и положения центра масс.
 
 6\. **Испытания на механические воздействия –** подтверждение механической стойкости конструкции (_КА пытаются сломать_) и качества сборки КА (_кривизна рук_), механические воздействия имитируют участок выведения (_тряску при запуске_) и начальный режим работы.
 

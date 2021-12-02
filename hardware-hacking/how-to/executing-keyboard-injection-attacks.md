@@ -24,11 +24,11 @@ description: Перевод @n3m351da @in51d3 2020
 
 ![](https://lh3.googleusercontent.com/mEiOIA3KoR2fCO5qRIR5dlr8jxaobbwAo7ev5Y\_BsBpbDpnED0mAETXFGjDVX9AsuJe5WRLciZkGODRvDkVKb-vMbkuqipsgAlZd9vGHqMhBjTMRfzpUSzec1KoZzsMH1g3crwBB)
 
-**Клавиатура:**_** Logitech K400r**_
+**Клавиатура: **_**Logitech K400r**_
 
 ![](https://lh4.googleusercontent.com/OxIUAz4t8l3plqvnDRIk5AuRnYaRCDlTIkMb1iSkIfCdnAg5jGXphbiPljJuxyi6IHLuNo4-RrhEKZ418D\_2GIlNqveEWKpAtquCAYpU-BAI\_S8TNlThsZO1mK4YAwg6z07\_Vg2a)
 
-**FCC ID:**_** JNZYR0019**_
+**FCC ID: **_**JNZYR0019**_
 
 ![](https://lh4.googleusercontent.com/cYy3lNGY-WtebMeMZS9W4Es47h5B3\_rPVwnIodi6ukn04n60fxr72P\_7mq551nIfD6S-2neetTCwJYQJvKOyqjvgDtASoFwGUVL6W\_gKhYp0M8JlI4RQN\_tMhiC5ADXmt2QgiBW-)
 
@@ -76,7 +76,7 @@ _**Когда целевое устройство найдено, нажимае
 
 **ПРИМЕЧАНИЕ:** Для проведения этой атаки не требуется знать MAC-адрес. Все, что требуется, - это целевой USB адаптер и наличие записи ТИПА - Logitech HID, Microsoft HID и т. д. (Если сканирование не определит устройство - поле ТИП будет пустым, то скрипт не отработает)
 
-**УСПЕХ!!! **[Видео](https://www.blackhillsinfosec.com/wp-content/uploads/2020/03/Keyboard-Injection20200227.mp4)
+**УСПЕХ!!!** [Видео](https://www.blackhillsinfosec.com/wp-content/uploads/2020/03/Keyboard-Injection20200227.mp4)
 
 ![](https://lh3.googleusercontent.com/mf-5UF4Z9HegNSxGYVJlxayUfw9DhoSY1Kgt1Cgj42DsE79MQWytXaGFGuimOj7Lw7jtiJ0HZmuELDZxk7vw9\_\_idxbpfY3UzKbRK8NvE-K5vd-grMLRvgFTQfoqXTudBxzG7oYZ)
 

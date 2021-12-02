@@ -4,7 +4,7 @@ description: '2020, Перевод: @N3M351D4'
 
 # Hardware Hacking: IoT WiFi модуль – Дампим данные
 
-_Источник: _[_https://blog.compass-security.com/2017/04/iot-wifi-module-dump-the-data/ _](https://blog.compass-security.com/2017/04/iot-wifi-module-dump-the-data/)
+_Источник:_ [_https://blog.compass-security.com/2017/04/iot-wifi-module-dump-the-data/_ ](https://blog.compass-security.com/2017/04/iot-wifi-module-dump-the-data/)
 
 WiFi-модуль ESP8266 от ESPRESSIF — это популярный недорогой (дешевле 2 долларов США) WiFi-модуль, который устанавливают на печатные платы. Он часто используется для проектов IoT и легко программируется с помощью Arduino IDE или Mongoose OS и его IDE через Интернет. Модули ESP8266 закрыты металлическим экраном. Под экраном находится микросхема WiFi/CPU и микросхема FLASH памяти с последовательным интерфейсом SPI.
 
