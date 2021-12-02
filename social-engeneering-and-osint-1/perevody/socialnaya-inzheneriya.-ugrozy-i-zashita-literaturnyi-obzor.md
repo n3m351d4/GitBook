@@ -1,5 +1,8 @@
 ---
 description: 2019-11-15 Статья переведена @N3M351DA ( @in51d3 ) и @beh1ndy0urback
+cover: >-
+  https://images.unsplash.com/photo-1491951931722-5a446214b4e2?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwzfHxzb2NpYWx8ZW58MHx8fHwxNjM4NDYxMzY0&ixlib=rb-1.2.1&q=85
+coverY: 0
 ---
 
 # Социальная инженерия. Угрозы и защита: литературный обзор
