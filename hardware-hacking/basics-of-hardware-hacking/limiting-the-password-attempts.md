@@ -1,8 +1,12 @@
-# Limiting the password attempts
+---
+description: '12.2021'
+---
 
-Limiting our password checking routine to only three password guesses is a bit challenging, because the number of guesses has to persist across CPU reboots. `EEPROM.write` and `EEPROM.read` are methods which are used to manage persistent memory on Arduino. The first argument for both methods is a memory address – the place where we will be storing our counter.
+# Ограничение попыток ввода пароля
 
-```text
+Ограничить нашу процедуру проверки пароля тремя попытками - достаточно сложно, так как количество использованных попыток должно храниться после перезагрузки процессора. EEPROM.write и EEPROM.read -  методы,использующиеся для управления ПЗУ Arduino. Первым аргументом этих методов является адрес памяти - место, где мы будем хранить наш счетчик.
+
+```
 bool checkPass(String buffer) {
   byte tries = EEPROM.read(TRIES_ADDR);
   if (tries == 0) {
@@ -23,19 +27,19 @@ bool checkPass(String buffer) {
 }
 ```
 
-The method first checks if there are any password tries left. If there aren’t any it returns `false`. If there are some tries left it will perform regular password validation and then decrement the counter, if needed. Now we can rest easy that our password check routine is secure.
+В данном методе проверяется наличие попыток ввода пароля, и, если их не осталось, возвращается false. Если у пользователя осталось несколько попыток, будет выполнена обычная проверка пароля и при неудаче будет уменьшено число оставшихся попыток. Теперь мы можем не беспокоиться о том, что наша процедура проверки пароля безопасна.&#x20;
 
-Well, not really.
+Но не совсем.&#x20;
 
-The thing is that in the main code we have this:
+Дело в том, что в основном коде мы имеем следующее:
 
-```text
+```
   bool correct = checkPass(pass);
   if (correct) {
     Serial.println("Password correct!");
 ```
 
-This means that there is a single point of failure – if the execution of `checkPass` fails \(for whatever reason\) and erroneously produces `true` the board will be unlocked with a `Password correct!` message.
+Это означает, что существует единственная точка отказа - если `checkPass` завершается неудачно и ошибочно выдает истинное значение, плата будет разблокирована с сообщением `Password correct!`.
 
 > This is a point in the training where most of the participants have either a very confused look or think I’m joking. It’s fine if you had the same reaction, as the rest of this course deals with what can be safely described as “magic.”
 
@@ -49,9 +53,9 @@ The circuit looks like this:
 
 ![Voltage fault injection circuit](https://maldroid.github.io/hardware-hacking/assets/fault-injection-circuit.png)
 
-The transistor is responsible for switching the power on and off. Most of the time the power will be on \(otherwise the CPU won’t work\) and the second Arduino board will turn it off for a very short time - few CPU cycles. Since we don’t know or care how long the glitch \(i.e. the action of turining the power off and on\) should be, we are going to try different values in this very simple Arduino code:
+The transistor is responsible for switching the power on and off. Most of the time the power will be on (otherwise the CPU won’t work) and the second Arduino board will turn it off for a very short time - few CPU cycles. Since we don’t know or care how long the glitch (i.e. the action of turining the power off and on) should be, we are going to try different values in this very simple Arduino code:
 
-```text
+```
   int waste = 0;
   for (int i = 0; i < glitchOffset ; i++) { waste++; }
   digitalWrite(glitchPin, LOW);
@@ -76,4 +80,3 @@ Of course there’s no difference to voltage between the delay and the offset gl
 It’s important to note that we are not actually sending any data to the board. Any password guess at all. The CPU itself displays all the information because of the glitching. You can see at the end that we got the `Password correct!` message without providing any password. This happened even though the board was locked and didn’t allow any password guesses! Isn’t this magical?
 
 It’s time for a summary and - if you still have questions left - a bit of a FAQ.
-
