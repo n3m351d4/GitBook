@@ -78,8 +78,4 @@ bool checkPass(String buffer) {
 
 ![Serial output of a glitching CPU](https://maldroid.github.io/hardware-hacking/assets/fault-injection-terminal.gif)
 
-It’s important to note that we are not actually sending any data to the board. Any password guess at all. The CPU itself displays all the information because of the glitching. You can see at the end that we got the `Password correct!` message without providing any password. This happened even though the board was locked and didn’t allow any password guesses! Isn’t this magical?
-
-It’s time for a summary and - if you still have questions left - a bit of a FAQ.
-
 Важно отметить, что на самом деле мы не отправляем никаких данных на на плату - CPU отображает эту информацию из-за сбоя. В конце вы увидите, что мы получили сообщение `Password correct!` без указания пароля. Это произошло, несмотря на то, что плата была заблокирована и не позволяла подбирать пароль! Разве это не волшебно?
