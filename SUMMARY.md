@@ -174,3 +174,4 @@
     * [1. Анализ безопасности передачи информации по проприетарным радиоканалам](critical/wireless/1/README.md)
       * [1.1 Виды атак](critical/wireless/1/1.1.md)
       * [1.2 Модель угроз](critical/wireless/1/model.md)
+      * [1.3 Модель нарушителя](critical/wireless/1/hacker.md)
