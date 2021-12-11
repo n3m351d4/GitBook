@@ -2,7 +2,7 @@
 description: Перевод @n3m351da @in51d3 2020
 ---
 
-# Hardware Hacking: Введение в SDR и GSM/LTE
+# Введение в SDR и GSM/LTE
 
 [Оригинальный текст](https://www.blackhillsinfosec.com/intro-to-software-defined-radio-and-gsm-lte/)
 
@@ -171,7 +171,7 @@ sudo ldconfig
 
 Kalibrate, или «kal», утилита для сканирования базовых станций GSM в заданной полосе частот.
 
-_Установка Kalibrate-Hackrf (kal)**:** _
+_Установка Kalibrate-Hackrf (kal)**:** _&#x20;
 
 ```
 git clone https://github.com/scateu/kalibrate-hackrf.git

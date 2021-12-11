@@ -2,7 +2,7 @@
 description: 2020 @in51d3
 ---
 
-# Hardware Hacking: Основы работы с GNU Radio
+# SDR: Основы работы с GNU Radio
 
 > Перевела @ZzzNein (безграничную благодарность можно выразить [ЗДЕСЬ](https://yasobe.ru/na/na\_perevody\_i\_kontent)), проверила @N3M351DA. [Оригинальный текст](https://www.blackhillsinfosec.com/gnu-radio-primer/) - Реймонд Фелч, 9 декабря 2019 г.‌
 

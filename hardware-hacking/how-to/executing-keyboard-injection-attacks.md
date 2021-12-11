@@ -2,7 +2,7 @@
 description: Перевод @n3m351da @in51d3 2020
 ---
 
-# Hardware Hacking: Инъекции в беспроводной интерфейс клавиатуры
+# SDR: Инъекции в беспроводной интерфейс клавиатуры
 
 [Оригинальный текст](https://www.blackhillsinfosec.com/executing-keyboard-injection-attacks/)
 
