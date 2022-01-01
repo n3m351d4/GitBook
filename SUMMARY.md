@@ -177,3 +177,5 @@
       * [1.1 Виды атак](critical/wireless/1/1.1.md)
       * [1.2 Модель угроз](critical/wireless/1/model.md)
       * [1.3 Модель нарушителя](critical/wireless/1/hacker.md)
+    * [2. Методология поиска уязвимостей проприетарных радиоканалов передачи информации](critical/wireless/2.-metodologiya-poiska-uyazvimostei-proprietarnykh-radiokanalov-peredachi-informacii/README.md)
+      * [Аппаратное и программное обеспечение, используемое для моделирования атак на радиоканалы и поиска уя](critical/wireless/2.-metodologiya-poiska-uyazvimostei-proprietarnykh-radiokanalov-peredachi-informacii/apparatnoe-i-programmnoe-obespechenie-ispolzuemoe-dlya-modelirovaniya-atak-na-radiokanaly-i-poiska-u.md)
