@@ -15,7 +15,7 @@
     * [Улучшение проверки пароля](hardware-hacking/untitled/fixing-the-password-check.md)
     * [Анализ потребляемой мощности](hardware-hacking/basics-of-hardware-hacking/looking-at-the-power-traces.md)
     * [Ограничение попыток ввода пароля](hardware-hacking/untitled/limiting-the-password-attempts.md)
-    * [What have you learned?](hardware-hacking/basics-of-hardware-hacking/refresh.md)
+    * [Что мы узнали?](hardware-hacking/basics-of-hardware-hacking/refresh.md)
     * [Frequently Asked Questionstitled](hardware-hacking/basics-of-hardware-hacking/faq.md)
   * [Hardware Hacking: Статьи](hardware-hacking/articles/README.md)
     * [Пассивный IMSI Cather для сетей GSM: еще проще.](hardware-hacking/articles/imsi-gsm-simple.md)

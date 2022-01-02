@@ -4,43 +4,34 @@ cover: >-
 coverY: 0
 ---
 
-# What have you learned?
+# Что мы узнали?
 
-During the course of this workshop you’ve learned:
+В ходе этого курса вы узнали:&#x20;
 
-* How the serial protocol works
-* How to use logic analyser
-* How to perform a timing attack
-* How power traces allow you to infer what instructions are running on the CPU
-* How fault injection lets you bypass the password authentication completely
-* How to read bullet point lists with a summary of the workshop
+* Как работает последовательный протокол&#x20;
+* Как пользоваться логическим анализатором&#x20;
+* Как выполнить атаку по времени
+* &#x20;Как анализ питания позволяет определить, какие инструкции выполняются ЦП&#x20;
+* Как вызов ошибок позволяет обойти аутентификацию по паролю
 
-### Timing attack <a href="#timing-attack" id="timing-attack"></a>
+## Атака по времени
 
-Timing attack is an example of a set of techniques called side channel analysis (SCA). Side channel analysis simply means that you’re measuring some value of the environment in which the CPU is running (e.g. the time that passes) and infer something about the computation. In our case we were measuring how long it takes to validate a password and, based just on that value, we were able to extract the first letter of the password. There are other side channels that are very useful: electromagnetic radiation, power usage, temperature measurements, noise.
+Атака по времени является примером анализа стороннего канала (SCA). Анализ стороннего канала означает, что вы измеряете некоторые параметры среды, в которой работает ЦП (например, время), и делаете выводы. В нашем случае мы измеряли, сколько времени требуется для проверки пароля, и, основываясь на этом значении мы смогли извлечь первую букву пароля. Есть и другие сторонние каналы: электромагнитное излучение, энергопотребление, температура, шум.&#x20;
 
-In fact you’re probably using SCA every day! When the fan on your CPU starts running you’re inferring something about the CPU itself: that it’s probably doing intensive computations. You may even measure the temperature of the CPU and GPU and figure out which one has bigger load. This is an example of an SCA.
+На самом деле вы, вероятно, используете SCA каждый день! Когда кулер на вашем ЦП начинает усиленно работать, вы делаете вывод о том, что процессор выполняет интенсивные вычисления. Вы также можете измерить температуру ЦП и ГП и выяснить у которого больше нагрузка. Это пример SCA.
 
-### Simple and differential power analysis <a href="#simple-and-differential-power-analysis" id="simple-and-differential-power-analysis"></a>
+## Простой и дифференциальный анализ мощности
 
-Looking at the power traces in order to figure out what computations are done is called _simple power analysis_. Since you’re measuring the power draw of the CPU it’s still an SCA attack. When we looked at the power usage to find the 5 iterations of the loop which validates the password we were just using our eyes to find something interesting - hence _simple_ in _simple power analysis_.
+Просмотр графиков мощности для определения вида выполняемых вычислений называется _простым анализом мощности_. Поскольку вы измеряете потребляемую мощность ЦП, это все еще атака SCA. Когда мы сравнивали две кривые мощности и вычисляли разницу между значениями мы использовали дифференциальный анализ мощности. Дифференциальный анализ мощности является более сложным инструментом и использует статистические методыдля получения выводов. Такой метод может извлекать ключи шифрования для RSA или AES!&#x20;
 
-However, when we were comparing two power traces and subtracting the values (or rather calculating the difference) we were using _differential_ power analysis. Now, _differential_ power analysis is a much more complex and powerful tool and uses statistical methods to infer something about the computation. It can even extract encryption keys for RSA or AES! Our example was a very simple one, but it also showed how powerful it is.
+## Вызов ошибок
 
-### Fault injection <a href="#fault-injection" id="fault-injection"></a>
+Когда мы отключали питание ЦП на очень короткий промежуток времени, мы использовали один из методов атаки по сторонним каналам (все еще называемый SCA). Понимание разницы между атакой и анализом крайне важно. Анализ означает, что вы не вмешиваетесь в работу ЦП, пока он выполняет вычисления. Атака означает, что вы вмешиваетесь в работу ЦП(например, отключая питание).
 
-When we were glitching the CPU by turning the power off for a very short amount of time we were using one of the techniques of the _side-channel attack_ (still called SCA). The difference between an _attack_ and the _analysis_ is somewhat subtle, but important. _Analysis_ means that you’re not interfering with the CPU while it performs the computation. _Attack_ means that you do (e.g. by turning off the power).
+## Как защититься от подобных атак?&#x20;
 
-### How to protect against these attacks? <a href="#how-to-protect-against-these-attacks" id="how-to-protect-against-these-attacks"></a>
+Практически во всех случаях для предотвращения подобных атак требуется сочетание аппаратных и программных методов. Например, если вы хотите защитить себя от внедрения ошибок, вы можете проверять пароль дважды, что снизит риск возникновения единой точки отказа и добавить вторую микросхему, контролирующую напряжение, которая при его падении ниже определенного уровня отключит ЦП.
 
-In almost all instances mitigating these kinds of the attacks requires a combination of both hardware and software techniques. For example if you want to protect against the fault injection you can check the password twice instead of once, mitigating the single point of failure. You can also add a second chip which monitors the voltage and if drops below a certain level, even for a very short amount of time, the chip will power the CPU down.
+## Насколько серьезны эти атаки? У вас должен быть доступ к оборудованию?&#x20;
 
-### Are the attacks important? You have to have access to the hardware, right? <a href="#are-the-attacks-important-you-have-to-have-access-to-the-hardware-right" id="are-the-attacks-important-you-have-to-have-access-to-the-hardware-right"></a>
-
-Yes, you have to have access to the hardware.
-
-So, have you ever left your laptop unattended in a hotel room?
-
-That is all! **Thank you for following along and staying until the end!**
-
-If you still have some questions left click below.
+Да, у вас должен быть доступ к оборудованию. Вы когда-нибудь оставляли свой ноутбук без присмотра в гостиничном номере? Вот и все!&#x20;
