@@ -171,7 +171,7 @@
     * [Средства радиолокации и геодезической съемки.](space-and-special-systems/location/sredstva-radiolokacii-i-geodezicheskoi-semki..md)
     * [ДИСС](space-and-special-systems/location/diss.md)
 * [Critical infrastructure](critical/README.md)
-  * [Атака на критически важную инфраструктуру с помощью инъекции шаблоном](critical/ataka-na-kriticheski-vazhnuyu-infrastrukturu-s-pomoshyu-inekcii-shablonom.md)
+  * [Таргетированные атаки на КИИ](critical/targetirovannye-ataki-na-kii.md)
   * [Исследование технологий безопасной передачи информации по радиоканалам](critical/wireless/README.md)
     * [1. Анализ безопасности передачи информации по проприетарным радиоканалам](critical/wireless/1/README.md)
       * [1.1 Виды атак](critical/wireless/1/1.1.md)
