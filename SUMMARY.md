@@ -179,4 +179,5 @@
       * [1.3 Модель нарушителя](critical/wireless/1/hacker.md)
     * [2. Методология поиска уязвимостей проприетарных радиоканалов передачи информации](critical/wireless/metodology/README.md)
       * [2.1 Аппаратное и программное обеспечение](critical/wireless/metodology/hardware.md)
+      * [2.2 Моделирование атак и поиск уязвимостей радио протоколов](critical/wireless/metodology/attack.md)
       * [Page 1](critical/wireless/metodology/page-1.md)
