@@ -180,5 +180,5 @@
     * [2. Методология поиска уязвимостей проприетарных радиоканалов передачи информации](critical/wireless/metodology/README.md)
       * [2.1 Аппаратное и программное обеспечение](critical/wireless/metodology/hardware.md)
       * [2.2 Моделирование атак и поиск уязвимостей радио протоколов](critical/wireless/metodology/attack.md)
-      * [2.3 Методы обеспечения безопасности радиоканалов](critical/wireless/metodology/page-1.md)
+      * [2.3 Методы обеспечения безопасности радиоканалов](critical/wireless/metodology/security.md)
       * [Page 2](critical/wireless/metodology/page-2.md)
