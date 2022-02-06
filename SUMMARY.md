@@ -5,6 +5,7 @@
   * [Видео](blog/video-2020.md)
   * [Статьи для DC7495](blog/dc7495.md)
 * [Hardware Hacking](hardware-hacking/README.md)
+  * [Saved 2022](hardware-hacking/saved-2022.md)
   * [Hardware hacking. Основы.](hardware-hacking/basics-of-hardware-hacking/README.md)
     * [Добро пожаловать!](hardware-hacking/basics-of-hardware-hacking/welcome.md)
     * [Тайминги](hardware-hacking/basics-of-hardware-hacking/timing.md)
