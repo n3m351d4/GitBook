@@ -8,4 +8,9 @@ description: Полезные сохраненки
 
 {% file src="../.gitbook/assets/TPM sniffing – Sec Team Blog.pdf" %}
 
+**EXTRACTING BITLOCKER KEYS FROM A TPM** [**Link** ](https://pulsesecurity.co.nz/articles/TPM-sniffing)****[**WebArh**](https://web.archive.org/web/20220206231309/https://pulsesecurity.co.nz/articles/TPM-sniffing)****
+
+{% file src="../.gitbook/assets/EXTRACTING BITLOCKER KEYS FROM A TPM.pdf" %}
+
+\
 \
