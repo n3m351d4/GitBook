@@ -14,4 +14,4 @@ coverY: -467.89574062301335
 
 Добровольные пожертвования:
 
-btc: 1Ldv7999XzE5NUTyQFKcZAbQkbVVdbr31R
+[https://boosty.to/inside](https://boosty.to/inside)
