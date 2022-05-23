@@ -9,7 +9,7 @@ coverY: 0
 
 ## **Краткая сводка**
 
-Злоумышленники постоянно пытаются найти новые пути доставки вредоносного ПО по электронной почте. [Cisco Talos Intelligence Group](http://talosintelligence.com) (далее - Talos) обнаружили фишинговую атаку с помощью вложенного документа, отправленного по электронной почте, нацеленную на энергетический сектор, включающий ядерную энергетику. Как правило, вредоносные документы Word, отправляемые в виде вложений в фишинговые электронные письма содержат скрипт или макрос, который выполняет вредоносный код, а в этом случае во вложении вредоносный код отсутствует. Вложение пытается загрузить шаблон через соединение SMB, чтобы скомпрометировать учетные данные пользователя. Кроме того, этот шаблон может также использоваться для загрузки других вредоносных программ на компьютер жертвы.
+Злоумышленники постоянно пытаются найти новые пути доставки вредоносного ПО по электронной почте. [Cisco Talos Intelligence Group](http://talosintelligence.com/) (далее - Talos) обнаружили фишинговую атаку с помощью вложенного документа, отправленного по электронной почте, нацеленную на энергетический сектор, включающий ядерную энергетику. Как правило, вредоносные документы Word, отправляемые в виде вложений в фишинговые электронные письма содержат скрипт или макрос, который выполняет вредоносный код, а в этом случае во вложении вредоносный код отсутствует. Вложение пытается загрузить шаблон через соединение SMB, чтобы скомпрометировать учетные данные пользователя. Кроме того, этот шаблон может также использоваться для загрузки других вредоносных программ на компьютер жертвы.
 
 ## **Предпосылки**
 
@@ -28,7 +28,7 @@ coverY: 0
 ![
 ](https://telegra.ph/file/3ab4efac58d1853c85fa9.png)
 
-![](<../.gitbook/assets/image (327) (1).png>)
+![](<../.gitbook/assets/image (327) (1) (1).png>)
 
 Применение методов социальной инженерии для создания убедительно выглядящих документов, чтобы побудить жертву открыть их — это метод, часто используемый злоумышленниками. У нас нет никаких доказательств того, что эти документы являются чем-то иным, кроме вредоносов. Кроме того, у нас нет информации, позволяющей предположить, что лица, упомянутые в любом из этих документов, являются жертвами этой атаки.
 
@@ -98,7 +98,7 @@ Doc.Downloader.TemplateInjection-6332123-0
 
 Advanced Malware Protection ([AMP](https://www.cisco.com/c/en/us/support/security/amp-firepower-software-license/tsd-products-support-series-home.html)) блокирует вредоносные текстовые документы.
 
-[CWS](https://www.cisco.com/c/en/us/products/security/cloud-web-security/index.html) , [WSA](https://www.cisco.com/c/en/us/products/security/web-security-appliance/index.html) и [Umbrella](https://umbrella.cisco.com) могут помочь идентифицировать исходящие соединения, используемые такими вредоносами. [Email Security](https://www.cisco.com/c/en/us/products/security/email-security-appliance/index.html) может блокировать вредоносные электронные письма. [AMP Threat Grid](https://www.cisco.com/c/en/us/solutions/enterprise-networks/amp-threat-grid/index.html) помогает идентифицировать вредоносные двоичные файлы и обеспечивает защиту всех продуктов Cisco Security.
+[CWS](https://www.cisco.com/c/en/us/products/security/cloud-web-security/index.html) , [WSA](https://www.cisco.com/c/en/us/products/security/web-security-appliance/index.html) и [Umbrella](https://umbrella.cisco.com/) могут помочь идентифицировать исходящие соединения, используемые такими вредоносами. [Email Security](https://www.cisco.com/c/en/us/products/security/email-security-appliance/index.html) может блокировать вредоносные электронные письма. [AMP Threat Grid](https://www.cisco.com/c/en/us/solutions/enterprise-networks/amp-threat-grid/index.html) помогает идентифицировать вредоносные двоичные файлы и обеспечивает защиту всех продуктов Cisco Security.
 
 ## **IOCS(Indicator of compromise) - индикаторы компрометации**
 

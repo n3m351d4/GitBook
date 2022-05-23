@@ -57,7 +57,7 @@ Identify two embedded systems which are sold on the market today and analyze the
 
 #### Задача.
 
-Download and install Wireshark on a computer. Start a web browser on your computer and start packet capture with Wireshark. Use your browser to go to the website of CNN ([https://www.cnn.com](https://www.cnn.com)). Stop packet capture with Wireshark. Using Wireshark, find the HTTP packet that was initially sent by your browser to the New York Times web server to request the page. Select that request message and create a screen dump (print screen) of Wireshark displaying the request. Save that screen dump and upload it here.
+Download and install Wireshark on a computer. Start a web browser on your computer and start packet capture with Wireshark. Use your browser to go to the website of CNN ([https://www.cnn.com](https://www.cnn.com/)). Stop packet capture with Wireshark. Using Wireshark, find the HTTP packet that was initially sent by your browser to the New York Times web server to request the page. Select that request message and create a screen dump (print screen) of Wireshark displaying the request. Save that screen dump and upload it here.
 
 #### Ссылки:
 

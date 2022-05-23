@@ -33,6 +33,7 @@
     * [Hardware Hacking: Исключительный провал – Взлом защиты от чтения STM32F1](hardware-hacking/how-to/stm32f1.md)
   * [RFID vs NFC Cheatsheet](hardware-hacking/cheat-sheets.md)
 * [SDR](sdr/README.md)
+  * [Как мы играли HuaweiCup в 2021-22 году](sdr/huaweicup22.md)
   * [Введение в SDR и GSM/LTE](hardware-hacking/how-to/sdr-i-gsm-lte.md)
   * [Как воспроизводить радиосигналы с помощью SDR](hardware-hacking/how-to/hardware-hacking-sdr-replay.md)
   * [SDR: Основы работы с GNU Radio](hardware-hacking/how-to/gnu-radio.md)

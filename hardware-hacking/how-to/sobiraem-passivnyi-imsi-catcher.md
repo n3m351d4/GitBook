@@ -35,13 +35,13 @@ IMSI catcher – это устройство, которое обычно исп
 
 Проект основывается на нескольких основных компонентах:
 
-[GNU Radio ](https://www.gnuradio.org) – фрейворк для обработки сигналов
+[GNU Radio ](https://www.gnuradio.org/) – фрейворк для обработки сигналов
 
 [gr-gsm ](https://github.com/ptrkrysik/gr-gsm) – блоки и инструменты для обработки GSM с помощью GNU Radio
 
 [IMSI-catcher ](https://github.com/Oros42/IMSI-catcher) – Python-скрипт, который обрабатывает данные из gr-gsm и извлекает номера IMSI
 
-[Wireshark ](https://www.wireshark.org) – может использоваться для просмотра пакетов GSM из gr-gsm
+[Wireshark ](https://www.wireshark.org/) – может использоваться для просмотра пакетов GSM из gr-gsm
 
 Я успешно использую виртуальную машину Ubuntu 18.04 LTS с данным софтом, работающую на Windows 10.
 

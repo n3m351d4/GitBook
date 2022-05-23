@@ -6,7 +6,7 @@ _Источник:_ [_https://www.catchpoint.com/blog/wireshark-mqtt_](https://w
 
 ![http://blog.catchpoint.com/wp-content/uploads/2017/06/MQTT-Wireshark.jpg](http://dc7495.org/aybbtu/uploads/2020/04/http-blog-catchpoint-com-wp-content-uploads-2017-1.jpeg)
 
-Ранее мы рассмотрели протокол MQTT, как он работает и его роль в цифровом мире. Чтобы лучше понять содержание этой статьи, ознакомьтесь с основами межмашинного взаимодействия (M2M) в предыдущей статье «MQTT – Нервная Система IoT». Мы будем использовать монитор MQTT для отправления сообщений подписки/публикации от брокера MQTT. Изображение ниже иллюстрирует тест, настроенный с использованием [Catchpoint ](https://www.catchpoint.com).
+Ранее мы рассмотрели протокол MQTT, как он работает и его роль в цифровом мире. Чтобы лучше понять содержание этой статьи, ознакомьтесь с основами межмашинного взаимодействия (M2M) в предыдущей статье «MQTT – Нервная Система IoT». Мы будем использовать монитор MQTT для отправления сообщений подписки/публикации от брокера MQTT. Изображение ниже иллюстрирует тест, настроенный с использованием [Catchpoint ](https://www.catchpoint.com/).
 
 ![http://blog.catchpoint.com/wp-content/uploads/2017/06/mqtt1.png](http://dc7495.org/aybbtu/uploads/2020/04/http-blog-catchpoint-com-wp-content-uploads-2017-6.png)
 

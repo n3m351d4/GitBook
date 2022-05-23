@@ -1,8 +1,8 @@
 ---
+description: Notes from course (2021)
 cover: >-
   https://images.unsplash.com/photo-1501504905252-473c47e087f8?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw0fHx3cml0aW5nfGVufDB8fHx8MTYzNjI4MzM5Ng&ixlib=rb-1.2.1&q=85
 coverY: 0
-description: Notes from course (2021)
 ---
 
 # How to choose vocabulary wisely
@@ -44,7 +44,7 @@ E.g.: Use a real verb like **categorize** or **group** . Don’t create a fake v
 You can always look up in a reliable dictionary to check whether the word exists or not.
 
 ﻿[http://www.macmillandictionary.com/dictionary/british](http://www.macmillandictionary.com/dictionary/british)﻿\
-﻿[https://www.oxforddictionaries.com/](https://www.oxforddictionaries.com)﻿\
-[http://www.dictionary.com/](http://www.dictionary.com)﻿\
+﻿[https://www.oxforddictionaries.com/](https://www.oxforddictionaries.com/)﻿\
+[http://www.dictionary.com/](http://www.dictionary.com/)﻿\
 \
 \*n - noun\*\* v - verb\*\*\* adj. - adjective

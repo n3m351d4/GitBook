@@ -97,7 +97,7 @@ Ctrl + h – история
 Alt + f12 – открыть терминал
 ```
 
-Вы можете найти их все на [сайте Jetbrains](https://www.jetbrains.com).
+Вы можете найти их все на [сайте Jetbrains](https://www.jetbrains.com/).
 
 #### OSINT & Bluekeep <a href="#osint-and-bluekeep" id="osint-and-bluekeep"></a>
 
