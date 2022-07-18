@@ -187,3 +187,4 @@
       * [3.1 Анализ стандартов, используемых при разработке систем  радиоуправления](critical/wireless/standards/standards.md)
       * [3.2 Реализация макета безопасной системы радиоуправления](critical/wireless/standards/crypto.md)
       * [3.3 Обеспечение безопасности промышленных систем дистанционного  управления](critical/wireless/standards/sec.md)
+    * [4. Исследование технологий безопасной передачи информации по  радиоканалам мобильной связи](critical/wireless/4.-issledovanie-tekhnologii-bezopasnoi-peredachi-informacii-po-radiokanalam-mobilnoi-svyazi.md)
