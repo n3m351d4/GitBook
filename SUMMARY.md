@@ -186,4 +186,4 @@
     * [3. Анализ стандартов и рекомендации](critical/wireless/metodology/page-2.md)
       * [3.1 Анализ стандартов, используемых при разработке систем  радиоуправления](critical/wireless/standards/standards.md)
       * [3.2 Реализация макета безопасной системы радиоуправления](critical/wireless/standards/crypto.md)
-      * [3.3 Обеспечение безопасности промышленных систем дистанционного  управления](critical/wireless/standards/3.3-obespechenie-bezopasnosti-promyshlennykh-sistem-distancionnogo-upravleniya.md)
+      * [3.3 Обеспечение безопасности промышленных систем дистанционного  управления](critical/wireless/standards/sec.md)
