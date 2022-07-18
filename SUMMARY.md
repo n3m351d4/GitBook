@@ -183,6 +183,6 @@
       * [2.1 Аппаратное и программное обеспечение](critical/wireless/metodology/hardware.md)
       * [2.2 Моделирование атак и поиск уязвимостей радио протоколов](critical/wireless/metodology/attack.md)
       * [2.3 Методы обеспечения безопасности радиоканалов](critical/wireless/metodology/security.md)
-    * [3. Анализ стандартов и рекомендации](critical/wireless/standards/README.md)
+    * [3. Анализ стандартов и рекомендации](critical/wireless/metodology/page-2.md)
       * [3.1 Анализ стандартов, используемых при разработке систем  радиоуправления](critical/wireless/standards/standards.md)
       * [3.2 Реализация макета безопасной системы радиоуправления](critical/wireless/standards/3.2-realizaciya-maketa-bezopasnoi-sistemy-radioupravleniya.md)
