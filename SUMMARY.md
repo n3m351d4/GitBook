@@ -183,4 +183,4 @@
       * [2.1 Аппаратное и программное обеспечение](critical/wireless/metodology/hardware.md)
       * [2.2 Моделирование атак и поиск уязвимостей радио протоколов](critical/wireless/metodology/attack.md)
       * [2.3 Методы обеспечения безопасности радиоканалов](critical/wireless/metodology/security.md)
-      * [Page 2](critical/wireless/metodology/page-2.md)
+      * [3.Анализ стандартов и рекомендации по обеспечению безопасности  проприетарных радиоканалов передачи](critical/wireless/metodology/3.analiz-standartov-i-rekomendacii-po-obespecheniyu-bezopasnosti-proprietarnykh-radiokanalov-peredac.md)
