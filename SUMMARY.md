@@ -188,4 +188,4 @@
       * [3.2 Реализация макета безопасной системы радиоуправления](critical/wireless/standards/crypto.md)
       * [3.3 Обеспечение безопасности промышленных систем дистанционного  управления](critical/wireless/standards/sec.md)
     * [4. Исследование технологий безопасной передачи информации по  радиоканалам мобильной связи](critical/wireless/iot/README.md)
-      * [4.1 Эволюция сотовой связи для IoT](critical/wireless/iot/4.1-evolyuciya-sotovoi-svyazi-dlya-iot.md)
+      * [4.1 Эволюция сотовой связи для IoT](critical/wireless/iot/iot.md)
