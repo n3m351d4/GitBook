@@ -2,6 +2,7 @@
 
 * [Добро пожаловать!](README.md)
 * [Blog](blog/README.md)
+  * [Статьи на Хабре](blog/stati-na-khabre.md)
   * [Видео](blog/video-2020.md)
   * [Статьи для DC7495](blog/dc7495.md)
 * [Hardware Hacking](hardware-hacking/README.md)
