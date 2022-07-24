@@ -191,3 +191,6 @@
     * [4. Исследование технологий безопасной передачи информации по  радиоканалам мобильной связи](critical/wireless/iot/README.md)
       * [4.1 Эволюция сотовой связи для IoT](critical/wireless/iot/iot.md)
       * [4.2 Ключевые проблемы безопасности сетей 5G](critical/wireless/iot/5gkeyproblems.md)
+      * [4.2 Методы решения проблем безопасности сетей 5G](critical/wireless/iot/4.2-metody-resheniya-problem-bezopasnosti-setei-5g.md)
+      * [Заключение](critical/wireless/iot/zaklyuchenie.md)
+      * [Список используемых источников](critical/wireless/iot/spisok-ispolzuemykh-istochnikov.md)

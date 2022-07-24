@@ -16,4 +16,4 @@
 
 UPD:
 
-![](<../.gitbook/assets/image (327).png>)
+![](<../.gitbook/assets/image (327) (1).png>)
