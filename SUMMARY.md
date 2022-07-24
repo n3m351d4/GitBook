@@ -190,3 +190,4 @@
       * [3.3 Обеспечение безопасности промышленных систем дистанционного  управления](critical/wireless/standards/sec.md)
     * [4. Исследование технологий безопасной передачи информации по  радиоканалам мобильной связи](critical/wireless/iot/README.md)
       * [4.1 Эволюция сотовой связи для IoT](critical/wireless/iot/iot.md)
+      * [4.2 Ключевые проблемы безопасности сетей 5G](critical/wireless/iot/5gkeyproblems.md)
