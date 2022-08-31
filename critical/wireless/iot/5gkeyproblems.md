@@ -40,19 +40,19 @@ coverY: 0
 
 &#x20;
 
-![](<../../../.gitbook/assets/image (233).png>)
+![](<../../../.gitbook/assets/image (241).png>)
 
 &#x20;
+
+![](<../../../.gitbook/assets/image (6).png>)
+
+![](<../../../.gitbook/assets/image (7).png>)
 
 ![](<../../../.gitbook/assets/image (1).png>)
 
-![](../../../.gitbook/assets/image.png)
-
-![](<../../../.gitbook/assets/image (3).png>)
-
 &#x20;
 
-![Рисунок 9. Проблемы безопасности сетей 5G](<../../../.gitbook/assets/image (13).png>)
+![Рисунок 9. Проблемы безопасности сетей 5G](<../../../.gitbook/assets/image (4).png>)
 
 ## 4.2.1 Атаки, использующие понижение версии протокола связи <a href="#_toc41602133" id="_toc41602133"></a>
 
