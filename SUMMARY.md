@@ -71,7 +71,7 @@
 * [Pentest](pentest/README.md)
   * [Writeup xss-game.appspot.com](pentest/xss-game.appspot.com.md)
   * [DC7495 Wireless Quest](pentest/dc7495-wireless-quest.md)
-  * [CompTIA Pentest](pentest/comptia-pentest.md)
+  * [CompTIA Pentest (002) Notes](pentest/comptia-pentest-002-notes.md)
   * [Переводы](pentest/perevody/README.md)
     * [Мануал по установке MaltegoXL](pentest/perevody/manual-po-kryakingu-maltegoxl.md)
 * [InfoSec](infosec/README.md)
