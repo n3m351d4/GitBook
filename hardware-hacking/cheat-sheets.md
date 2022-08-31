@@ -1,4 +1,3 @@
 # RFID vs NFC Cheatsheet
 
-![](../.gitbook/assets/image%20%284%29.png)
-
+![](<../.gitbook/assets/image (4) (1).png>)
