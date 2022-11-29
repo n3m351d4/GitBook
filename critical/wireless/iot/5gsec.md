@@ -14,11 +14,11 @@ coverY: 0
 
 &#x20;
 
-![](<../../../.gitbook/assets/image (8).png>)
-
-![](<../../../.gitbook/assets/image (2).png>)
+![](../../../.gitbook/assets/image.png)
 
 ![](<../../../.gitbook/assets/image (3).png>)
+
+![](<../../../.gitbook/assets/image (6).png>)
 
 ## 4.2.1 Решения для обеспечения безопасности мобильных облаков <a href="#_toc41602139" id="_toc41602139"></a>
 

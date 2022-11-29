@@ -12,7 +12,7 @@ coverY: 0
 
 &#x20;
 
-![Рисунок 10 Индустрия 4.0](../../../.gitbook/assets/image.png)
+![Рисунок 10 Индустрия 4.0](<../../../.gitbook/assets/image (8).png>)
 
 
 
