@@ -75,7 +75,7 @@
   * [Переводы](pentest/perevody/README.md)
     * [Мануал по установке MaltegoXL](pentest/perevody/manual-po-kryakingu-maltegoxl.md)
 * [InfoSec](infosec/README.md)
-  * [Безопасность iCloud Keychain](infosec/bezopasnost-icloud-keychain.md)
+  * [Безопасность iCloud Keychain](infosec/icloud.md)
   * [Secure coding](infosec/secure-coding/README.md)
     * [Principles of Secure Coding](<infosec/secure-coding/Principles .md>)
     * [2](infosec/secure-coding/2.md)

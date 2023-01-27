@@ -40,11 +40,11 @@
 
 ![](<../../../.gitbook/assets/image (14).png>)
 
-![](<../../../.gitbook/assets/image (2) (1) (1).png>)
+![](<../../../.gitbook/assets/image (2) (1).png>)
 
 **Опишите критерии принятия решений о наличии в программах РПС.**
 
-![](<../../../.gitbook/assets/image (10) (1).png>)
+![](<../../../.gitbook/assets/image (10).png>)
 
 ![](<../../../.gitbook/assets/image (25).png>)
 
