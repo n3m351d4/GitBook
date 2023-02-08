@@ -256,7 +256,7 @@ call WSASocketA
 
 Если не вчитываться в текст, то он выглядит легитимным, но я бы все равно внесла в него доработки:
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Здесь мы вычеркиваем слово процедуры, так как оно практически дублирует слово “процессы” и вычеркиваем фразу про обращение в случае возникновения вопросов – это лишнее в фишинговой компании.
 

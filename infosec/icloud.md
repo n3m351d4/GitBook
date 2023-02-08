@@ -38,7 +38,7 @@ Apple говорит о том, что именно так оно защищае
 
 Keychain является контейнером E2E-шифрованных данных, ключ от которых хранится на “trusted devices” (доверенном устройстве).
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Схема рассмотренная выше идеальна - за исключением одного: запрос на авторизацию нового устройства проходит через сервера Apple.
 
@@ -62,7 +62,7 @@ Apple старается найти баланс между защитой и у
 
 При добавлении passphrase в Keychain происходит:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Вывод
 
