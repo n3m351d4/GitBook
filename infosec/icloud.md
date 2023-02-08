@@ -58,7 +58,7 @@ Apple старается найти баланс между защитой и у
 
 Несмотря на то, что существует возможность локального хранения passphrase в Keychain на устройстве с помощью указания атрибута ["this device only"](https://developer.apple.com/documentation/security/ksecattraccessiblealwaysthisdeviceonly), разработчики ssh-add проигнорировали данную возможность и не указали его, не давая тем самым пользователю выбрать место хранения passphrase. Соответственно, в программе ssh-add при использовании Keychain, passphrase будет синхронизирована в iCloud.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 При добавлении passphrase в Keychain происходит:
 
